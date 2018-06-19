@@ -1,6 +1,6 @@
 # IKT støtte for forskning 
 
-Dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon for utvikling, og som en funksjonalitetsoversikt for brukere av verktøyet. Tekst i *skråskrift* er ennå ikke planlagt implementert i kommende versjon.
+Dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon for utvikling, og som en funksjonalitetsoversikt for brukere av verktøyet. Tekst i *skråskrift* i lenkede dokumenter er ennå ikke planlagt implementert i kommende versjon.
 
 Dokumenter:
 * Overordnet arkitektur
