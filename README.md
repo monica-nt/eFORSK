@@ -3,7 +3,13 @@
 Dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon for utvikling, og som en funksjonalitetsoversikt for brukere av verktøyet. Tekst i *skråskrift* er ennå ikke planlagt implementert i kommende versjon.
 
 Dokumenter:
-[Skjemasystemet](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Skjemasystemet.md)
+* Overordnet arkitektur
+* Databasestruktur
+* Grensesnitt
+* [Skjemasystemet](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Skjemasystemet.md)
+* Datadump/kodebok
+* PROMS integrasjon
+* Randomisering
 
 # Prioriteringsliste utvikling
 
@@ -11,7 +17,7 @@ Minimumsliste må-gjøre MRS for forskning
 - App skall (Fungerendes applikasjon som kommuniserer med service-lag. Ingen funksjonalitet)
 	- Angular front-end
 	- WCF
-- Databasemodell
+- Databasestruktur
 	- Videreutviklet MRS modell
 	- Dapper?
 - Mulighet for å definere et skjema
