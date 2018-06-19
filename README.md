@@ -2,6 +2,9 @@
 
 Dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon for utvikling, og som en funksjonalitetsoversikt for brukere av verktøyet. Tekst i *skråskrift* er ennå ikke planlagt implementert i kommende versjon.
 
+Dokumenter:
+[Skjemasystemet](/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Skjemasystemet.md)
+
 # Prioriteringsliste utvikling
 
 Minimumsliste må-gjøre MRS for forskning
