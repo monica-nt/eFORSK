@@ -1,4 +1,8 @@
-# IKT støtte for forskning prioriteringsliste
+# IKT støtte for forskning 
+
+Dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon for utvikling, og som en funksjonalitetsoversikt for brukere av verktøyet. Tekst i *skråskrift* er ennå ikke planlagt implementert i kommende versjon.
+
+# Prioriteringsliste utvikling
 
 Minimumsliste må-gjøre MRS for forskning
 - App skall (Fungerendes applikasjon som kommuniserer med service-lag. Ingen funksjonalitet)
