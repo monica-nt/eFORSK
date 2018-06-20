@@ -44,6 +44,7 @@ Et skjemafelt kan kun opprettes **og endres** i en versjon med status kladd. Så
 * SortIndex (int) <- kun for datadump, feltet har sin egen rekkefølge i FormVersion sin FormDesign. Denne må vurderes.
 * Deleted (bool) <- Properties can be deleted from the version they are created on when version is not active yet
 * ConfigurationJson (nvarchar(max)) <- spesifikk konfigurasjon for felttypen
+	* readonly (for autofelt)
 
 ### Skjemaregel
 Skjemaregler omfavner både validerings- og vis/skjul-regler. Skjemaregler kan på lik linje med felter opprettes på en versjon, og deprekeres i senere versjoner. 
