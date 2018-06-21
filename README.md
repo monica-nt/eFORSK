@@ -9,7 +9,7 @@ Dokumenter:
 * Grensesnitt
 * [Skjemasystemet](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Skjemasystemet.md)
 * Datadump/kodebok
-* PROMS integrasjon
+* [PROMS integrasjon](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/PROMS%20integrasjon.md)
 * Randomisering
 
 # Prioriteringsliste utvikling
