@@ -4,7 +4,8 @@ Dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon for utvi
 
 Dokumenter:
 * [Overordnet arkitektur](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Overordnet%20arkitektur.md)
-* Databasestruktur
+* [Databasestruktur](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Databasestruktur.md)
+* Tilgangstre
 * Grensesnitt
 * [Skjemasystemet](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Skjemasystemet.md)
 * Datadump/kodebok
