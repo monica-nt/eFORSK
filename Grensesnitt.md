@@ -5,15 +5,16 @@ Grensesnittet består av følgende deler:
   * App tittel/logo
   * Brukerinformasjon
   * Logg ut
+  * Meny
 * Innhold
 * Footer
-  * App versjons
+  * App versjonsnummer
 
 Applikasjonen består av følgende deler:
-* Startside - arbeidsliste?
-* Superadministrasjon - for å legge til og endre registre
-* Skjemaadministrasjon - for å legge til og endre skjema
-* Pasienter - for å søke opp eller se pasienter
+* **Startside** - arbeidsliste for innlogget person? Enkel statistikk over registeret?
+* **Administrasjon** - for å legge til og endre registre
+* **Registeradministrasjon** - for å legge til og endre skjematype, konfigurere opp PROMS, og andre innstillinger for registeret
+* **Pasienter ***- for å søke opp eller se pasienter
   * Pasient - se en pasient
-* Skjemaer - for å søke opp eller se skjema
+* **Skjemaer** - for å søke opp eller se skjema
   * Skjema - se/redigere et skjema
