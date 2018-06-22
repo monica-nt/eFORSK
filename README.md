@@ -4,7 +4,7 @@ Dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon for utvi
 
 ## Terminologi
 
-Brukes for konsistens i dokumentasjon, kode og grensesnitt.
+Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk variant brukes i programmeringskode.
 
 * **Register** (Registry) - En egen database i løsningen, der et register eller forskningsprosjekt kan registrere sine data
 * **Tilgangsenhet** (AccessUnit) - En egen tilgang innad et register. Tilgangsenhetene er definert i et tilgangstre, som bestemmer hvilke data som kan sees
