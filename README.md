@@ -76,3 +76,12 @@ Kjekt å ha
 * MOPP - MRS Og Pretensiøse Professorer / Håvard S
 * FLOM - Forskningsregister Lagd Oppå MRS / Håvard S
 * STØFF - ikt STØtte For Forskning / Eilev
+* KØTT - iKt stØTTe for forskning / Christian W
+* IS - Ikt Støtte for forskning / Rune
+* SØTE ORK - ikt StØTtE for fORsKing / Håvard S
+* TØTTE - ikt sTØTTE for forsking / Christian W
+* STORK - ikt STøtte for fORsKning / Johan
+* TORSK - ikt sTøtte fOR forSKning / Håvard S
+* TØFF - ikt sTØtte For Forskning / Eilev
+* SCIENCE - IKT Støtte for Forskning / Christian W
+* FORMula / Christian W
