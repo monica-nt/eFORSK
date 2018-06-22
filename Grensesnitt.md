@@ -1,6 +1,6 @@
-# Grensesnitt
+# Grensesnitt & funksjonalitet
 
-Grensesnittet består av følgende deler:
+Hovedgrensesnittet består av følgende deler:
 * Header
   * App tittel/logo
   * Brukerinformasjon
@@ -10,9 +10,18 @@ Grensesnittet består av følgende deler:
 * Footer
   * App versjonsnummer
 
-Applikasjonen består av følgende deler:
+Innholdet er delt opp i følgende deler:
 * **Startside** - arbeidsliste for innlogget person? Enkel statistikk over registeret?
 * **Administrasjon** - for å legge til og endre registre
+ * Registerliste
+  * liste over eksisterende registre
+  * mulighet for å opprette nye
+  * *kopiere eksisterende*
+ * Registerredigering
+  * tittel
+  * beskrivelse (med Markdown?)
+  * PROMS api-nøkkel
+  * *tilgangsenheter (første versjon uten tilgangstre?)*
 * **Registeradministrasjon** - for å legge til og endre skjematype, konfigurere opp PROMS, og andre innstillinger for registeret
 * **Pasienter** - for å søke opp eller se pasienter
   * Pasient - se en pasient
