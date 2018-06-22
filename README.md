@@ -61,3 +61,18 @@ Kjekt å ha
 - Massebestilling proms
 - Administrasjonsgrensesnitt: kopier register (import/eksport definisjoner)
 - Administrasjonsgrensesnitt: arkiver/slette register
+
+## Navneforslag
+
+* DAFF = Digitalt Assistert Fremragende Forskning . På folkemunne Dæffy. / Tore
+* HEPFØ - Helse Midts Platform for Førskning / Rune
+* FØKK - Forskningens Øremerkede KomputerKrykker / Astrid
+* HEMFIKTT - Helse Midtnorges Forskings- og IKT-Tilrettelegging / Øyvind
+* FORSKNING - Forskning Over Ressurssterke Skjema Kan Nyttes I Næring, Godt. / Christian W
+* FIKS - Forskningens IKt-Støtte / Håvard S
+* FAKS - er en telekommunikasjonsteknologi for overføring av informasjon, som dokumenter, tekst, brev, tegninger og fotografier, spesielt ved overføring via et telefonnett. Ordet brukes også som betegnelse på dokumentene som er overført. Ordet er også opprinnelse til verbalformen å fakse. / Eilev
+* FRAM - ForskningRegister bAsert på MRS / Rune
+* MUFFEDILLE - Mrsbasert Understøttelse For Forskning Eller Domenebasert Integrerte Lavkostnads Lengevirkende Effektmål / Øyvind
+* MOPP - MRS Og Pretensiøse Professorer / Håvard S
+* FLOM - Forskningsregister Lagd Oppå MRS / Håvard S
+* STØFF - ikt STØtte For Forskning / Eilev
