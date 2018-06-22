@@ -1,6 +1,7 @@
 # Grensesnitt & funksjonalitet
 
-Hovedgrensesnittet består av følgende deler:
+## Hovedgrensesnittet består av følgende deler:
+
 * Header
   * App tittel/logo
   * Brukerinformasjon
@@ -10,7 +11,8 @@ Hovedgrensesnittet består av følgende deler:
 * Footer
   * App versjonsnummer
 
-Innholdet er delt opp i følgende deler:
+## Innholdet er delt opp i følgende deler:
+
 * **Startside** - arbeidsliste for innlogget person? Enkel statistikk over registeret?
 * **Administrasjon** - for å legge til og endre registre
 	* Registerliste
