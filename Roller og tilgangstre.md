@@ -13,10 +13,11 @@ Et register av enkleste form vil kun ha en enhet å registrere data på, slik at
 Ved innlogging må brukeren komme inn i registeret med en rolle.
 
 * **Administrator** - brukt for å legge til og endre registre i løsningen
-* **Registeransvarlig** - ansvarlig for et spesifikk register. har tilgang til alle operasjoner
+* **RegistryResponsible** - ansvarlig for et spesifikk register. har tilgang til alle operasjoner
 * *Registrar* - kan registrere data inn i et spesifikk register
-* *LeserIdentifisert?* - kan hun hente lese data fra registeret, som skjemaer, datadump osv
-* *LeserAnonym?* 
+* *Reader?* - kan hun hente lese data fra registeret, som skjemaer, datadump osv
+
+Skal vi ha roller for anonym lese?
 
 ## Operasjoner
 
