@@ -3,9 +3,9 @@
 ## Opprettelse
 
 Ved ferdigstillelse av en versjon som er konfigurert for å ha PROMS skjema, vil skjemaet opprettes og publiseres i PROMS via API og knyttes til versjonen. 
-Man kan overstyre opprettelse av nytt PROMS skjema ved å gi en GUID til eksisterende publisert PROMS skjema.
+Man kan overstyre opprettelse av nytt PROMS skjema ved å gi en GUID til eksisterende publisert PROMS skjema, men man er da selv ansvarlig for at felter og regler stemmer overens.
 
-*Import av eksisterende skjema fra PROMS, og samleskjemafunksjonalitet er ikke planlagt støttet i første omgang - men slike skjema i PROMS kan benyttes hvis man overstyrer GUID som forklart over*
+*Det er også funksjonalitet for å importere en komplett skjematype fra PROMS. Dette kan gjøres via et importgrensesnitt som lister ut fellesskjemaer fra PROMS, samt registerets egne publiserte skjemaer. Ved import får man en skjematype med en ferdig publisert versjon (for å sikre at felter og regler ikke tukles med på registersiden, som kan føre til tap av data). Er PROMS sitt skjema et samleskjema, vil dette gå tilbake i registeret som bare ett skjema. Det er ingen konsept om samleskjema i denne applikasjonen.*
 
 ## Bestilling av utfylling
 
