@@ -2,11 +2,11 @@
 
 ## Tilgangstre
 
-Tilgangstreet  består av en hierarkisk liste over enheter som kan logges inn på i registeret. En enhet i tilgangstreet har tilgang til data registrert på seg selv, på barn, og videre arvinger nedover i hierarkiet. En enhet kan ikke se data registrert på sin foreldre/forfedre oppover i hiearkiet.
+Tilgangstreet  består av en hierarkisk liste over tilgangsenheter som kan logges inn på i registeret. En tilgangsenhet i tilgangstreet har tilgang til data registrert på seg selv, på barn, og videre arvinger nedover i hierarkiet. En tilgangsenhet kan ikke se data registrert på sin foreldre/forfedre oppover i hiearkiet.
 
-*Hvis samtykkehåndtering implementeres en gang: En enhet har ikke tilgang til å se data på enheter nedover i hiearkiet hvis samtykke ikke er gitt.*
+*Hvis samtykkehåndtering implementeres en gang: En tilgangsenhet har ikke tilgang til å se data uten samtykke på tilgangsenhet nedover i hiearkiet.*
 
-Et register av enkleste form vil kun ha en enhet å registrere data på, slik at registeret ikke trenger å ha noen kunskap om tilganger og hierarki.
+Et register av enkleste form vil kun ha en tilgangsenhet å registrere data på, slik at registeret ikke trenger å ha noen kunskap om tilganger og hierarki.
 
 ## Roller
 
