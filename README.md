@@ -1,18 +1,23 @@
-# IKT støtte for forskning 
+# IKT støtte for forskning - prosjektnavn mangler! 
 
 Dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon for utvikling, og som en funksjonalitetsoversikt for brukere av verktøyet. Tekst i *skråskrift* i lenkede dokumenter er ennå ikke planlagt implementert i kommende versjon.
 
-Dokumenter:
+## Terminologi
+
+* **Register** - En egen database i løsningen, der et register eller forskningsprosjekt kan registrere sine data
+* **Enhet** - En egen tilgang innad et register. Enhetene er definert i et tilgangstre, som bestemmer hvilke data som kan sees
+
+## Dokumenter:
 * [Overordnet arkitektur](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Overordnet%20arkitektur.md)
 * [Databasestruktur](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Databasestruktur.md)
-* Roller & tilgangstre
+* [Roller & tilgangstre](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Roller%20og%20tilgangstre.md)
 * [Grensesnitt](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Grensesnitt.md)
 * [Skjemasystemet](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Skjemasystemet.md)
 * Datadump/kodebok
 * [PROMS integrasjon](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/PROMS%20integrasjon.md)
 * Randomisering
 
-# Prioriteringsliste utvikling
+## Prioriteringsliste utvikling
 
 Minimumsliste må-gjøre MRS for forskning
 - App skall (Fungerendes applikasjon som kommuniserer med service-lag. Ingen funksjonalitet)
