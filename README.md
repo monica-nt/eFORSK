@@ -1,10 +1,10 @@
 # IKT støtte for forskning - prosjektnavn mangler! 
 
-Dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon for utvikling, og som en funksjonalitetsoversikt for brukere av verktøyet. Tekst i *skråskrift* i lenkede dokumenter er ennå ikke planlagt implementert i kommende versjon.
+Her følger dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon ved utvikling, dokumentasjon og funksjonalitetsoversikt for (potensielle) brukere av verktøyet. Tekst i *skråskrift* i lenkede dokumenter er ennå ikke planlagt implementert i kommende versjon.
 
 ## Terminologi
 
-Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk variant brukes i programmeringskode.
+Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes i programmeringskode.
 
 * **Register** (Registry) - En egen database i løsningen, der et register eller forskningsprosjekt kan registrere sine data
 * **Tilgangsenhet** (AccessUnit) - En egen tilgang innad et register. Tilgangsenhetene er definert i et tilgangstre, som bestemmer hvilke data som kan sees
@@ -49,7 +49,7 @@ Bør gjøre
 - Standard for utvidelser per enkelt register (rapporter)
 - Samtykkehåndtering
 - Dokumenthåndtering (proms papir/signerte dokument)
-- Admingrensesnitt 
+- Administrasjonsgrensesnitt 
 	- Opprette nye register
 	- Status for registrene, debug info, statistikk
 
@@ -59,5 +59,5 @@ Kjekt å ha
 - Datadump spss format
 - Import (fihr format?, xml, csv, excel)
 - Massebestilling proms
-- Administrasjon: kopier register (import/eksport definisjoner)
-- Administrasjon: arkiver/slette register
+- Administrasjonsgrensesnitt: kopier register (import/eksport definisjoner)
+- Administrasjonsgrensesnitt: arkiver/slette register
