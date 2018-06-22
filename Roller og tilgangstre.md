@@ -1,12 +1,18 @@
-# Roller & tilgangstre
+# Roller, tilgangstre og samtykke
 
 ## Tilgangstre
 
-Tilgangstreet  består av en hierarkisk liste over tilgangsenheter som kan logges inn på i registeret. En tilgangsenhet i tilgangstreet har tilgang til data registrert på seg selv, på barn, og videre arvinger nedover i hierarkiet. En tilgangsenhet kan ikke se data registrert på sin foreldre/forfedre oppover i hiearkiet.
+Tilgangstreet  består av en hierarkisk liste over tilgangsenheter som kan logges inn på i registeret. En tilgangsenhet i tilgangstreet har tilgang til data registrert på seg selv, på barn, og videre arvinger nedover i hierarkiet. En tilgangsenhet kan ikke se data registrert på sin foreldre/forfedre oppover i hiearkiet. Høyere opp i tilgangstreet vil si tilgang til å se mer data, laverene ned vil begrense tilgangen til data.
 
-*Hvis samtykkehåndtering implementeres en gang: En tilgangsenhet har ikke tilgang til å se data uten samtykke på tilgangsenhet nedover i hiearkiet.*
+En tilgangsenhet har ikke tilgang til å se data uten samtykke på tilgangsenhet nedover i hiearkiet.
 
 Et register av enkleste form vil kun ha en tilgangsenhet å registrere data på, slik at registeret ikke trenger å ha noen kunskap om tilganger og hierarki.
+
+## Samtykkehåndtering
+
+Registreres data i registeret på en person antas det at det foreligger samtykke for dette allerede. Samtykkehåndtering i registeret vil si om en person samtykker i at data registrert på seg blir synlig oppover i tilgangstreet.
+
+Samtykket tilhører personen i registeret. Informasjonen ligger globalt, og gjelder alle skjema registrert på personen uansett enhet. Samtykket er altså det samme på tvers av alle enheter, og alle enheter kan oppdatere samtykket. Skjemaer knyttet på en person som ikke har gitt samtykke vil ikke kun sees av enheter høyere opp i tilgangstreet.
 
 ## Roller
 
