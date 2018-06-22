@@ -4,8 +4,15 @@ Dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon for utvi
 
 ## Terminologi
 
-* **Register** - En egen database i løsningen, der et register eller forskningsprosjekt kan registrere sine data
-* **Enhet** - En egen tilgang innad et register. Enhetene er definert i et tilgangstre, som bestemmer hvilke data som kan sees
+Brukes for konsistens i dokumentasjon, kode og grensesnitt.
+
+* **Register** (Registry) - En egen database i løsningen, der et register eller forskningsprosjekt kan registrere sine data
+* **Enhet** (AccessUnit) - En egen tilgang innad et register. Enhetene er definert i et tilgangstre, som bestemmer hvilke data som kan sees
+* **Skjematype** (FormType) - Definisjonen bak et skjema som kan fylles ut i et register. Skjematypene opprettes dynamisk av registeransvarlige i hvert enkelt register.
+* **Skjemaversjon** (FormVersion) - En versjon av skjematypen
+* **Felt** (Field) - En felt som kan besvares i et skjema
+	* **Kodenavn** (CodeName) - Et felts kodenavn ved datauttrekk (datadump o.l.)
+	* **Visningsnavn** (DisplayName) - Overskrift for feltet ved utfyllelse i grensesnitt (brukervennlig forklaring av feltet)
 
 ## Dokumenter:
 * [Overordnet arkitektur](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Overordnet%20arkitektur.md)
