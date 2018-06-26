@@ -10,13 +10,15 @@ Et register av enkleste form vil kun ha en tilgangsenhet å registrere data på,
 
 ## Samtykkehåndtering
 
-1. Ikke samtykke
-2. Lokalt samtykke (for enhet)
-3. Globalt samtykke
+Det er definert tre nivå av samtykke:
 
-Registreres data i registeret på en person antas det at det foreligger samtykke for dette allerede. Samtykkehåndtering i registeret vil si om en person samtykker i at data registrert på seg blir synlig oppover i tilgangstreet.
+1. **Ikke samtykket** (kan også være trukket) - man kan ikke registrere data på personen. data allerede registrert blir slettet ved fjerning av samtykke?
+2. **Lokalt samtykke** - data registrert blir kun synlig på den enheten det er registrert
+3. **Nasjonalt samtykke** (bedre navn? er nødvendig ikke snakk om "nasjon") - data registrert blir synlig oppover i tilgangstreet
 
-Samtykket tilhører personen i registeret. Informasjonen ligger globalt, og gjelder alle skjema registrert på personen uansett enhet. Samtykket er altså det samme på tvers av alle enheter, og alle enheter kan oppdatere samtykket. Skjemaer knyttet på en person som ikke har gitt samtykke vil ikke kun sees av enheter høyere opp i tilgangstreet.
+Samtykket tilhører personen i registeret. Informasjonen ligger globalt, og gjelder alle skjema registrert på personen uansett enhet. Samtykket er altså det samme på tvers av alle enheter, og alle enheter kan oppdatere samtykket. Skjemaer knyttet på en person som ikke har gitt samtykke vil ikke sees av enheter høyere opp i tilgangstreet.
+
+Konfigurasjon av registeret bestemmer hva som er personens standard samtykke-nivå ved opprettelse. 
 
 ## Roller
 
