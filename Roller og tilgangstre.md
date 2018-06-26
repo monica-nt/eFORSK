@@ -10,6 +10,10 @@ Et register av enkleste form vil kun ha en tilgangsenhet å registrere data på,
 
 ## Samtykkehåndtering
 
+1. Ikke samtykke
+2. Lokalt samtykke (for enhet)
+3. Globalt samtykke
+
 Registreres data i registeret på en person antas det at det foreligger samtykke for dette allerede. Samtykkehåndtering i registeret vil si om en person samtykker i at data registrert på seg blir synlig oppover i tilgangstreet.
 
 Samtykket tilhører personen i registeret. Informasjonen ligger globalt, og gjelder alle skjema registrert på personen uansett enhet. Samtykket er altså det samme på tvers av alle enheter, og alle enheter kan oppdatere samtykket. Skjemaer knyttet på en person som ikke har gitt samtykke vil ikke kun sees av enheter høyere opp i tilgangstreet.
