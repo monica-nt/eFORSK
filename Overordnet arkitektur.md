@@ -2,6 +2,10 @@
 
 Basert på MRS, tre lags applikasjon.
 
+## Sikkerhetsmodell
+
+MRS sin sikkerhetsmodell beholdes, WS federation
+
 ## Klient-app
 
 * Implementeres med .Net
@@ -20,5 +24,6 @@ Har kobling mot databasene
 
 ## Database
 
+Separate databaser per register
 MsSql som database
 ORM: Dapper og/eller EF
