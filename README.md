@@ -2,7 +2,7 @@
 
 Her følger dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon ved utvikling, dokumentasjon og funksjonalitetsoversikt for (potensielle) brukere av verktøyet. Tekst i *skråskrift* i lenkede dokumenter er ennå ikke planlagt implementert i kommende versjon.
 
-## Terminologi
+## Terminologi og definisjoner
 
 Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes i programmeringskode.
 
@@ -14,6 +14,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 	* **Kodenavn** (CodeName) - Et felts kodenavn ved datauttrekk (datadump o.l.)
 	* **Visningsnavn** (DisplayName) - Overskrift for feltet ved utfyllelse i grensesnitt (brukervennlig forklaring av feltet)
 * **Person** - data/skjemaer legges på en person (i et vanlig registers tilfelle: pasient) i registeret. det er valgt å kalle dette person da det nødvendigvis ikke trenger å være en pasient
+* **Mitt skjema** - brukeren som oppretter et skjema er den som eier skjemaet
 
 ## Dokumenter:
 * [Overordnet arkitektur](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Overordnet%20arkitektur.md)
