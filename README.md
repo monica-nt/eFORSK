@@ -40,15 +40,16 @@ Minimumsliste må-gjøre MRS for forskning
 - Integrasjon mot PROMS (inkl manuell bestilling,  mottak)
 - Datadump (excel, csv)
 - Kodebok
+- Logging og innsyn
+- Randomisering (enkel knapp, tildelt gruppe  A,B,C...)
+- Samtykkehåndtering
 
 Bør gjøre
 - Optimalt databaselag for løsningen (dapper, dbup, databasetool)
 - Tilgangsstyring innad register
-- Randomisering
 - Koblede skjematyper
 - Enkel bruksstatistikk
 - Standard for utvidelser per enkelt register (rapporter)
-- Samtykkehåndtering
 - Dokumenthåndtering (proms papir/signerte dokument)
 - Administrasjonsgrensesnitt 
 	- Opprette nye register
