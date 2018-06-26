@@ -82,10 +82,11 @@ Felttyper som støttes er:
 * todo..
 
 ### AutoFelt
-Foreløbig på idestadiet. Tanken er at man kan legge på felt som automatisk fylles ut/kalkuleres (ved lagring?), eksempel på dette er:
+Foreløbig på idestadiet. Tanken er at man kan legge på felt som automatisk fylles ut/kalkuleres (ved lagring?) og ikke kan fylles ut eller endres av brukeren, eksempel på dette er:
 * Pasientalder
 * Kjønn
 * Postnummer
+* Randomisert-gruppe
 * todo..
 
 ## Utfyllelse av skjemaer
