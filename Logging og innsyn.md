@@ -9,15 +9,17 @@ To typer logging:
 * ApplicationLog (logger til applikasjonens egen database, samtidig også til ServerLog)
 
 ServerLog brukes for det meste til å logge kjøring av bakgrunnsjobber og feil i applikasjonen.
+
 ApplicationLog brukes for å logge brukerhandlinger i applikasjonen.
 
 ### Teknisk
 
-Objekter som skal logges implementerer et interface IAppLogObject som gir informasjon til loggeren
+Objekter som skal logges til ApplicationLog implementerer et interface IApplicationLogObject som gir informasjon til loggeren
 
 Tabell:
 * Id (int)
 * Username (nvarchar(255))  - hvem som utførte handlingen
+* SecurityTokenId ?
 * Timestamp (DateTime) - når det skjedde
 * Object (nvarchar(255)) - navn på objektet som logges (eks. FormData)
 * ObjectId (int?) - id til objektet, i tilfelle int
