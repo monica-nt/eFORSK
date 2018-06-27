@@ -17,6 +17,8 @@ Hvert register kan opprette så mange skjematyper dem ønsker.
 ### Skjemaversjon (FormVersion)
 En skjematype har alltid en versjon. Disse gies løpende numre. En skjematype kan kun ha en versjon i status kladd samtidig. Denne må publiseres, og eventuelt tilbaketrekkes, før man kan opprette en ny kladd. En ny versjon er alltid basert på sin forrige versjon. Man kan ha flere samtidige aktive versjoner (ved utfyllelse av et skjema må man da velge hvilken versjon man vil fylle ut). Man har mulighet til å slette en versjon i kladd. En versjon som er publisert kan aldri slettes, men kan trekkes tilbake (avpubliseres).
 
+En skjemaversjon kommer med en skjemadesigner hvor man kan flytte rundt på felter, legge til nye felt, og deprekere eksisterende felt. Man har et felt for å plassere "skjulte felter", hvor metadata ligger som standard.
+
 **Tabellstruktur**
 * FormTypeId (int)
 * VersionId  (int)
@@ -41,11 +43,12 @@ Et skjemafelt kan kun opprettes **og endres** i en versjon med status kladd. Så
 * FromVersionId (int)
 * ToVersionId (int?)
 * FieldTypeId (int)
+* AutoField (nvarchar(255)) <- om feltet skal tilegnes verdi automatisk ved lagring. feltet inneholder referanse til autofeltets ID, f.eks. PatientAge. Feltet blir da automatisk readonly ved utfyllelse.
 * SortIndex (int) <- kun for datadump, feltet har sin egen rekkefølge i FormVersion sin FormDesign. Denne må vurderes.
 * Deleted (bool) <- Properties can be deleted from the version they are created on when version is not active yet
 * ConfigurationJson (nvarchar(max)) <- spesifikk konfigurasjon for felttypen
-	* readonly (for autofelt)
-
+	* ..
+	
 ### Skjemaregel (FormRule)
 Skjemaregler omfavner både validerings- og vis/skjul-regler. Skjemaregler kan på lik linje med felter opprettes på en versjon, og deprekeres i senere versjoner. 
 
@@ -82,12 +85,18 @@ Felttyper som støttes er:
 * todo..
 
 ### AutoFelt
-Foreløbig på idestadiet. Tanken er at man kan legge på felt som automatisk fylles ut/kalkuleres (ved lagring?) og ikke kan fylles ut eller endres av brukeren, eksempel på dette er:
+*Foreløbig på idestadiet.*
+Tanken er at man kan legge på felt som automatisk fylles ut/kalkuleres ved opprettelse og lagring, som ikke kan fylles ut eller endres av brukeren, eksempel på dette er:
+* Skjema-metadata: Id, MainFormId, FormTypeId, PersonId, FormVersionId, UnitId, Status... (legges til som felt på skjematypen automatisk, men skjult fra grensesntitt ved utfyllelse)
 * Pasientalder
 * Kjønn
-* Postnummer
+* Postnummer, *Poststed*, Bydelsnr, kommunenr, *kommunenavn* (i forhold til skjemadato), gjeldende kommunenr
+* Enhetsnavn, Helseenhetsnavn, Helseenhets-kortnavn, Sykehusnavn, HF, RHF (i forhold til UnitId)
 * Randomisert-gruppe
+* *Felter fra hovedskjema* (må vurdere hva som gjøres når feltene i hovedskjemaet oppdateres)
 * todo..
+
+Autofelt blir tilgjengeliggjort for en bestemt felttype. For eksempel blir pasientalder tilgjengelig for tallfelt.
 
 ## Utfyllelse av skjemaer
 
@@ -100,6 +109,7 @@ Dette er et utfylt skjema
 * FormTypeId (int)
 * PersonId (guid?)
 * FormVersionId (int)
+* UnitId (int)
 * ImportSessionId (int?)
 * Status (draft,closed,deleted,returned)
 * Created
@@ -108,3 +118,4 @@ Dette er et utfylt skjema
 * UpdatedBy
 * FormDate
 * PropertyDataJson (nvarchar(max))
+	* key-value liste av UniqueName - verdi
