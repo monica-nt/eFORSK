@@ -29,3 +29,8 @@
 	* Pasient - se en pasient
 * **Skjemaer** - for å søke opp eller se skjema
 	* Skjema - se/redigere et skjema
+
+
+## Hjelpefunksjoner
+
+Ved redigering av eksisterende objekter vil applikasjonen sørge for å låse objektet slik at ingen andre brukere kan gjøre dette samtidig.
