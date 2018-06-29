@@ -25,5 +25,5 @@ Tabell:
 
 ## Innsyn
 
-En person skal kunne spørre applikasjonen om den har data om personen,  hvilke data og kunne be om å få seg slettet. Sletting blir håndtert av samtykkesystemet.
+En person skal kunne spørre applikasjonen om den har data om personen,  hvilke data, hvem som har behandlet/sett dataene og kunne be om å få seg slettet. Sletting blir håndtert av samtykkesystemet.
 todo
