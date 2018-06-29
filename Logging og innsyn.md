@@ -5,16 +5,12 @@
 Logging skal sørge for total sporbarhet over hva som har skjedd i applikasjonen. Logger skal ikke inneholde sensitiv data.
 
 To typer logging:
-* ServerLog (logger til windows event log, plukkes opp av splunk o.l.)
-* ApplicationLog (logger til applikasjonens egen database, samtidig også til ServerLog)
-
-ServerLog brukes for det meste til å logge kjøring av bakgrunnsjobber og feil i applikasjonen.
-
-ApplicationLog brukes for å logge brukerhandlinger i applikasjonen.
+* ServerLogger - brukes for det meste til å logge kjøring av bakgrunnsjobber og feil i applikasjonen. Logger til windows event log, plukkes opp av splunk o.l.
+* DataLogger -  brukes for å logge brukerhandlinger mot data i applikasjonen. Lagrer til databasen.
 
 ### Teknisk
 
-Objekter som skal logges til ApplicationLog implementerer et interface IApplicationLogObject som gir informasjon til loggeren
+Objekter som skal logges til DataLogger implementerer et interface IDataLogObject som gir informasjon til loggeren
 
 Tabell:
 * Id (int)
