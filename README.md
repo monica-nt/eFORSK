@@ -1,4 +1,4 @@
-# IKT støtte for forskning - prosjektnavn mangler! 
+# eFORSK dokumentasjon
 
 Her følger dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon ved utvikling, dokumentasjon og funksjonalitetsoversikt for (potensielle) brukere av verktøyet. Tekst i *skråskrift* i lenkede dokumenter er ennå ikke planlagt implementert i kommende versjon.
 
