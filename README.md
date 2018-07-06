@@ -13,7 +13,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * **Felt** (Field) - En felt som kan besvares i et skjema
 	* **Kodenavn** (CodeName) - Et felts kodenavn ved datauttrekk (datadump o.l.)
 	* **Visningsnavn** (DisplayName) - Overskrift for feltet ved utfyllelse i grensesnitt (brukervennlig forklaring av feltet)
-* **Person** - data/skjemaer legges på en person (i et vanlig registers tilfelle: pasient) i registeret. det er valgt å kalle dette person da det nødvendigvis ikke trenger å være en pasient
+* **Person** - data/skjemaer legges på en person (i et vanlig registers tilfelle: pasient) i registeret. det er valgt å kalle dette person da det nødvendigvis ikke trenger å være en pasient. VURDER DETTE!
 * **Mitt skjema** - brukeren som oppretter et skjema er den som eier skjemaet
 
 ## Dokumenter:
