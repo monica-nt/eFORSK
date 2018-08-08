@@ -21,7 +21,7 @@ En skjemaversjon kommer med en skjemadesigner hvor man kan flytte rundt på felt
 
 **Tabellstruktur**
 * FormTypeId (int)
-* VersionId  (int)
+* VersionNumber  (int)
 * Name
 * Status (draft,published,withdrawn,deleted) <- Versjoner kan slettes hvis den er den nyeste versjonen i kladd
 * FormDesignJson (nvarchar(max))  <- parent/child og rekkefølger av felter 
