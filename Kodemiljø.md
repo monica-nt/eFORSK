@@ -2,5 +2,5 @@
 
 ## Prosjektoppsett
 
-Bygg løsningen
-Kjøpe setup.ps1
+1. Bygg løsningen
+2. Kjør setup.ps1
