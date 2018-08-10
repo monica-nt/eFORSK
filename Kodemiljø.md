@@ -6,8 +6,8 @@ todo!
 
 1. Bygg løsningen
 2. Kjør setup.ps1
-  * Registrerer event logging
-  * Kjører databasetool
+   * Registrerer event logging
+   * Kjører databasetool
   
 ## Databaseendringer
 
@@ -23,4 +23,5 @@ For å oppdatere Registry database:
 PM> Update-Database -ConfigurationTypeName RegistryMigrationsConfiguration
 PM> Add-Migration navn-på-endringene -ConfigurationTypeName RegistryMigrationsConfiguration
 
-Bygg så løsningen på nytt med den nye migration. Kjør så databasetool med parameter -u
+Bygg så løsningen på nytt med den nye migration. Kjør så databasetool med parameter:
+-p=E:\VSTS\eFORSK\eFORSK.Service -u
