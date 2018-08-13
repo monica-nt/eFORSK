@@ -1,4 +1,6 @@
-# Grensesnitt & funksjonalitet
+# Informasjonsarkitektur & funksjonalitet
+
+Skisse: [https://docs.google.com/drawings/d/1f_DttcP3IAL8rGsNkuAhyoxv2KBahc3H3YwTk9uSWOo/edit?usp=sharing]
 
 ## Hovedgrensesnittet består av følgende deler:
 
