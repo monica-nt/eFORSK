@@ -26,7 +26,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * [Datadump & kodebok](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Datadump%20og%20kodebok.md)
 * [PROMS integrasjon](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/PROMS%20integrasjon.md)
 * [Randomisering](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Randomisering.md) - her trenger vi mer input!
-* [Kodemiljø](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/kodemiljø.md) - prosjektoppsett for utviklere
+* [Kodemiljø](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Kodemiljø.md) - prosjektoppsett for utviklere
 
 ## Prioriteringsliste utvikling
 
