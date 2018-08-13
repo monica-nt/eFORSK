@@ -1,6 +1,6 @@
 # Kodemiljø
 
-Kode skrives på engelsk.
+Kode skrives på engelsk. Følger standarder til Resharper, Angular/TS
 
 ## Prosjektoppsett
 
