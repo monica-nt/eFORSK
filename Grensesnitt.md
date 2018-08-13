@@ -7,6 +7,7 @@
   * Brukerinformasjon
   * Logg ut
   * Meny
+  * Switch for prod/test-data modus
 * Innhold
 * Footer
   * App versjonsnummer
