@@ -8,6 +8,7 @@
   * Logg ut
   * Meny
   * Switch for prod/test-data modus
+  * Notifikasjoner (både fastlåste, type "du er nå i testmodus..", men også lukkbare meldinger, type "datadump er klar for nedlastning..")
 * Innhold
 * Footer
   * App versjonsnummer
