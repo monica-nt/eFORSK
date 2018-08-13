@@ -1,11 +1,9 @@
 # Informasjonsarkitektur & funksjonalitet
 
-Skisse: [https://docs.google.com/drawings/d/1f_DttcP3IAL8rGsNkuAhyoxv2KBahc3H3YwTk9uSWOo/edit?usp=sharing]
-
 ## Hovedgrensesnittet består av følgende deler:
 
 * Header
-  * App tittel/logo
+  * App tittel/logo: eFORSK + registerets tittel
   * Brukerinformasjon
   * Logg ut
   * Meny
@@ -15,22 +13,45 @@ Skisse: [https://docs.google.com/drawings/d/1f_DttcP3IAL8rGsNkuAhyoxv2KBahc3H3Yw
 
 ## Innholdet er delt opp i følgende deler:
 
-* **Startside** - arbeidsliste for innlogget person? Enkel statistikk over registeret?
+* **Startside/Dashboard** 
+	* Oppgaveliste
+		* registerets ikke ferdigstilte skjema
+		* registerets returnerte skjema
+		* mine ikke ferdigstilte skjema
+		* mine returnerte skjema
+	* Enkel statistikk?
+	* Snarvei til handlinger man har tilgang til: fylle ut skjema, bestille skjemautfyllelse, finn person i folkereg..
+* **Skjemaer** - for å søke opp eller se skjema
+	* Fyll ut skjema
+	* Bestill skjemautfyllelse (fra person)
+	* Mine skjema
+	* Skjemasøk
+* **Personer**/pasient 
+	* Finn person i folkeregisteret
+	* *Opprett person med hjelpenummer*
+	* Liste personer med skjema 
+	* Liste personer med mine skjema  (*mine pasienter*)
+	* Personens side
+		* informasjon fra folkeregister
+		* visning av skjema registrert på person
+		* PROMS bestillinger
+* **Rapporter**
+	* Eksporter data (*Datadump*)
+	* Kodebok
+	* (..)
+* **Registeradministrasjon** 
+	* Registeroppsett (Instillinger/valg, registerinformasjon)
+	* Tilgangseneheter
+	* Skjematyper
+	* Randomisering?
+	* PROMS bestillinger
 * **Administrasjon** - for å legge til og endre registre
 	* Registerliste
 		* liste over eksisterende registre
 		* mulighet for å opprette nye
-		* *kopiere eksisterende*
  	* Registerredigering
 		* tittel
-		* beskrivelse (med Markdown?)
-		* PROMS api-nøkkel
-		* *tilgangsenheter (første versjon uten tilgangstre?)*
-* **Registeradministrasjon** - for å legge til og endre skjematype, konfigurere opp PROMS, og andre innstillinger for registeret
-* **Pasienter** - for å søke opp eller se pasienter
-	* Pasient - se en pasient
-* **Skjemaer** - for å søke opp eller se skjema
-	* Skjema - se/redigere et skjema
+		* PROMS kobling
 
 
 ## Hjelpefunksjoner
