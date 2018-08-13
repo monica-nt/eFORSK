@@ -1,5 +1,7 @@
 # Kodemiljø
 
+Kode foregår på engelsk.
+
 ## Prosjektoppsett
 
 todo!
