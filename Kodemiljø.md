@@ -1,6 +1,6 @@
 # Kodemiljø
 
-Kode foregår på engelsk.
+Kode skrives på engelsk.
 
 ## Prosjektoppsett
 
