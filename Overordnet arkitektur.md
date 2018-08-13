@@ -22,8 +22,12 @@ Etter en studie av disse to bibliotekene ser det ut som man får mye mer ut av b
 Implementeres med .Net, eksponerer WCF servicer
 Har kobling mot databasene
 
+Ansvarsområder:
+Wcf Servicer: Autorisasjon, validering
+Db Managere: Alle databaseoperasjoner, mapping til og fra databaseentiteter, Logging 
+
 ## Database
 
 Separate databaser per register
 MsSql som database
-ORM: Dapper og/eller EF
+ORM: Dapper for spørringer, EF for migrations
