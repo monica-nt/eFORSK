@@ -106,6 +106,7 @@ Dette er et utfylt skjema
 **Tabellstruktur**
 * Id (guid)
 * MainFormId (guid?)
+* IsTest (bool) - om skjemaet tilhører testmodus
 * FormTypeId (int)
 * PersonId (guid?)
 * FormVersionId (int)
