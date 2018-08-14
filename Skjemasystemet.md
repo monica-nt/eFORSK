@@ -120,3 +120,6 @@ Dette er et utfylt skjema
 * FormDate
 * PropertyDataJson (nvarchar(max))
 	* key-value liste av UniqueName - verdi
+
+## Testmodus
+Man kan i grensesnittet hoppe mellom testmodus og produksjonsmodus av registeret når man vil. Dette for å teste skjemaer, opplæring, demonstrering eller øve seg på utfyllelse. Man vil i testmodus ikke se skjemaer fra prodmodus, og omvendt. Pasientene i testmodus hentes fra testfolkeregisteret.
