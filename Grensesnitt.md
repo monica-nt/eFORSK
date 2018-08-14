@@ -4,7 +4,7 @@
 
 * Header
   * App tittel/logo: eFORSK + registerets tittel
-  * Brukerinformasjon (Logget inn som  Test Testersen, Registeransvarlig på St.Olavs Hospitstal)
+  * Brukerinformasjon (Logget inn som  Test Testersen, Registeransvarlig ved St.Olavs Hospitstal)
   * Logg ut
   * Meny
   * Varlser (både fastlåste, type "du er nå i testmodus..", men også lukkbare meldinger, type "datadump er klar for nedlastning..")
