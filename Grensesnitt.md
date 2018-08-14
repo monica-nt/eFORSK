@@ -4,11 +4,11 @@
 
 * Header
   * App tittel/logo: eFORSK + registerets tittel
-  * Brukerinformasjon
+  * Brukerinformasjon (Logget inn som  Test Testersen som Registeransvarlig på St.Olavs Hospitstal)
   * Logg ut
   * Meny
-  * Switch for prod/test-data modus
-  * Notifikasjoner (både fastlåste, type "du er nå i testmodus..", men også lukkbare meldinger, type "datadump er klar for nedlastning..")
+  * Varlser (både fastlåste, type "du er nå i testmodus..", men også lukkbare meldinger, type "datadump er klar for nedlastning..")
+  * Switch for prod/test-modus (bør være tydelig i hvilken modus man jobber. i testmodus kan headerlinja f.eks. få en mørk farge, og at det vises et fastlåst varsel om at man nå jobber i testmodus)
 * Innhold
 * Footer
   * App versjonsnummer
