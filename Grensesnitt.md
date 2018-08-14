@@ -44,7 +44,9 @@
 * **Registeradministrasjon** 
 	* Registeroppsett (Instillinger/valg, registerinformasjon)
 	* Tilgangseneheter
-	* Skjematyper
+	* Skjematyper - utlisting
+		* Skjematype - redigering av versjoner. visning av felter og regler
+			* Skjemaversjon - redigering av felter og regler
 	* Randomisering?
 	* PROMS bestillinger
 * **Administrasjon** - for å legge til og endre registre
