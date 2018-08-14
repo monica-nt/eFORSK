@@ -12,7 +12,7 @@ Hvert register kan opprette så mange skjematyper dem ønsker.
 **Tabellstruktur**
 * Id (int)
 * ParentId (int?)
-* Navn
+* Name
 
 ### Skjemaversjon (FormVersion)
 En skjematype har alltid en versjon. Disse gies løpende numre. En skjematype kan kun ha en versjon i status kladd samtidig. Denne må publiseres, og eventuelt tilbaketrekkes, før man kan opprette en ny kladd. En ny versjon er alltid basert på sin forrige versjon. Man kan ha flere samtidige aktive versjoner (ved utfyllelse av et skjema må man da velge hvilken versjon man vil fylle ut). Man har mulighet til å slette en versjon i kladd. En versjon som er publisert kan aldri slettes, men kan trekkes tilbake (avpubliseres).
