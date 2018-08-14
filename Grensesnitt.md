@@ -54,6 +54,7 @@
  	* Registerredigering
 		* tittel
 		* PROMS kobling
+	* PROMS skjemaer som trenger kvalitetssikring/godkjennelse
 
 
 ## Hjelpefunksjoner
