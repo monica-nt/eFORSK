@@ -23,8 +23,8 @@ Implementeres med .Net, eksponerer WCF servicer
 Har kobling mot databasene
 
 Ansvarsområder:
-Wcf Servicer: Autorisasjon, Validering, Feilhåndtering?, Logging?  
-Db Managere: Databaseoperasjoner, mapping til og fra databaseentiteter, Caching
+Wcf Servicer: Autorisasjon, Validering, Feilhåndtering?
+Db Managere: Databaseoperasjoner, mapping til og fra databaseentiteter, Caching, Logging
 
 ## Database
 
