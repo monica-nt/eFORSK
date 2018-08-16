@@ -36,16 +36,15 @@ En skjemaversjon kommer med en skjemadesigner hvor man kan flytte rundt på felt
 Et skjemafelt kan kun opprettes **og endres** i en versjon med status kladd. Så fort versjonen er publisert, kan man i etterfølgende versjoner kun velge og deprekere (deaktivere) feltet (for godt). Brukeren kan selv lage et kodenavn (kolonneoverskrift i datadump) for feltet, dette må være unikt for skjematypen. Merk at man aldri kan ta i bruk kodenavnet igjen på andre felt i skjematypen selv om det på et tidspunkt blir deprekert.
 
 **Tabellstruktur**
-* UniqueName (nvarchar(16)) <- generert unikt, brukes i kode/database som nøkkel og aldri eksponert for brukeren
+* Id (int)
+* FormTypeId (int)
+* FieldTypeId (int)
+* FromVersionNumber (int)
+* ToVersionNumber (int?)
 * CodeName (nvarchar(50)) <- brukerdefinert kodenavn, kan ikke endres etter at versjonen er ferdigstilt
 * DisplayName (nvarchar(255)) <- visningsnavnet for feltet ved utfylling av skjema
 * HelpText
-* FormTypeId (int)
-* FromVersionId (int)
-* ToVersionId (int?)
-* FieldTypeId (int)
-* AutoField (nvarchar(255)) <- om feltet skal tilegnes verdi automatisk ved lagring. feltet inneholder referanse til autofeltets ID, f.eks. PatientAge. Feltet blir da automatisk readonly ved utfyllelse.
-* SortIndex (int) <- kun for datadump, feltet har sin egen rekkefølge i FormVersion sin FormDesign. Denne må vurderes.
+* AutoFieldRef (nvarchar(50)) <- om feltet skal tilegnes verdi automatisk ved lagring. feltet inneholder referanse til autofeltets ID, f.eks. PatientAge. Feltet blir da automatisk readonly ved utfyllelse.
 * Deleted (bool) <- Properties can be deleted from the version they are created on when version is not active yet
 * ConfigurationJson (nvarchar(max)) <- spesifikk konfigurasjon for felttypen
 	* ..
