@@ -29,6 +29,16 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * [Randomisering](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Randomisering.md) - her trenger vi mer input!
 * [Kodemiljø](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Kodemiljø.md) - prosjektoppsett for utviklere
 
+## Milepæler
+
+1. 15.09.2018: Mulighet for å opprette en skjematype med skjemabyggeren
+2. 15.10.2018: Pasienthåndtering på plass, med mulighet for å fylle ut skjema i eFORSK
+3. 06.11.2018: Integrasjon med PROMS på plass med mulighet for å bestille skjema
+4. 30.11.2018: Rapporter på plass: Eksport av data (datadump) og kodebok
+5. 06.12.2018: Samtykkehåndtering
+6. 06.01.2019: Randomisering
+7. 06.02.2019: v1.0 Ferdig utviklet
+
 ## Prioriteringsliste utvikling
 
 Minimumsliste må-gjøre MRS for forskning
