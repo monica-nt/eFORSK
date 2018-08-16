@@ -25,7 +25,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * [Informasjonsarkitektur & funksjonalitet](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Grensesnitt.md)
 * [Skjemasystemet](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Skjemasystemet.md)
 * [Datadump & kodebok](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Datadump%20og%20kodebok.md)
-* [PROMS integrasjon](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/PROMS%20integrasjon.md)
+* [ePROM integrasjon](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/PROMS%20integrasjon.md)
 * [Randomisering](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Randomisering.md) - her trenger vi mer input!
 * [Kodemiljø](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Kodemiljø.md) - prosjektoppsett for utviklere
 
@@ -33,7 +33,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 
 1. 15.09.2018: Mulighet for å opprette en skjematype med skjemabyggeren
 2. 15.10.2018: Pasienthåndtering på plass, med mulighet for å fylle ut skjema i eFORSK
-3. 06.11.2018: Integrasjon med PROMS på plass med mulighet for å bestille skjema
+3. 06.11.2018: Integrasjon med ePROM på plass med mulighet for å bestille skjema
 4. 30.11.2018: Rapporter på plass: Eksport av data (datadump) og kodebok
 5. 06.12.2018: Samtykkehåndtering
 6. 06.01.2019: Randomisering
@@ -51,7 +51,7 @@ Minimumsliste må-gjøre MRS for forskning
 - Mulighet for å definere et skjema
 	- mulighet for å lage nye versjoner av et skjema
 - Mulighet for å fylle ut skjema
-- Integrasjon mot PROMS (inkl manuell bestilling,  mottak)
+- Integrasjon mot ePROM (inkl manuell bestilling,  mottak)
 - Datadump (excel, csv)
 - Kodebok
 - Logging og innsyn
@@ -64,7 +64,7 @@ Bør gjøre
 - Koblede skjematyper
 - Enkel bruksstatistikk
 - Standard for utvidelser per enkelt register (rapporter)
-- Dokumenthåndtering (proms papir/signerte dokument)
+- Dokumenthåndtering (ePROM papir/signerte dokument)
 - Administrasjonsgrensesnitt 
 	- Opprette nye register
 	- Status for registrene, debug info, statistikk
