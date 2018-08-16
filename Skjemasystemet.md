@@ -45,6 +45,7 @@ Et skjemafelt kan kun opprettes **og endres** i en versjon med status kladd. Så
 * DisplayName (nvarchar(255)) <- visningsnavnet for feltet ved utfylling av skjema
 * HelpText
 * AutoFieldRef (nvarchar(50)) <- om feltet skal tilegnes verdi automatisk ved lagring. feltet inneholder referanse til autofeltets ID, f.eks. PatientAge. Feltet blir da automatisk readonly ved utfyllelse.
+* SortIndex (int)
 * Deleted (bool) <- Properties can be deleted from the version they are created on when version is not active yet
 * ConfigurationJson (nvarchar(max)) <- spesifikk konfigurasjon for felttypen
 	* ..
