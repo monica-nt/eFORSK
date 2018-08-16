@@ -1,4 +1,4 @@
-# Roller, tilgangstre og samtykke
+# Roller, tilgangstre
 
 ## Tilgangstre
 
@@ -7,18 +7,6 @@ Tilgangstreet  består av en hierarkisk liste over tilgangsenheter som kan logge
 En tilgangsenhet har ikke tilgang til å se data uten samtykke på tilgangsenhet nedover i hiearkiet.
 
 Et register av enkleste form vil kun ha en tilgangsenhet å registrere data på, slik at registeret ikke trenger å ha noen kunskap om tilganger og hierarki.
-
-## Samtykkehåndtering
-
-Det er definert tre nivå av samtykke:
-
-1. **Ikke samtykket** (kan også være trukket) - man kan ikke registrere data på personen. data allerede registrert blir slettet ved fjerning av samtykke?
-2. **Lokalt samtykke** - data registrert blir kun synlig på den enheten det er registrert
-3. **Nasjonalt samtykke** (bedre navn? er nødvendig ikke snakk om "nasjon") - data registrert blir synlig oppover i tilgangstreet
-
-Samtykket tilhører personen i registeret. Informasjonen ligger globalt, og gjelder alle skjema registrert på personen uansett enhet. Samtykket er altså det samme på tvers av alle enheter, og alle enheter kan oppdatere samtykket. Skjemaer knyttet på en person som ikke har gitt samtykke vil ikke sees av enheter høyere opp i tilgangstreet.
-
-Konfigurasjon av registeret bestemmer hva som er personens standard samtykke-nivå ved opprettelse. 
 
 ## Roller
 
