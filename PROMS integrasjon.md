@@ -1,5 +1,9 @@
 # ePROM integrasjon
 
+## Krav til api støtte
+* Hente ut skjemadef
+* Opprette skjemaer
+
 ## Opprettelse av skjematype
 
 Ved ferdigstillelse av en versjon som er konfigurert for å ha ePROM skjema, vil skjemaet opprettes og publiseres i ePROM via API og knyttes til versjonen. 
