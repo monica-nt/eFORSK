@@ -18,16 +18,16 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 
 ## Dokumenter:
 * [Overordnet arkitektur](Overordnet%20arkitektur.md)
-* [Databasestruktur](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Databasestruktur.md)
-* [Roller, tilgangstre](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Roller%20og%20tilgangstre.md)
-* [Person/pasient-håndtering, samtykke](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Personer.md)
-* [Logging og innsyn](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Logging%20og%20innsyn.md)
-* [Informasjonsarkitektur & funksjonalitet](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Grensesnitt.md)
-* [Skjemasystemet](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Skjemasystemet.md)
-* [Datadump & kodebok](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Datadump%20og%20kodebok.md)
-* [ePROM integrasjon](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/PROMS%20integrasjon.md)
-* [Randomisering](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Randomisering.md) - her trenger vi mer input!
-* [Kodemiljø](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Kodemiljø.md) - prosjektoppsett for utviklere
+* [Databasestruktur](Databasestruktur.md)
+* [Roller, tilgangstre](Roller%20og%20tilgangstre.md)
+* [Person/pasient-håndtering, samtykke](Personer.md)
+* [Logging og innsyn](Logging%20og%20innsyn.md)
+* [Informasjonsarkitektur & funksjonalitet](Grensesnitt.md)
+* [Skjemasystemet](Skjemasystemet.md)
+* [Datadump & kodebok](Datadump%20og%20kodebok.md)
+* [ePROM integrasjon](PROMS%20integrasjon.md)
+* [Randomisering](Randomisering.md) - her trenger vi mer input!
+* [Kodemiljø](Kodemiljø.md) - prosjektoppsett for utviklere
 
 ## Milepæler
 
