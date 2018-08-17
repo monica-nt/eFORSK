@@ -60,7 +60,7 @@ Regler som støttes er:
 * todo..
 
 **Tabellstruktur**
-* UniqueName (nvarchar(16)) <- generert unik 
+* Id (int)
 * FormTypeId (int)
 * FromVersionId (int)
 * ToVersionId (int?)
@@ -74,6 +74,22 @@ En felttype må velges når man oppretter et felt.
 
 Felttyper som støttes er:
 * Tall
+	* Konfigurering:
+		* Visning: tall/slider
+		* Enhet
+		* Antall desimaler (0,1,2,3,4)
+		* Minimumsverdi
+		* Maksimumsverdi
+	* Valideringsregler:
+		* Påkrevd
+		* Mindre enn
+		* Mindre enn eller lik
+		* Mindre enn annet felt
+		* Mindre enn eller lik annet felt
+		* Større enn
+		* Større enn eller lik
+		* Større enn annet felt
+		* Større enn eller lik annet felt
 * Valgfelt (radio eller nedtrekssliste)
 * Avkrysning
 * Dato/*tid* - tid støttes ikke i PROMS
