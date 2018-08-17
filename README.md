@@ -17,17 +17,17 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * **Mitt skjema** - brukeren som oppretter et skjema er den som eier skjemaet
 
 ## Dokumenter:
-* [Overordnet arkitektur](Overordnet%20arkitektur.md)
-* [Databasestruktur](Databasestruktur.md)
-* [Roller, tilgangstre](Roller%20og%20tilgangstre.md)
-* [Person/pasient-håndtering, samtykke](Personer.md)
-* [Logging og innsyn](Logging%20og%20innsyn.md)
-* [Informasjonsarkitektur & funksjonalitet](Grensesnitt.md)
-* [Skjemasystemet](Skjemasystemet.md)
-* [Datadump & kodebok](Datadump%20og%20kodebok.md)
-* [ePROM integrasjon](PROMS%20integrasjon.md)
-* [Randomisering](Randomisering.md) - her trenger vi mer input!
-* [Kodemiljø](Kodemiljø.md) - prosjektoppsett for utviklere
+* [Overordnet arkitektur](Overordnet%20arkitektur)
+* [Databasestruktur](Databasestruktur)
+* [Roller, tilgangstre](Roller%20og%20tilgangstre)
+* [Person/pasient-håndtering, samtykke](Personer)
+* [Logging og innsyn](Logging%20og%20innsyn)
+* [Informasjonsarkitektur & funksjonalitet](Grensesnitt)
+* [Skjemasystemet](Skjemasystemet)
+* [Datadump & kodebok](Datadump%20og%20kodebok)
+* [ePROM integrasjon](PROMS%20integrasjon)
+* [Randomisering](Randomisering) - her trenger vi mer input!
+* [Kodemiljø](Kodemiljø) - prosjektoppsett for utviklere
 
 ## Milepæler
 
