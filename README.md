@@ -17,7 +17,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * **Mitt skjema** - brukeren som oppretter et skjema er den som eier skjemaet
 
 ## Dokumenter:
-* [Overordnet arkitektur](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Overordnet%20arkitektur.md)
+* [Overordnet arkitektur](Overordnet%20arkitektur.md)
 * [Databasestruktur](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Databasestruktur.md)
 * [Roller, tilgangstre](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Roller%20og%20tilgangstre.md)
 * [Person/pasient-håndtering, samtykke](https://github.com/HemitSystemutvikling/dokumentasjon-forskningsapp/blob/master/Personer.md)
