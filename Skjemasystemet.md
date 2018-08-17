@@ -73,7 +73,7 @@ Regler som støttes er:
 En felttype må velges når man oppretter et felt. 
 
 Felttyper som støttes er:
-* Tall
+* Tallfelt
 	* Konfigurering:
 		* Visning: tall/slider
 		* Enhet
@@ -91,10 +91,29 @@ Felttyper som støttes er:
 		* Større enn annet felt
 		* Større enn eller lik annet felt
 * Valgfelt (radio eller nedtrekssliste)
-* Avkrysning
-* Dato/*tid* - tid støttes ikke i PROMS
-* *Tekst* - fases ut fra PROMS?
-* *Tekstområde* - fases ut fra PROMS?
+	* Konfigurering
+		* Visning: radio, select, groupedselect
+		* Svaralternativer (verdi, tekst, gruppering)
+	* Valideringsregler
+		* Påkrevd
+* Avkrysningsfelt
+	* Ingen konfigurering eller valideringsregler
+* Dato/*tid* - kun dato støttes i ePROM
+	* Konfigurering
+		* Vsining: dato, *datotid*, *månedår*, *år*
+	* Valideringsregler
+		* Påkrevd
+		* Må være fortid
+		* Må være fremtid
+		* Må være før annet datofelt
+		* Må være før eller samtidig som annet datofelt
+		* Må være etter annet datofelt
+		* Må være etter eller samtidig som annet datofelt
+* Tekstfelt 
+	* Konfigurering
+		* Visning: string, tekstarea
+	* Valideringsregler
+		* Påkrevd
 
 **Objektstruktur**
 * Id (int)
