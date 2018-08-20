@@ -62,12 +62,13 @@ Regler som støttes er:
 **Tabellstruktur**
 * Id (int)
 * FormTypeId (int)
-* FromVersionId (int)
-* ToVersionId (int?)
-* RuleType (show,hide,validation-warning,*validation-dismissable*,validation-required)
-* FormFieldId1 (int?)
-* FormFieldId2 (int?)
-* RuleData (nvarchar(max)) <- json med regel-data
+* FromVersionNumber (int)
+* ToVersionNumber (int?)
+* RuleTypeId (int)
+* OwnerFieldId (int?)
+* TargetFieldsJson (JSON representasjon av int[])
+* ConfigurationJson (nvarchar(max)) <- json med regel-data
+* Deleted (bool)
 
 ### FeltType (FieldType)
 En felttype må velges når man oppretter et felt. 
