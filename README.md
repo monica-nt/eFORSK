@@ -26,7 +26,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * [Skjemasystemet](Skjemasystemet)
 * [Datadump & kodebok](Datadump%20og%20kodebok)
 * [ePROM integrasjon](PROMS%20integrasjon)
-* [Randomisering](Randomisering) - her trenger vi mer input!
+* [Randomisering](Randomisering)
 * [Kodemiljø](Kodemiljø) - prosjektoppsett for utviklere
 
 ## Milepæler
