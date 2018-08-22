@@ -1,7 +1,7 @@
 # Skjemasystemet
 
 Skjemasystemet definerer hvordan skjemaer kan lages.
-Dette er en videreutvikling av hvordan skjemaer løst i PROMS og MRS (spesielt fleksible felter). Mulighetene kan ikke overgå hva PROMS tilbyr, da skjemaene må støtte oversettelse til PROMS-format.
+Dette er en videreutvikling av hvordan skjemaer løst i ePROM og MRS (spesielt fleksible felter). Mulighetene kan ikke overgå hva ePROM tilbyr, da skjemaene må støtte oversettelse til PROMS-format.
 
 ## Definisjon av skjemaer
 
@@ -31,6 +31,10 @@ En skjemaversjon kommer med en skjemadesigner hvor man kan flytte rundt på felt
   * PromsPaperActivated (bool) - manuell proms
   * PromsId (guid?)
 	* (..)
+	
+**Hjelpemetoder**
+* CanHaveProms()   - kan ikke ha proms hvis:
+	*  et felt av typen randomisering eksisterer 
   
 ### Felt (FormField)
 Et skjemafelt kan kun opprettes **og endres** i en versjon med status kladd. Så fort versjonen er publisert, kan man i etterfølgende versjoner kun velge og deprekere (deaktivere) feltet (for godt). Brukeren kan selv lage et kodenavn (kolonneoverskrift i datadump) for feltet, dette må være unikt for skjematypen. Merk at man aldri kan ta i bruk kodenavnet igjen på andre felt i skjematypen selv om det på et tidspunkt blir deprekert.
@@ -91,12 +95,6 @@ Felttyper som støttes er:
 		* Større enn eller lik
 		* Større enn annet felt
 		* Større enn eller lik annet felt
-* Valgfelt (radio eller nedtrekssliste)
-	* Konfigurering
-		* Visning: radio, select, groupedselect
-		* Svaralternativer (verdi, tekst, gruppering)
-	* Valideringsregler
-		* Påkrevd
 * Avkrysningsfelt
 	* Ingen konfigurering eller valideringsregler
 * Dato/*tid* - kun dato støttes i ePROM
@@ -113,6 +111,17 @@ Felttyper som støttes er:
 * Tekstfelt 
 	* Konfigurering
 		* Visning: string, tekstarea
+	* Valideringsregler
+		* Påkrevd
+* Valgfelt (radio eller nedtrekssliste)
+	* Konfigurering
+		* Visning: radio, select, groupedselect
+		* Svaralternativer (verdi, tekst, gruppering)
+	* Valideringsregler
+		* Påkrevd
+* Randomisering (som valgfelt, men annen visning i GUI)
+	* Konfigurering
+		* Svaralternativer (verdi, tekst, gruppering)
 	* Valideringsregler
 		* Påkrevd
 
