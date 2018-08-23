@@ -4,9 +4,18 @@ Kode skrives på engelsk. Følger standarder til Resharper, Angular/TS
 
 ## Verktøyoppsett
 
-VS:  
+#### Visual Studio Code 
+Brukes for angular web-app
+
+#### Visual Studio 
+Brukes for resten
+
+Installer extensions:
+
 npm task runner: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner   
 Hvis VS klager på for gammel node versjon: https://stackoverflow.com/questions/43849585/update-node-version-in-visual-studio-2017  
+
+Typewriter: https://marketplace.visualstudio.com/items?itemName=frhagn.Typewriter  (lager TS modeller av C# models)
 
 ## Prosjektoppsett
 
