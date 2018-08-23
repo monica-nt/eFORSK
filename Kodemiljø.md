@@ -15,7 +15,8 @@ Installer extensions:
 npm task runner: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner   
 Hvis VS klager på for gammel node versjon: https://stackoverflow.com/questions/43849585/update-node-version-in-visual-studio-2017  
 
-Typewriter: https://marketplace.visualstudio.com/items?itemName=frhagn.Typewriter  (lager TS modeller av C# models)
+Typewriter: https://marketplace.visualstudio.com/items?itemName=frhagn.Typewriter  (lager TS modeller av C# models)  
+Laget mal basert på denne: http://continuousdeveloper.com/2017/10/16/keeping-your-c-and-typescript-models-in-sync/
 
 ## Prosjektoppsett
 
