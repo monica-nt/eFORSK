@@ -24,5 +24,7 @@ Hvert register kan konfigureres til å bruke en av følgende samtykkekonfigurasj
 4. samtykke bestille fra personen via PROMS, der et standard samtykkeskjema sendes ut fra registeret. Det vil finnes en knapp for å bestille dette på personens side i registeret, eller ved forsøk på å opprette skjema der samtykke ikke foreligger.
 5. Kombinasjon av **3 og 4**. Registrar kan både gi samtykke manuelt eller ved å bestille fra PROMS.
 
+### Innsyn
 
+Todo
 
