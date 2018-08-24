@@ -36,7 +36,7 @@
 	* Personens side
 		* informasjon fra folkeregister
 		* visning av skjema registrert på person
-		* PROMS bestillinger
+		* ePROM bestillinger
 * **Rapporter**
 	* Eksporter data (*Datadump*)
 	* Kodebok
@@ -47,16 +47,15 @@
 	* Skjematyper - utlisting
 		* Skjematype - redigering av versjoner. visning av felter og regler
 			* Skjemaversjon - redigering av felter og regler
-	* Randomisering?
-	* PROMS bestillinger
+	* ePROM bestillinger
 * **Administrasjon** - for å legge til og endre registre
 	* Registerliste
 		* liste over eksisterende registre
 		* mulighet for å opprette nye
  	* Registerredigering
 		* tittel
-		* PROMS kobling
-	* PROMS skjemaer som trenger kvalitetssikring/godkjennelse
+		* ePROM kobling
+	* ePROM skjemaer som trenger kvalitetssikring/godkjennelse
 
 
 ## Hjelpefunksjoner
