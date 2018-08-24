@@ -55,11 +55,12 @@ Et skjemafelt kan kun opprettes **og endres** i en versjon med status kladd. Så
 	* ..
 	
 ### Skjemaregel (FormRule)
-Skjemaregler omfavner både validerings- og vis/skjul-regler. Skjemaregler kan på lik linje med felter opprettes på en versjon, og deprekeres i senere versjoner. 
+Skjemaregler omfavner både validerings- og vis/skjul-regler. Skjemaregler kan på lik linje med felter opprettes på en versjon, og deprekeres i senere versjoner. I tilfelle et felt er skjult (av vis/skjul regler) vil ikke andre regler kjøre på feltet, og det skjulte feltets verdi vil nullstilles.
 
 Regler som støttes er:
 * Vis felt hvis _
 * Skjul felt hvis _
+* Påkrevd
 * Tall: Mindre enn _
 * todo..
 
