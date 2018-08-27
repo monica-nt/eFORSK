@@ -22,7 +22,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * [Roller, tilgangstre](Roller%20og%20tilgangstre)
 * [Forskningsobjekter, samtykkehåndtering](Forskningsobjekter)
 * [Logging og innsyn](Logging%20og%20innsyn)
-* [Informasjonsarkitektur & funksjonalitet](Grensesnitt)
+* [Informasjonsarkitektur & funksjonalitet](Informasjonsarkitektur)
 * [Skjemasystemet](Skjemasystemet)
 * [Datadump & kodebok](Datadump%20og%20kodebok)
 * [ePROM integrasjon](PROMS%20integrasjon)
