@@ -18,6 +18,7 @@ Ved innlogging må brukeren komme inn i registeret med en rolle.
 * *Registrar* - kan registrere data inn i et spesifikk register, kan kun gjenåpne, endre, slette, ferdigstille egne skjema, kan se innhold i andres skjema
 * *RegistrarExtended* - kan registrere data inn i et register, kan også gjenåpne, endre, slette, ferdigstille andres skjema
 * *Reader?* - kan hun hente lese data fra registeret, som skjemaer, datadump osv
++ ReaderNotIdentified
 
 Skal vi ha roller for anonym lese?
 
