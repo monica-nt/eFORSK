@@ -28,12 +28,14 @@
 	* Bestill skjemautfyllelse (fra person)
 	* Mine skjema
 	* Skjemasøk
-* **Personer**/pasient 
-	* Finn person i folkeregisteret
-	* *Opprett person med hjelpenummer*
-	* Liste personer med skjema 
-	* Liste personer med mine skjema  (*mine pasienter*)
-	* Personens side
+* **Forskningsobjekter**
+	* Dasboard
+		* Finn person i folkeregisteret (søk fnr el navn/adr)
+		* Opprett forskningsobjekt
+		* *Opprett person med hjelpenummer*
+	* Forskningsobjekter i registeret 
+	* Mine forskningsobjekter
+	* Forskningsobjektets side
 		* informasjon fra folkeregister
 		* visning av skjema registrert på person
 		* ePROM bestillinger
