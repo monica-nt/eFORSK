@@ -20,7 +20,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * [Overordnet arkitektur](Overordnet%20arkitektur)
 * [Databasestruktur](Databasestruktur)
 * [Roller, tilgangstre](Roller%20og%20tilgangstre)
-* [Forskningsobjekter, samtykkehåndtering](Personer)
+* [Forskningsobjekter, samtykkehåndtering](Forskningsobjekter)
 * [Logging og innsyn](Logging%20og%20innsyn)
 * [Informasjonsarkitektur & funksjonalitet](Grensesnitt)
 * [Skjemasystemet](Skjemasystemet)
