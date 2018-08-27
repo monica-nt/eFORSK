@@ -137,6 +137,7 @@ Tanken er at man kan legge på felt som automatisk fylles ut/kalkuleres ved oppr
 * Skjema-metadata: Id, MainFormId, FormTypeId, PersonId, FormVersionId, UnitId, Status... (legges til som felt på skjematypen automatisk, men skjult fra grensesntitt ved utfyllelse)
 * Pasientalder
 * Kjønn
+* Dødsdato
 * Postnummer, *Poststed*, Bydelsnr, kommunenr, *kommunenavn* (i forhold til skjemadato), gjeldende kommunenr
 * Enhetsnavn, Helseenhetsnavn, Helseenhets-kortnavn, Sykehusnavn, HF, RHF (i forhold til UnitId)
 * Randomisert-gruppe
