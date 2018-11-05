@@ -24,7 +24,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * [Logging og innsyn](Logging%20og%20innsyn)
 * [Informasjonsarkitektur & funksjonalitet](Informasjonsarkitektur)
 * [Skjemasystemet](Skjemasystemet)
-* [Datadump & kodebok](Datadump%20og%20kodebok)
+* [Eksporter data & kodebok](Datadump%20og%20kodebok)
 * [ePROM integrasjon](PROMS%20integrasjon)
 * [Randomisering](Randomisering)
 * [Kodemiljø](Kodemiljø) - prosjektoppsett for utviklere
@@ -52,7 +52,7 @@ Minimumsliste må-gjøre MRS for forskning
 	- mulighet for å lage nye versjoner av et skjema
 - Mulighet for å fylle ut skjema
 - Integrasjon mot ePROM (inkl manuell bestilling,  mottak)
-- Datadump (excel, csv)
+- Eksporter data (excel, csv)
 - Kodebok
 - Logging og innsyn
 - Randomisering (enkel knapp, tildelt gruppe  A,B,C...)
