@@ -49,7 +49,7 @@ Et skjemafelt kan kun opprettes **og endres** i en versjon med status kladd. Så
 * CodeName (nvarchar(50)) <- brukerdefinert kodenavn, kan ikke endres etter at versjonen er ferdigstilt
 * DisplayName (nvarchar(255)) <- visningsnavnet for feltet ved utfylling av skjema
 * HelpText
-* AutoFieldRef (nvarchar(50)) <- om feltet skal tilegnes verdi automatisk ved lagring. feltet inneholder referanse til autofeltets ID, f.eks. PatientAge. Feltet blir da automatisk readonly ved utfyllelse.
+* CalculatedFieldUniqueId (nvarchar(50)) <- om feltet skal tilegnes verdi automatisk ved lagring. feltet inneholder referanse til det beregnede feltets ID, f.eks. PatientAge. Feltet blir da automatisk readonly ved utfyllelse.
 * SortIndex (int)
 * Deleted (bool) <- Properties can be deleted from the version they are created on when version is not active yet
 * ConfigurationJson (nvarchar(max)) <- spesifikk konfigurasjon for felttypen
@@ -132,8 +132,8 @@ Felttyper som støttes er:
 * Navn
 * todo..
 
-### AutoFelt
-*Foreløbig på idestadiet.*
+### Kalkulerte felter
+
 Tanken er at man kan legge på felt som automatisk fylles ut/kalkuleres ved opprettelse og lagring, som ikke kan fylles ut eller endres av brukeren, eksempel på dette er:
 * Skjema-metadata: Id, MainFormId, FormTypeId, PersonId, FormVersionId, UnitId, Status... (legges til som felt på skjematypen automatisk, men skjult fra grensesntitt ved utfyllelse)
 * Pasientalder
@@ -141,11 +141,10 @@ Tanken er at man kan legge på felt som automatisk fylles ut/kalkuleres ved oppr
 * Dødsdato
 * Postnummer, *Poststed*, Bydelsnr, kommunenr, *kommunenavn* (i forhold til skjemadato), gjeldende kommunenr
 * Enhetsnavn, Helseenhetsnavn, Helseenhets-kortnavn, Sykehusnavn, HF, RHF (i forhold til UnitId)
-* Randomisert-gruppe
 * *Felter fra hovedskjema* (må vurdere hva som gjøres når feltene i hovedskjemaet oppdateres)
 * todo..
 
-Autofelt blir tilgjengeliggjort for en bestemt felttype. For eksempel blir pasientalder tilgjengelig for tallfelt.
+Kalkulerte felter blir tilgjengeliggjort for en bestemt felttype. For eksempel blir pasientalder tilgjengelig for tallfelt.
 
 ## Utfyllelse av skjemaer
 
@@ -157,7 +156,7 @@ Dette er et utfylt skjema
 * MainFormId (guid?)
 * IsTest (bool) - om skjemaet tilhører testmodus
 * FormTypeId (int)
-* PersonId (guid?)
+* ResearchObjectGuid (guid?)
 * FormVersionId (int)
 * UnitId (int)
 * ImportSessionId (int?)
