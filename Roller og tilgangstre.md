@@ -15,10 +15,10 @@ Ved innlogging må brukeren komme inn i registeret med en rolle.
 * **Administrator** - brukt for å legge til og endre registre i løsningen
 * **RegistryResponsible** - ansvarlig for et spesifikk register. har tilgang til alle operasjoner
 * *RegistrarLimited* - kan registrere data inn i et spesifikk register, kan kun endre, slette, ferdigstille egne skjema, kan ikke se innhold i andres skjema
-* *Registrar* - kan registrere data inn i et spesifikk register, kan kun gjenåpne, endre, slette, ferdigstille egne skjema, kan se innhold i andres skjema
+* **Registrar** - kan registrere data inn i et spesifikk register, kan kun gjenåpne, endre, slette, ferdigstille egne skjema, kan se innhold i andres skjema
 * *RegistrarExtended* - kan registrere data inn i et register, kan også gjenåpne, endre, slette, ferdigstille andres skjema
-* *Reader?* - kan hun hente lese data fra registeret, som skjemaer, datadump osv
-+ ReaderNotIdentified
+* **Reader** - kan hun hente lese data fra registeret, som skjemaer, dataeksport, metadata
++ **ReaderUnidentified** - forskningsobjektets id og navn er sensurert
 
 Skal vi ha roller for anonym lese?
 
@@ -26,9 +26,4 @@ Skal vi ha roller for anonym lese?
 
 En rolle har tilgang til et sett med operasjoner
 
-* **EditRegister** - opprette og redigere registre i løsningen
-* **SeePersonIdentifiableData** - se fødselsnummer og pasientinformasjon
-* **EditFormType** - opprette og redigere skjemaertyper
-* **OrderProms**
-* **EditForm** - opprette og redigere skjema
-* todo..
+Liste utarbeides
