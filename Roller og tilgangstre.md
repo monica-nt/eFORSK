@@ -4,7 +4,7 @@
 
 Tilgangstreet  består av en hierarkisk liste over tilgangsenheter som kan logges inn på i registeret. En tilgangsenhet i tilgangstreet har tilgang til data registrert på seg selv, på barn, og videre arvinger nedover i hierarkiet. En tilgangsenhet kan ikke se data registrert på sin foreldre/forfedre oppover i hiearkiet. Høyere opp i tilgangstreet vil si tilgang til å se mer data, laverene ned vil begrense tilgangen til data.
 
-En tilgangsenhet har ikke tilgang til å se data uten samtykke på tilgangsenhet nedover i hiearkiet.
+En tilgangsenhet har ikke tilgang til å se data i kladd eller uten samtykke på tilgangsenheter nedover i hiearkiet.
 
 Et register av enkleste form vil kun ha en tilgangsenhet å registrere data på, slik at registeret ikke trenger å ha noen kunskap om tilganger og hierarki.
 
