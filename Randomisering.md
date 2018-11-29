@@ -4,5 +4,5 @@ Kun enkel randomisering støttes, det vil si tilfeldig valg av randomiseringsgru
 
 Randomisering kan legges inn som et kalkulert felt ved bygging av skjematype. Felttypen fungerer på samme måte som et valgfelt, der man kan opprette alternativer. Forskjellen ligger i grensesnittet ved utfylling av skjema, der man får en knapp for å kjøre randomisering. Ved trykk på knappen blir tilfeldig alternativ valgt, handlingen kan ikke angres. 
 
-Algoritme som ligger til grunn for randomsering: Fisher-Yates (aka Knuth) Shuffle
+Algoritme som ligger til grunn for randomsering: Fisher-Yates (aka Knuth) Shuffle.
 Første element velges etter at algoritmen er kjørt.
