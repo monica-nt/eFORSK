@@ -10,7 +10,7 @@ Merk at kun skjematyper med forskningsobjekttypen "Folkeregisteret" kan kobles m
 
 Gjelder kun for forskningsobjekt: personer.
 
-Samtykket tilhører personen i registeret. Informasjonen ligger globalt, og gjelder alle skjema registrert på personen uansett enhet. Samtykket er altså det samme på tvers av alle enheter, og alle enheter kan oppdatere samtykket. 
+Samtykket tilhører personen i registeret. Informasjonen ligger globalt, og gjelder alle skjema registrert på personen uansett tilgangsenhet. Samtykket er altså det samme på tvers av alle tilgangsenheter, og alle enheter kan oppdatere samtykket. 
 
 Konfigurasjon av registeret bestemmer hva som er personens standard samtykke-nivå ved opprettelse. 
 
@@ -18,7 +18,7 @@ Konfigurasjon av registeret bestemmer hva som er personens standard samtykke-niv
 
 1. **Samtykke foreligger ikke** - man kan ikke registrere data på personen. data allerede registrert på person blir slettet når dette samtykkenivået settes?
 2. **Forespurt** - avventer svar. kan løpe ut på tid
-3. **Samtykket for registeret** (lokalt samtykke - bedre navn?) - data registrert blir kun synlig på den enheten det er registrert
+3. **Samtykket** - skal vi ha nivåer her,  lokalt samtykke (for tilgangsenheten den er registert på) og globalt (for alle tilgangsenheter oppover i tilgangstreet)?
 
 
 ### Samtykkekonfigurasjon
@@ -27,7 +27,7 @@ Hvert register kan konfigureres til å bruke en av følgende samtykkekonfigurasj
 1. samtykke håndteres utenfor registeret - man får da ikke spørsmål om samtykke ved registrering i registeret. Standard samtykkenivå for pasienten er da nivå **3**. Samtykke kan manuelt endres på pasienten.
 2. samtykke håndteres med spørsmål til registrar i registeret - registrar må velge samtykkenivå ved opprettelse av første skjema på personen om dette allerede ikke er gjort. Det er mulighet for å gå inn på personen og gi/endre samtykke når som helst. Det er ikke mulig å opprette skjema på pasient før samtykkenivå er 3.
 3. samtykke bestilles fra personen via PROMS, der et standard samtykkeskjema sendes ut fra registeret. Det vil finnes en knapp for å bestille dette på personens side i registeret, eller ved forsøk på å opprette skjema der samtykke ikke foreligger.
-5. Kombinasjon av **2 og 3**. Registrar kan både gi samtykke manuelt eller ved å bestille fra PROMS.
+4. Kombinasjon av **2 og 3**. Registrar kan både gi samtykke manuelt eller ved å bestille fra PROMS.
 
 I tilfelle 1 eller 2 må administrator oppgi grunn til at samtykke håndteres utenfor registeret.
 
