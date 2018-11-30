@@ -25,10 +25,11 @@ Konfigurasjon av registeret bestemmer hva som er personens standard samtykke-niv
 ### Samtykkekonfigurasjon
 
 Hvert register kan konfigureres til å bruke en av følgende samtykkekonfigurasjoner:
-A. samtykke håndteres utenfor registeret - man får da ikke spørsmål om samtykke ved registrering i registeret. Standard samtykkenivå for pasienten er da nivå **3**. Samtykke kan manuelt endres på pasienten.
-B. samtykke håndteres med spørsmål til registrar i registeret - registrar må velge samtykkenivå ved opprettelse av første skjema på personen om dette allerede ikke er gjort. Det er mulighet for å gå inn på personen og gi/endre samtykke når som helst. Det er ikke mulig å opprette skjema på pasient før samtykkenivå er **3**.
-C. samtykke bestilles fra personen via PROMS, der et standard samtykkeskjema sendes ut fra registeret. Det vil finnes en knapp for å bestille dette på personens side i registeret, eller ved forsøk på å opprette skjema der samtykke ikke foreligger.
-D. Kombinasjon av **B og C**. Registrar kan både gi samtykke manuelt eller ved å bestille fra PROMS.
+
+* **A.** samtykke håndteres utenfor registeret - man får da ikke spørsmål om samtykke ved registrering i registeret. Standard samtykkenivå for pasienten er da nivå **3**. Samtykke kan manuelt endres på pasienten.
+* **B.** samtykke håndteres med spørsmål til registrar i registeret - registrar må velge samtykkenivå ved opprettelse av første skjema på personen om dette allerede ikke er gjort. Det er mulighet for å gå inn på personen og gi/endre samtykke når som helst. Det er ikke mulig å opprette skjema på pasient før samtykkenivå er **3**.
+* **C.** samtykke bestilles fra personen via PROMS, der et standard samtykkeskjema sendes ut fra registeret. Det vil finnes en knapp for å bestille dette på personens side i registeret, eller ved forsøk på å opprette skjema der samtykke ikke foreligger.
+* **D.** Kombinasjon av **B og C**. Registrar kan både gi samtykke manuelt eller ved å bestille fra PROMS.
 
 I tilfelle A eller B må administrator oppgi grunn til at samtykke håndteres utenfor registeret.
 
