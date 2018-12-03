@@ -14,7 +14,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 	* **Kodenavn** (CodeName) - Et felts kodenavn ved datauttrekk (datadump o.l.)
 	* **Visningsnavn** (DisplayName) - Overskrift for feltet ved utfyllelse i grensesnitt (brukervennlig forklaring av feltet)
 * **Forskningsobjekt** (ResearchObject) - data/skjemaer legges på et forskningsobjekt (i et vanlig registers tilfelle: pasient) i registeret. det er valgt å kalle dette forskningsobjekt da det nødvendigvis ikke trenger å være en pasient eller person, men f.eks. legemiddel.
-* **Mitt skjema** - brukeren som oppretter et skjema er den som eier skjemaet
+* **Mitt skjema/Mine skjema** - brukeren som oppretter et skjema eller har bestilt det utfylt er den som eier skjemaet
 
 ## Dokumenter:
 * [Overordnet arkitektur](Overordnet%20arkitektur)
