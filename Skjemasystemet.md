@@ -72,11 +72,6 @@ Felttyper som støttes er:
 	* Valideringsregler
 		* Påkrevd
 
-**Objektstruktur**
-* Id (int)
-* Navn
-* todo..
-
 ### Kalkulerte felter
 
 Tanken er at man kan legge på felt som automatisk fylles ut/kalkuleres ved opprettelse og lagring, som ikke kan fylles ut eller endres av brukeren, eksempel på dette er:
