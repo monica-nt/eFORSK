@@ -12,7 +12,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * **Skjemaversjon** (FormVersion) - En versjon av skjematypen
 * **Felt** (Field) - En felt som kan besvares i et skjema
 	* **Kodenavn** (CodeName) - Et felts kodenavn ved datauttrekk (datadump o.l.)
-	* **Visningsnavn** (DisplayName) - Overskrift for feltet ved utfyllelse i grensesnitt (brukervennlig forklaring av feltet)
+	* **Visningstekst** (DisplayName) - Spørsmålet ved feltet ved utfyllelse i grensesnitt (brukervennlig forklaring av feltet)
 * **Forskningsobjekt** (ResearchObject) - data/skjemaer legges på et forskningsobjekt (i et vanlig registers tilfelle: pasient) i registeret. det er valgt å kalle dette forskningsobjekt da det nødvendigvis ikke trenger å være en pasient eller person, men f.eks. legemiddel.
 * **Mitt skjema/Mine skjema** - brukeren som oppretter et skjema eller har bestilt det utfylt er den som eier skjemaet
 
