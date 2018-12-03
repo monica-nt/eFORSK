@@ -52,14 +52,14 @@ Felttyper som støttes er:
 	* Valideringsregler
 		* Påkrevd
 		* Må være fortid
-		* Må være før annen dato
+		* *Må være før annen dato* (støttes ikke av ePROM)
 		* Må være før annet datofelt
-		* Må være før eller samtidig som annen dato
+		* *Må være før eller samtidig som annen dato* (støttes ikke av ePROM)
 		* Må være før eller samtidig som annet datofelt
 		* Må være etter annet datofelt
-		* Må være etter annet dato
+		* *Må være etter annet dato* (støttes ikke av ePROM)
 		* Må være etter eller samtidig som annet datofelt
-		* Må være etter eller samtidig som annet dato
+		* *Må være etter eller samtidig som annet dato* (støttes ikke av ePROM)
 * Tekstfelt 
 	* Konfigurering
 		* Visning: string, tekstarea
