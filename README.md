@@ -80,3 +80,8 @@ Kjekt å ha
 - Administrasjonsgrensesnitt: kopier register (import/eksport definisjoner)
 - Administrasjonsgrensesnitt: arkiver/slette register
 - Listehåndtering (gjenbruk og felles vedlikehold av lister innad et register, eks.: ja, nei, ukjent. samt standardiserte lister globalt tilgjengelig)
+
+## Fase 2 (forslag)
+
+- flere valideringsregler (krever ePROM implementasjon)
+- mulighet for å få forhåndsvisning av ePROM digitalt og papirsrkjema (krever ePROM arbeid)
