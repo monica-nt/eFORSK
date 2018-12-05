@@ -30,11 +30,11 @@ Samtykkenivået lagres med en dato for når det sist var endret. Endringer loggf
 
 Hvert register kan konfigureres til å bruke en av følgende samtykkekonfigurasjoner:
 
-* **A.** samtykke bestilles fra personen via ePROM eller med spørsmål til brukeren i registeret - bruker må velge samtykkenivå ved opprettelse av første skjema på personen om dette allerede ikke er gjort. Det er mulighet for å gå inn på personen og gi/endre samtykke når som helst. Det er ikke mulig å opprette skjema på pasient før samtykkenivå er **5**.
+* **A.** samtykke settes med spørsmål til brukeren i registeret eller etterspørres automatisk ved bestilling av ePROM - bruker må velge samtykkenivå ved opprettelse av første skjema på personen om dette allerede ikke er gjort. Det er mulighet for å gå inn på personen og gi/endre samtykke når som helst. Det er ikke mulig å opprette skjema på pasient før samtykkenivå er **5**.
 * **B.** samtykke håndteres utenfor registeret - man får da ikke spørsmål om samtykke ved registrering i registeret. Standard samtykkenivå for pasienten er da nivå **5**. Samtykke kan manuelt endres på pasienten.
 * **C.** ikke aktuelt, hjemlet et annet sted
 
-I tilfelle D eller E må administrator oppgi grunn til at samtykke håndteres utenfor registeret.
+I tilfelle B eller C må administrator oppgi grunn til at samtykke håndteres utenfor registeret.
 
 ### Samtykke bestilling ePROM
 
