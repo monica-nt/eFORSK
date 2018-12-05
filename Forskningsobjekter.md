@@ -21,7 +21,7 @@ Konfigurasjon av registeret bestemmer hva som er personens standard samtykke-niv
 * **2. Ikke samtykket** - man kan ikke registrere data på personen. data allerede registrert på person blir slettet når dette samtykkenivået settes?
 * **3. Ikke besvart** - antatt ikke samtykket
 * **4. Trukket** - ikke mulig å endre *registeransvarlig vil i senere versjoner kanskje få tilgang til å endre dette*
-* **5. Samtykket** - skal vi ha nivåer her,  lokalt samtykke (for tilgangsenheten den er registert på) og globalt (for alle tilgangsenheter oppover i tilgangstreet)?
+* **5. Samtykket** 
 
 Ved setting av 5. samtykket må man oppgi samtykkedato.
 Samtykkenivået lagres med en dato for når det sist var endret. Endringer loggføres.
