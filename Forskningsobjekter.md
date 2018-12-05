@@ -39,7 +39,7 @@ I tilfelle D eller E må administrator oppgi grunn til at samtykke håndteres ut
 
 ### Samtykke bestilling ePROM
 
-Bestill papir hvis ikke digitalt svar
+Ved bestilling av ePROM vil eFORSK bestille et skjema som etterspør samtykke i tilfelle forskningsobjektet ikke har samtykke
 
 ### *Innsyn* (ikke implementert i første fase)
 
