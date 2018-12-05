@@ -13,12 +13,11 @@ Et register av enkleste form vil kun ha en tilgangsenhet å registrere data på,
 Ved innlogging må brukeren komme inn i registeret med en rolle.
 
 * **Administrator** - brukt for å legge til og endre registre i løsningen
-* **RegistryResponsible** - ansvarlig for et spesifikk register. har tilgang til alle operasjoner
-* *RegistrarLimited* - kan registrere data inn i et spesifikk register, kan kun endre, slette, ferdigstille egne skjema, kan ikke se innhold i andres skjema
-* **Registrar** - kan registrere data inn i et spesifikk register, kan kun gjenåpne, endre, slette, ferdigstille egne skjema, kan se innhold i andres skjema
-* *RegistrarExtended* - kan registrere data inn i et register, kan også gjenåpne, endre, slette, ferdigstille andres skjema
-* **Reader** - kan hun hente lese data fra registeret, som skjemaer, dataeksport, metadata
-+ **ReaderUnidentified** - forskningsobjektets id og navn er sensurert
+* **RegistryResponsible/Registeransvarlig** - ansvarlig for et spesifikk register. har tilgang til alle operasjoner
+* **DataResponsible/Dataansvarlig** - kan se, opprette, gjenåpne, endre, slette, ferdigstille, returnere alles skjema
+* **Registrar** - kan se, opprette, gjenåpne, endre, slette, ferdigstille eget skjema, kan se eksistens men ikke innhold av andres skjema
+* **Reader/Leser** - kan hun lese data fra registeret, som skjemaer, dataeksport, metadata
++ **ReaderUnidentified/Anonym leser** - forskningsobjektets id og navn er sensurert
 
 Skal vi ha roller for anonym lese?
 
