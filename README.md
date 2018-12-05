@@ -85,3 +85,4 @@ Kjekt å ha
 
 - flere valideringsregler (krever ePROM implementasjon)
 - mulighet for å få forhåndsvisning av ePROM digitalt og papirsrkjema (krever ePROM arbeid)
+- mulighet for registeransvarlig å sende ut et varsel for alle brukerene av registeret
