@@ -6,3 +6,7 @@ Randomisering kan legges inn som et kalkulert felt ved bygging av skjematype. Fe
 
 Algoritme som ligger til grunn for randomsering: Fisher-Yates (aka Knuth) Shuffle.
 Første element velges etter at algoritmen er kjørt.
+
+## ePROM
+
+I tilfelle et randomiseringsfelt er lagt til en ePROM skjematype, vil dette feltet ikke være synlig ved utfyllelse i ePROM. Feltet vil bli randomisert ved bestillelse. I tilfelle papirbesvarelse, vil feltet bli randomisert ved leveranse tilbake til registeret.
