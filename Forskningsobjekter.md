@@ -42,5 +42,5 @@ Ved bestilling av ePROM vil eFORSK bestille et skjema som etterspør samtykke i 
 
 ### *Innsyn* (ikke implementert i første fase)
 
-Via innsynsløsningen kan man velge å få sine data slettet. Dette setter samtykkenivået på til 2. som vil slette eksisterende data.
+Via innsynsløsningen kan man velge å få sine data slettet. Dette setter samtykkenivået på til 4. som vil slette eksisterende data.
 Todo
