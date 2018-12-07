@@ -17,7 +17,7 @@ Ved innlogging må brukeren komme inn i registeret med en rolle.
 * **DataResponsible/Dataansvarlig** - kan se, opprette, gjenåpne, endre, slette, ferdigstille, returnere alles skjema
 * **Registrar** - kan se, opprette, gjenåpne, endre, slette, ferdigstille eget skjema, kan se eksistens men ikke innhold av andres skjema
 * **Reader/Leser** - kan kun lese data fra registeret, som skjemaer, dataeksport, metadata
-+ **ReaderUnidentified/Anonym leser** - forskningsobjektets id og navn er sensurert
++ **ReaderUnidentified/LeserAnonymisert** - forskningsobjektets id og navn er sensurert
 
 Skal vi ha roller for anonym lese?
 
