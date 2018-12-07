@@ -11,7 +11,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * **Skjematype** (FormType) - Definisjonen bak et skjema som kan fylles ut i et register. Skjematypene opprettes av registeransvarlige i hvert enkelt register.
 * **Skjemaversjon** (FormVersion) - En versjon av skjematypen
 * **Felt** (Field) - En felt som kan besvares i et skjema
-	* **Kodenavn** (CodeName) - Et felts kodenavn ved datauttrekk (datadump o.l.)
+	* **Variabelnavn** (CodeName) - Et felts navn ved datauttrekk (datadump o.l.)
 	* **Visningstekst** (DisplayName) - Spørsmålet ved feltet ved utfyllelse i grensesnitt (brukervennlig forklaring av feltet)
 * **Forskningsobjekt** (ResearchObject) - data/skjemaer legges på et forskningsobjekt (i et vanlig registers tilfelle: pasient) i registeret. det er valgt å kalle dette forskningsobjekt da det nødvendigvis ikke trenger å være en pasient eller person, men f.eks. legemiddel.
 * **Mine skjema** - brukeren som oppretter et skjema (eller har bestilt det utfylt via ePROM) er den som eier skjemaet
