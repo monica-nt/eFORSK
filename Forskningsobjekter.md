@@ -18,8 +18,8 @@ Konfigurasjon av registeret bestemmer hva som er personens standard samtykke-niv
 
 * **0. Ikke forespurt** - grunntilstand
 * **1. Forespurt (ePROM)** - avventer svar. kan løpe ut på tid
-* **2. Ikke samtykket** - man kan ikke registrere data på personen. data allerede registrert på person blir slettet når dette samtykkenivået settes?
-* **3. Forespørsel utløpt (ePROM)** - antatt ikke samtykket
+* **2. Forespørsel utløpt (ePROM)** - antatt ikke samtykket
+* **3. Ikke samtykket** - man kan ikke registrere data på personen. data allerede registrert på person blir slettet når dette samtykkenivået settes?
 * **4. Trukket** - ikke mulig å endre *registeransvarlig vil i senere versjoner kanskje få tilgang til å endre dette*
 * **5. Samtykket** 
 
