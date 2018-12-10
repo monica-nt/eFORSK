@@ -16,15 +16,17 @@ Konfigurasjon av registeret bestemmer hva som er personens standard samtykke-niv
 
 ### Samtykkenivåer
 
-* **0. Ikke forespurt** - grunntilstand
-* **1. Forespurt (ePROM)** - avventer svar. kan løpe ut på tid
-* **2. Forespørsel utløpt (ePROM)** - antatt ikke samtykket
-* **3. Ikke samtykket** - man kan ikke registrere data på personen. data allerede registrert på person blir slettet når dette samtykkenivået settes?
-* **4. Trukket** - ikke mulig å endre *registeransvarlig vil i senere versjoner kanskje få tilgang til å endre dette*
-* **5. Samtykket** 
+* **0. Ikke forespurt** - Grunntilstand
+* **1. Forespurt (ePROM)** - Avventer svar. Kan løpe ut på tid, går da til nivå 2.
+* **2. Forespørsel utløpt (ePROM)** - Antatt ikke samtykket
+* **3. Ikke samtykket** - Man kan ikke registrere skjema på forskningsobjektet
+* **4. Trukket** - Dette nivået kan man ikke gå bort i fra, samtykke kan ikke forsøke innhentes på nytt.
+* **5. Samtykket** - Eneste nivå som tillater opprettelse av skjema.
 
 Ved setting av 5. samtykket må man oppgi samtykkedato.
-Samtykkenivået lagres med en dato for når det sist var endret. Endringer loggføres.
+Samtykkenivået lagres med en dato for når det sist var endret og hvem som endre det. Endringer loggføres.
+
+Når det ikke foreligger samtykket for et forskningsobjekt, vil dens skjemaer slettes bort for godt etter mellom X til X dager.
 
 ### Samtykkekonfigurasjon
 
