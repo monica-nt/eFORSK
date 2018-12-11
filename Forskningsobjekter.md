@@ -28,6 +28,8 @@ Samtykkenivået lagres med en dato for når det sist var endret og hvem som endr
 
 Når det ikke foreligger samtykket for et forskningsobjekt, vil dens skjemaer slettes bort for godt etter mellom X til X dager.
 
+![alt text](ConsentLevels.png "Samtykkenivåer")
+
 ### Samtykkekonfigurasjon
 
 Hvert register kan konfigureres til å bruke en av følgende samtykkekonfigurasjoner:
