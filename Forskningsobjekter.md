@@ -34,8 +34,8 @@ Når det ikke foreligger samtykket for et forskningsobjekt, vil dens skjemaer sl
 
 Hvert register kan konfigureres til å bruke en av følgende samtykkekonfigurasjoner:
 
-* **A.** samtykke settes med spørsmål til brukeren i registeret eller etterspørres automatisk ved bestilling av ePROM - bruker må velge samtykkenivå ved opprettelse av første skjema på personen om dette allerede ikke er gjort. Det er mulighet for å gå inn på personen og gi/endre samtykke når som helst. Det er ikke mulig å opprette skjema på pasient før samtykkenivå er **5**.
-* **B.** samtykke håndteres utenfor registeret - man får da ikke spørsmål om samtykke ved registrering i registeret. Standard samtykkenivå for pasienten er da nivå **5**. Samtykke kan manuelt endres på pasienten.
+* **A.** samtykke settes med spørsmål til brukeren i registeret eller etterspørres automatisk ved bestilling av ePROM - bruker må velge samtykkenivå ved opprettelse av første skjema på personen om dette allerede ikke er gjort. Det er mulighet for å gå inn på personen og gi/endre samtykke når som helst. Det er ikke mulig å opprette skjema på forskningsobjektet før samtykkenivå er **5**.
+* **B.** samtykke håndteres utenfor registeret - man får da ikke spørsmål om samtykke ved registrering i registeret. Samtykkenivå for forskningsobjektet blir satt til nivå **5** ved opprettelse av skjema. Samtykke kan manuelt endres på forskningsobjektet, men kan ikke bestilles via ePROM.
 * **C.** ikke aktuelt, hjemlet et annet sted
 
 I tilfelle B eller C må administrator oppgi grunn til at samtykke håndteres utenfor registeret.
