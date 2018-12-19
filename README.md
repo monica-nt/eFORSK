@@ -30,6 +30,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * [ePROM integrasjon](PROMS%20integrasjon)
 * [Randomisering](Randomisering)
 * [Kodemiljø](Kodemiljø) - prosjektoppsett for utviklere
+* [Testscenarier](Testscenarier) - for testing av applikasjonen
 
 ## Milepæler
 
