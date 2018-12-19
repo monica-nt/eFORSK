@@ -88,3 +88,4 @@ Kjekt å ha
 - mulighet for registeransvarlig å sende ut et varsel for alle brukerene av registeret
 - Skjemabygger
 	- Mulig å legge til standardskjema etter en skjematype er opprettet
+	- Listehåndtering innad i registeret (for gjenbruk av lister på tvers av felter og skjematyper)
