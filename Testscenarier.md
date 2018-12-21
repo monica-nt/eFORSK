@@ -12,3 +12,8 @@
     - ePROM skjemaene kan kun ligge på rot
     - kan kun opprette egne grupper på rot, ingen andre skjemaelementer
     - kan drop-droppe rekkefølgen på rot, men ikke dra ned noen andre skjemaelementer enn grupper
+    
+## Forskningsobjekter
+
+- Registerets forskningsobjekter
+	- Et forskningsobjekt som har et skjema (uansett status) skal vises i lista over "registerets forskningsobjekter", sortert etter siste endringstidspunkt på skjemaet. Blir alle skjema slettet eller samtykkestatus ikke er "samtykket" skal ikke forskningsobjektet vises i lista.
