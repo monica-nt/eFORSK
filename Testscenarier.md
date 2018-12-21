@@ -18,3 +18,9 @@
 
 - Registerets forskningsobjekter
 	- Et forskningsobjekt som har et skjema (uansett status) skal vises i lista over "registerets forskningsobjekter", sortert etter siste endringstidspunkt på skjemaet. Blir alle skjema slettet eller samtykkestatus ikke er "samtykket" skal ikke forskningsobjektet vises i lista.
+
+## Testmodus
+- Test for datalekkasje mellom testmodus/ikke testmodus
+
+## Registre
+- Test for datalekkasje mellom ulike registre (caching o.l.)
