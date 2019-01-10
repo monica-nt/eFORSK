@@ -7,20 +7,33 @@
 	- Prøver man å redigere på et objekt (skjema, skjematype, skjemaversjon osv) i fane 1, skal man få beskjed om at man allerede redigerer objektet i fane 2 og redigering blir sperret. Dette gjelder om en annen bruker redigerer objektet.
 - Vær utlogget fra eFORSK. Logg på et MRS register. Bruk samme nettleser og naviger til eFORSK. Feilmelding skal vises.
   
-## Skjemabygger
+## Skjematyper
 
+### Skjemabygger
 - Skjema koblet mot ePROM skjema
     - ePROM skjemaene kan kun ligge på rot
     - kan kun opprette egne grupper på rot, ingen andre skjemaelementer
     - kan drop-droppe rekkefølgen på rot, men ikke dra ned noen andre skjemaelementer enn grupper
     
+### ePROM aktivert skjema
+- Et ePROM aktivert skjema skal ikke kunne bestille utenfor testmodus før det er godkjent av en administrator
+    
 ## Forskningsobjekter
-
 - Registerets forskningsobjekter
 	- Et forskningsobjekt som har et skjema (uansett status) skal vises i lista over "registerets forskningsobjekter", sortert etter siste endringstidspunkt på skjemaet. Blir alle skjema slettet eller samtykkestatus ikke er "samtykket" skal ikke forskningsobjektet vises i lista.
+	
+## Samtykke
+- Et register med samtykkekonfigurasjon A..
+	- test
+- Et register med samtykkekonfigurasjon B..
+	- skal vise informasjon om samtykke, men skal settes automatisk til samtykket ved skjemaopprettelse eller ePROM svar. 
+	- skal kunne endres manuelt på forskningsobjektet
+	- skal ikke kunne bestilles via ePROM.
+- Et register med samtykkekonfigurasjon C..
+	- skal ikke vise noe informasjon om samtykke for brukeren, man skal kunne registrere uten spørsmål om dette.
 
 ## Testmodus
-- Test for datalekkasje mellom testmodus/ikke testmodus
+- Et skjema eller en skjemabestilling opprettet utenfor testmodus skal ikke være tilgjengelig i testmodus, og omvendt.
 
 ## Registre
-- Test for datalekkasje mellom ulike registre (caching o.l.)
+- Data i et register skal ikke være tilgjengelig i et annet register (datalekkasje)
