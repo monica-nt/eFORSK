@@ -9,11 +9,12 @@
   
 ## Skjematyper
 
+
 ### Skjemabygger
 - Skjema koblet mot ePROM skjema
     - ePROM skjemaene kan kun ligge på rot
     - kan kun opprette egne grupper på rot, ingen andre skjemaelementer
-    - kan drop-droppe rekkefølgen på rot, men ikke dra ned noen andre skjemaelementer enn grupper
+    - kan endre rekkefølgen på rot-elementer, men ikke flytte ned noen andre skjemaelementer enn grupper
     
 ### ePROM aktivert skjema
 - Et ePROM aktivert skjema skal ikke kunne bestille utenfor testmodus før det er godkjent av en administrator
