@@ -24,6 +24,7 @@
 	- Et forskningsobjekt som har et skjema (uansett status) skal vises i lista over "registerets forskningsobjekter", sortert etter siste endringstidspunkt på skjemaet. Blir alle skjema slettet eller samtykkestatus ikke er "samtykket" skal ikke forskningsobjektet vises i lista.
 	
 ## Samtykke
+- Samtykke skal kun være i forbindelse med forskningsobjekter av typen "personer fra folkeregisteret"
 - Et register med samtykkekonfigurasjon A..
 	- skal etterspørre samtykke ved opprettelse av skjema for et forskningsobjekt som ikke har samtykket
 	- skal vise hvilke forskningsobjekter  som mangler samtykke ved bestilling av ePROM og som vil bli forespurt dette
