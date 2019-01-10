@@ -24,7 +24,9 @@
 	
 ## Samtykke
 - Et register med samtykkekonfigurasjon A..
-	- test
+	- skal etterspørre samtykke ved opprettelse av skjema for et forskningsobjekt som ikke har samtykket
+	- skal vise hvilke forskningsobjekter  som mangler samtykke ved bestilling av ePROM og som vil bli forespurt dette
+	- skal ved ePROM bestilling med forskningsobjekter som mangler samtykke ikke kunne velge utsendelsesvalg: "Sendes ikke, mottaker må varsles manuelt"
 - Et register med samtykkekonfigurasjon B..
 	- skal vise informasjon om samtykke, men skal settes automatisk til samtykket ved skjemaopprettelse eller ePROM svar. 
 	- skal kunne endres manuelt på forskningsobjektet
