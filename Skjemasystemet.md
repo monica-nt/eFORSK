@@ -72,7 +72,7 @@ Felttyper som støttes er:
 	* Valideringsregler
 		* Påkrevd
 
-### Kalkulerte felter
+### Systemutfylte felter
 
 Tanken er at man kan legge på felt som automatisk fylles ut/kalkuleres ved opprettelse og lagring, som ikke kan fylles ut eller endres av brukeren, eksempel på dette er:
 * Skjema-metadata: Id, MainFormId, FormTypeId, PersonId, FormVersionId, UnitId, Status... (legges til som felt på skjematypen automatisk, men skjult fra grensesntitt ved utfyllelse)
@@ -84,7 +84,7 @@ Tanken er at man kan legge på felt som automatisk fylles ut/kalkuleres ved oppr
 * *Felter fra hovedskjema* (må vurdere hva som gjøres når feltene i hovedskjemaet oppdateres)
 * todo..
 
-Kalkulerte felter blir tilgjengeliggjort for en bestemt felttype. For eksempel blir pasientalder tilgjengelig for tallfelt.
+Systemutfylte felter blir tilgjengeliggjort for en bestemt felttype. For eksempel blir pasientalder tilgjengelig for tallfelt.
 
 ### Skjemaregel (FormRule)
 Skjemaregler omfavner både validerings- og vis/skjul-regler. Skjemaregler kan på lik linje med felter opprettes på en versjon, og deprekeres i senere versjoner. I tilfelle et felt er skjult (av vis/skjul regler) vil ikke andre regler kjøre på feltet, og det skjulte feltets verdi vil nullstilles.
