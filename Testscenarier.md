@@ -1,5 +1,7 @@
 # Testscenarier
 
+Følgende scenarier skal skapes og testes i hver versjon som skal produksjonssettes.
+
 ## Innlogging
 
 - Hvis man er innlogget og åpner to faner/vinduer;
