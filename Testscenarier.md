@@ -7,8 +7,12 @@
 	- Prøver man å redigere på et objekt (skjema, skjematype, skjemaversjon osv) i fane 1, skal man få beskjed om at man allerede redigerer objektet i fane 2 og redigering blir sperret. Dette gjelder også om en annen bruker redigerer objektet.
 - Vær utlogget fra eFORSK. Logg på et MRS register. Bruk samme nettleser og naviger til eFORSK. Feilmelding skal vises.
   
-## Skjematyper
+## Registre
+- Data i et register skal ikke være tilgjengelig i et annet register (datalekkasje)
+- En Administrator skal kunne konfigurere at et register kun kan opprette skjema og bestille ePROM i testmodus (funksjonene låses i ikke-testmodus)
 
+## Skjematyper
+- Man skal kunne opprette en skjematype som en underskjematype av en annen (opprett to nivåer ned for å dekke mest komplekse scenarier)
 
 ### Skjemabygger
 - Skjema koblet mot ePROM skjema
@@ -38,6 +42,3 @@
 
 ## Testmodus
 - Et skjema eller en skjemabestilling opprettet utenfor testmodus skal ikke være tilgjengelig i testmodus, og omvendt.
-
-## Registre
-- Data i et register skal ikke være tilgjengelig i et annet register (datalekkasje)
