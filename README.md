@@ -29,8 +29,8 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * [Eksporter data & kodebok](Datadump%20og%20kodebok)
 * [ePROM integrasjon](PROMS%20integrasjon)
 * [Randomisering](Randomisering)
-* [Kodemiljø](Kodemiljø) - prosjektoppsett for utviklere
 * [Testscenarier](Testscenarier) - for testing av applikasjonen
+* [Kodemiljø](Kodemiljø) - prosjektoppsett for utviklere [![Build Status](https://hemit.visualstudio.com/eFORSK/_apis/build/status/eFORSK-CI%20Pack%20Publish?branchName=master)](https://hemit.visualstudio.com/eFORSK/_build/latest?definitionId=28?branchName=master)
 
 ## Milepæler
 
