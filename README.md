@@ -1,3 +1,5 @@
+[![Build Status](https://hemit.visualstudio.com/eFORSK/_apis/build/status/eFORSK-CI%20Pack%20Publish?branchName=master)](https://hemit.visualstudio.com/eFORSK/_build/latest?definitionId=28?branchName=master)
+
 # eFORSK dokumentasjon
 
 Her følger dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon ved utvikling, dokumentasjon og funksjonalitetsoversikt for (potensielle) brukere av verktøyet. Tekst i *skråskrift* i lenkede dokumenter er ennå ikke planlagt implementert i kommende versjon.
@@ -30,7 +32,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 * [ePROM integrasjon](PROMS%20integrasjon)
 * [Randomisering](Randomisering)
 * [Testscenarier](Testscenarier) - for testing av applikasjonen
-* [Kodemiljø](Kodemiljø) - prosjektoppsett for utviklere [![Build Status](https://hemit.visualstudio.com/eFORSK/_apis/build/status/eFORSK-CI%20Pack%20Publish?branchName=master)](https://hemit.visualstudio.com/eFORSK/_build/latest?definitionId=28?branchName=master)
+* [Kodemiljø](Kodemiljø) - prosjektoppsett for utviklere 
 
 ## Milepæler
 
