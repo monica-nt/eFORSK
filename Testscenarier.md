@@ -14,13 +14,22 @@ Følgende scenarier skal skapes og testes i hver versjon som skal produksjonsset
 - En Administrator skal kunne konfigurere at et register kun kan opprette skjema og bestille ePROM i testmodus (funksjonene låses i ikke-testmodus)
 
 ## Skjematyper
+
+### Skjematype
 - Man skal kunne opprette en skjematype som en underskjematype av en annen (opprett to nivåer ned for å dekke mest komplekse scenarier)
 
+### Skjemaversjoner
+- Man skal kun kunne ha en skjemaversjon i kladd på en skjematype om gangen
+- En skjemaversjon i kladd skal kunne slettes
+	- Ved sletting av en versjon skal nye felter og regler i versjonen slettes
+	- Ved sletting av en versjon skal fjernede felter og regler "reaktiveres" 
+	- Ved opprettelse av ny versjon etter at en versjon er slettet, skal den nye versjonen få versjonssnummeret som den slettede versjonen hadde - slik at alle versjonssnummere er kronologiske.
+
 ### Skjemabygger
-- Skjema koblet mot ePROM skjema
-    - ePROM skjemaene kan kun ligge på rot
-    - kan kun opprette egne grupper på rot, ingen andre skjemaelementer
-    - kan endre rekkefølgen på rot-elementer, men ikke flytte ned noen andre skjemaelementer enn grupper
+- Hvis man har opprettet en skjematype med en eller flere standardskjemaer..
+    - skal standardskjemaene kan kun ligge på rot
+    - skal det kan kun være mulig å ha egne grupper på rot, ingen andre skjemaelementer
+    - skal man kunne endre rekkefølgen på rot-elementer, men ikke flytte ned noen andre skjemaelementer enn grupper
     
 ### ePROM aktivert skjema
 - Et ePROM aktivert skjema skal ikke kunne bestille utenfor testmodus før det er godkjent av en administrator
