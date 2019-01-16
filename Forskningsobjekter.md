@@ -30,7 +30,7 @@ Når det ikke foreligger samtykket for et forskningsobjekt, vil dens skjemaer sl
 
 ![alt text](ConsentLevels.png "Samtykkenivåer")
 
-Ved trekking av samtykke (setting av status 5.) vil forskningsobjektets eventuelle skjema forsvinne umiddelbart fra grensesnittet. Det vil ta minimum et døgn før skjemaene før status slettet i databasen. Videre vil det ta minimum en uke før forskningsobjektets skjemadata blir slettet. 
+Ved trekking av samtykke (setting av status 5.) vil forskningsobjektets eventuelle skjema forsvinne umiddelbart fra grensesnittet (filtreres bort i skjema db-spørringer). Det vil ta minimum et døgn før skjemaene får status slettet i databasen. Videre vil det ta minimum en uke før forskningsobjektets skjemadata blir slettet. 
 
 ### Samtykkekonfigurasjon
 
