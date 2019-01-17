@@ -86,6 +86,7 @@ Kjekt å ha
 
 ## Fase 2 (forslag)
 
+- administrator skal kunne "stoppe" et register for endringer
 - mulig å låse en skjematype for nye skjema og endring av eksisterende data
 - komplett skjemalogg på forskningsobjektnivå (for å kunne oppdage slettede og gjenopprettede randomiseringsskjema)
 - flere valideringsregler (krever ePROM implementasjon)
