@@ -86,6 +86,8 @@ Kjekt å ha
 
 ## Fase 2 (forslag)
 
+- mulig å låse en skjematype for nye skjema og endring av eksisterende data
+- komplett skjemalogg på forskningsobjektnivå (for å kunne oppdage slettede og gjenopprettede randomiseringsskjema)
 - flere valideringsregler (krever ePROM implementasjon)
 - mulighet for å få forhåndsvisning av ePROM digitalt og papirsrkjema (krever ePROM arbeid)
 - mulighet for registeransvarlig å sende ut et varsel for alle brukerene av registeret
