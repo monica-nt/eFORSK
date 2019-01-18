@@ -31,6 +31,8 @@ Denne rollen har full tilgang til å administrere og bruke et register.
 * Forskningsobjekttyper: lese, opprette, endre
 * Egne skjema: lese, opprette, endre, slette, ferdigstille og returnere
 * Andres skjema: lese, opprette, endre, slette, ferdigstille og returnere
+* Forskningsobjekter: lese identifisert, opprette, endre, sette samtykke
+* ePORM: bestille, lese bestillinger
 
 **Dataansvarlig** (DataResponsible) - kan se, opprette, gjenåpne, endre, slette, ferdigstille, returnere alles skjema
 **Registrar** - kan se, opprette, gjenåpne, endre, slette, ferdigstille eget skjema, kan se eksistens men ikke innhold av andres skjema
