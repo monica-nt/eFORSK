@@ -12,7 +12,8 @@ Et register av enkleste form vil kun ha en tilgangsenhet å registrere data på,
 
 Ved innlogging må brukeren komme inn i registeret med en rolle. Her beskrives rollene og hvilke operasjoner disse har tilgang til.
 
-**Administrator** 
+**Administrator**
+
 Dette er en administrativ rolle for å fasilitere registre i applikasjonen.
 * Registre i applikasjonen: lese, opprette og endre
 * Registeroppsettet: endre (hvis innlogget på et register)
@@ -24,6 +25,7 @@ Dette er en administrativ rolle for å fasilitere registre i applikasjonen.
 * ePROM godkjennelse: godkjenne/avslå ePROM skjemaer (hvis innlogget på et register)
 
 **Registeransvarlig** (RegistryResponsible)
+
 Denne rollen har full tilgang til å administrere og bruke et register.
 * Registeroppsettet: endre
 * Tilgangsenheter: lese, opprette og endre
@@ -37,6 +39,7 @@ Denne rollen har full tilgang til å administrere og bruke et register.
 * Rapporter: skjematype metadata, eksportere data
 
 **Dataansvarlig** (DataResponsible)
+
 Denne rollen har full tilgang rundt datainnsamlingen/databehandlingen, men kan ikke administrere registeret (eksempelvis ikke lage eller endre skjematyper)
 * Egne skjema: lese, opprette, endre, slette, ferdigstille og returnere
 * Andres skjema: lese, opprette, endre, slette, ferdigstille og returnere
@@ -46,6 +49,7 @@ Denne rollen har full tilgang rundt datainnsamlingen/databehandlingen, men kan i
 * Rapporter: skjematype metadata, eksportere data
 
 **Registrar** 
+
 Dette er en begrenset datainnsamlingsrolle, som ikke kan se data på andres skjemaer.
 * Egne skjema: lese, opprette, endre, slette, ferdigstille 
 * Andres skjema: se eksistensen av skjema, ikke lese data
@@ -55,6 +59,7 @@ Dette er en begrenset datainnsamlingsrolle, som ikke kan se data på andres skje
 * Rapporter: skjematype metadata, eksportere data
 
 **Leser** (Reader)
+
 Kan kun lese data fra registeret, kan tilføye ny data.
 * Egne skjema: lese
 * Andres skjema: lese
@@ -64,6 +69,7 @@ Kan kun lese data fra registeret, kan tilføye ny data.
 * Rapporter: skjematype metadata, eksportere data
 
 **LeserAnonymisert** (ReaderUnidentified)
+
 Som Leser-rollen, men skal ikke se identifiserbar data.
 * Egne skjema: lese
 * Andres skjema: lese
