@@ -10,14 +10,32 @@ Et register av enkleste form vil kun ha en tilgangsenhet å registrere data på,
 
 ## Roller
 
-Ved innlogging må brukeren komme inn i registeret med en rolle.
+Ved innlogging må brukeren komme inn i registeret med en rolle. Her beskrives rollene og hvilke operasjoner disse har tilgang til.
 
-* **Administrator** - brukt for å legge til og endre registre i løsningen
-* **RegistryResponsible/Registeransvarlig** - ansvarlig for et spesifikk register. har tilgang til alle operasjoner
-* **DataResponsible/Dataansvarlig** - kan se, opprette, gjenåpne, endre, slette, ferdigstille, returnere alles skjema
-* **Registrar** - kan se, opprette, gjenåpne, endre, slette, ferdigstille eget skjema, kan se eksistens men ikke innhold av andres skjema
-* **Reader/Leser** - kan kun lese data fra registeret, som skjemaer, dataeksport, metadata
-* **ReaderUnidentified/LeserAnonymisert** - forskningsobjektets id og navn er sensurert
+**Administrator** 
+Dette er en administrativ rolle for å fasilitere registre i applikasjonen.
+* Registre i applikasjonen: lese, opprette og endre
+* Registeroppsettet: endre (hvis innlogget på et register)
+* Tilgangsenheter: lese, opprette og endre (hvis innlogget på et register)
+* Skjematyper: lese (hvis innlogget på et register)
+* Forskningsobjekttyper: lese (hvis innlogget på et register)
+* Status på integrasjoner: sjekke status (oppe/nede)
+* ePROM skjemaer: lese hvilke registre som har ePROM skjemaer som trenger gjennomgang (godkjennelse/avslag)
+* ePROM godkjennelse: godkjenne/avslå ePROM skjemaer (hvis innlogget på et register)
+
+**Registeransvarlig** (RegistryResponsible)
+Denne rollen har full tilgang til å administrere og bruke et register.
+* Registeroppsettet: endre
+* Tilgangsenheter: lese, opprette og endre
+* Skjematyper: lese, opprette, endre, slette
+* Forskningsobjekttyper: lese, opprette, endre
+* Egne skjema: lese, opprette, endre, slette, ferdigstille og returnere
+* Andres skjema: lese, opprette, endre, slette, ferdigstille og returnere
+
+**Dataansvarlig** (DataResponsible) - kan se, opprette, gjenåpne, endre, slette, ferdigstille, returnere alles skjema
+**Registrar** - kan se, opprette, gjenåpne, endre, slette, ferdigstille eget skjema, kan se eksistens men ikke innhold av andres skjema
+**Leser** (Reader) - kan kun lese data fra registeret, som skjemaer, dataeksport, metadata
+**LeserAnonymisert** (ReaderUnidentified) - forskningsobjektets id og navn er sensurert
 
 ## Operasjoner
 
