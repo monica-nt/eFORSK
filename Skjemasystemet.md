@@ -99,10 +99,20 @@ Skjemadata er et utfylt skjema av en versjon av en skjematype.
 
 Skjemastatus:
 * **Kladd**
+  
   Grunntilstand når et nytt skjema blir opprettet. Dette er eneste statusen der skjemadata kan endres. Skjeamer med denne statusen er ikke synlig oppover i tilgangstreet.
-* Til kontroll
-* Ferdigstilt
-* Slettet
+  
+* **Til kontroll**
+
+  Det er to bruksområdet for denne statusen: en registeransvarlig eller dataansvarlig kan "tilbakesende" et skjema til kontroll av skjemaeier sammen med en årsakstekst. ePROM svarskjema kan også komme med status "til kontroll" hvis ePROM sender med advarsler om mulige feil i skjemadataene, eller det er et papirskjema med signert samtykke som manuelt må kontrolleres. Skjema må gjenåpnes før det kan redigeres og videre ferdigstilles på nytt.
+  
+* **Ferdigstilt**
+
+  Et ferdigstilt skjema kan ikke endres, men kan gjenåpnes til kladd eller sendes til kontroll. Et skjema er "i arbeid" når det ikke har denne statusen.
+  
+* **Slettet**
+
+  Et skjema med status slettet skal ikke være tilgjengelig lenger.
 
 
 ## Testmodus
