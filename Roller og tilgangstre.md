@@ -32,15 +32,42 @@ Denne rollen har full tilgang til å administrere og bruke et register.
 * Egne skjema: lese, opprette, endre, slette, ferdigstille og returnere
 * Andres skjema: lese, opprette, endre, slette, ferdigstille og returnere
 * Forskningsobjekter: lese identifisert, opprette, endre, sette samtykke
-* ePORM: bestille, lese bestillinger
+* ePROM: bestille, lese bestillinger
+* Dokumenter: lese
+* Rapporter: skjematype metadata, eksportere data
 
-**Dataansvarlig** (DataResponsible) - kan se, opprette, gjenåpne, endre, slette, ferdigstille, returnere alles skjema
-**Registrar** - kan se, opprette, gjenåpne, endre, slette, ferdigstille eget skjema, kan se eksistens men ikke innhold av andres skjema
-**Leser** (Reader) - kan kun lese data fra registeret, som skjemaer, dataeksport, metadata
-**LeserAnonymisert** (ReaderUnidentified) - forskningsobjektets id og navn er sensurert
+**Dataansvarlig** (DataResponsible)
+Denne rollen har full tilgang rundt datainnsamlingen/databehandlingen, men kan ikke administrere registeret (eksempelvis ikke lage eller endre skjematyper)
+* Egne skjema: lese, opprette, endre, slette, ferdigstille og returnere
+* Andres skjema: lese, opprette, endre, slette, ferdigstille og returnere
+* Forskningsobjekter: lese identifisert, opprette, endre, sette samtykke
+* ePROM: bestille, lese bestillinger
+* Dokumenter: lese
+* Rapporter: skjematype metadata, eksportere data
 
-## Operasjoner
+**Registrar** 
+Dette er en begrenset datainnsamlingsrolle, som ikke kan se data på andres skjemaer.
+* Egne skjema: lese, opprette, endre, slette, ferdigstille 
+* Andres skjema: se eksistensen av skjema, ikke lese data
+* Forskningsobjekter: lese identifisert, opprette, endre, sette samtykke
+* ePROM: bestille, lese bestillinger
+* Dokumenter: lese
+* Rapporter: skjematype metadata, eksportere data
 
-En rolle har tilgang til et sett med operasjoner
+**Leser** (Reader)
+Kan kun lese data fra registeret, kan tilføye ny data.
+* Egne skjema: lese
+* Andres skjema: lese
+* Forskningsobjekter: lese identifisert
+* ePROM: lese bestillinger
+* Dokumenter: lese
+* Rapporter: skjematype metadata, eksportere data
 
-Liste utarbeides
+**LeserAnonymisert** (ReaderUnidentified)
+Som Leser-rollen, men skal ikke se identifiserbar data.
+* Egne skjema: lese
+* Andres skjema: lese
+* Forskningsobjekter: lese uidentifisert
+* ePROM: lese bestillinger
+* Dokumenter: lese
+* Rapporter: skjematype metadata, eksportere data
