@@ -16,7 +16,7 @@ Ved innlogging må brukeren komme inn i registeret med en rolle. Her beskrives r
 
 Dette er en administrativ rolle for å fasilitere registre i applikasjonen.
 * Registre i applikasjonen: lese, opprette og endre
-* Registeroppsettet: endre (hvis innlogget på et register)
+* Registeroppsett: endre (hvis innlogget på et register)
 * Tilgangsenheter: lese, opprette og endre (hvis innlogget på et register)
 * Skjematyper: lese (hvis innlogget på et register)
 * Forskningsobjekttyper: lese (hvis innlogget på et register)
@@ -27,7 +27,7 @@ Dette er en administrativ rolle for å fasilitere registre i applikasjonen.
 **Registeransvarlig** (RegistryResponsible)
 
 Dette er den øverste rollen i et register. Denne har full tilgang, og som eneste rolle kan den endre registerinnstillinger og bygge skjematyper.
-* Registeroppsettet: endre
+* Registeroppsett: endre
 * Tilgangsenheter: lese, opprette og endre
 * Skjematyper: lese, opprette, endre, slette
 * Forskningsobjekttyper: lese, opprette, endre
