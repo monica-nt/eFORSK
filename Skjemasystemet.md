@@ -94,7 +94,15 @@ I tillegg til reglene listet opp på felttype ovenfor, kan man for alle felter, 
 ## Utfyllelse av skjemaer
 
 ### Skjemadata (FormData)
-Dette er et utfylt skjema
+
+Skjemadata er et utfylt skjema av en versjon av en skjematype.
+
+Skjemastatus:
+* **Kladd**
+  Grunntilstand når et nytt skjema blir opprettet. Dette er eneste statusen der skjemadata kan endres. Skjeamer med denne statusen er ikke synlig oppover i tilgangstreet.
+* Til kontroll
+* Ferdigstilt
+* Slettet
 
 
 ## Testmodus
