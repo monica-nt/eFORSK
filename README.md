@@ -17,6 +17,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 	* **Visningstekst** (DisplayName) - Spørsmålet ved feltet ved utfyllelse i grensesnitt (brukervennlig forklaring av feltet)
 * **Forskningsobjekt** (ResearchObject) - data/skjemaer legges på et forskningsobjekt (i et vanlig registers tilfelle: pasient) i registeret. det er valgt å kalle dette forskningsobjekt da det nødvendigvis ikke trenger å være en pasient eller person, men f.eks. legemiddel.
 * **Mine skjema, egne skjema, andres skjema** - brukeren som oppretter et skjema (eller har bestilt det utfylt via ePROM) er den som eier skjemaet
+* **Skjema i arbeid** - et skjema som ikke har status "ferdigstilt"
 * **Hovedskjematype** - en skjematype som kan registreres uten at det plasseres på en annen skjematype
 * **Underskjematype** - en skjematype som må registreres på en allerede eksisterende foreldreskjematype
 
