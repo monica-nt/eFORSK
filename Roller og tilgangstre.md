@@ -26,7 +26,7 @@ Dette er en administrativ rolle for å fasilitere registre i applikasjonen.
 
 **Registeransvarlig** (RegistryResponsible)
 
-Denne rollen har full tilgang til å administrere og bruke et register.
+Dette er den øverste rollen i et register. Denne har full tilgang, og som eneste rolle kan den endre registerinnstillinger og bygge skjematyper.
 * Registeroppsettet: endre
 * Tilgangsenheter: lese, opprette og endre
 * Skjematyper: lese, opprette, endre, slette
@@ -60,7 +60,7 @@ Dette er en begrenset datainnsamlingsrolle, som ikke kan se data på andres skje
 
 **Leser** (Reader)
 
-Kan kun lese data fra registeret, kan tilføye ny data.
+Kan kun lese data fra registeret, kan ikke tilføye ny data.
 * Egne skjema: lese
 * Andres skjema: lese
 * Forskningsobjekter: lese identifisert
