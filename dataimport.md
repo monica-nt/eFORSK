@@ -31,6 +31,6 @@ Hvis tilgang til å opprette skjemadata, vis knapp for å åpne dialog for å im
 	* valg (forhåndsvalgt) om skjema skal forsøkes ferdigstilles (skjema får da status "til kontroll" om dem ikke validerer)
 		* undervalg om skjemaregler skal ignoreres (skjema får status "ferdigstilt" uansett)
 
-	* start import valg
-		* sender med original fildata på nytt, og konfigurasjon.
-	* forkast import valg
+* start import valg
+	* sender med original fildata på nytt, og konfigurasjon.
+* forkast import valg
