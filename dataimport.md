@@ -1,5 +1,7 @@
 # Importering av data
 
+*Planleggingsdokument, funksjonalitet ikke i implementasjon*
+
 Grensesnitt vises med liste over eksisterende importer med status. Kan klikke seg inn på hver enkelt og se konfigurasjon og hvilke skjema som er lastet opp. Kan velge å slette alle skjemaene i importen.
 
 Hvis tilgang til å opprette skjematyper vises knapp for å lage ny skjematype basert på importfil.
