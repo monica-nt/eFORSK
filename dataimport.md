@@ -33,6 +33,8 @@ Hvis tilgang til å opprette skjemadata, vis knapp for å åpne dialog for å im
 	* valg (forhåndsvalgt) om skjema skal forsøkes ferdigstilles (skjema får da status "til kontroll" om dem ikke validerer)
 		* undervalg om skjemaregler skal ignoreres (skjema får status "ferdigstilt" uansett)
 
-* start import valg
-	* sender med original fildata på nytt, og konfigurasjon.
-* forkast import valg
+* Fullføre dialogen:
+	* start import valg (i tilfelle man har valgt å importere til en skjematype)
+		* sender med original fildata på nytt, og konfigurasjon.
+	* bygg skjema (i tilfelle man har valgt å opprette ny skjematype, tas man fra her videre til skjemabyggeren med foreslåtte felter. man må starte importdialogen på nytt etter man har publisert en skjemaversjon)
+	* forkast import valg
