@@ -4,6 +4,9 @@
 
 Her følger dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikasjon ved utvikling, dokumentasjon og funksjonalitetsoversikt for (potensielle) brukere av verktøyet. Tekst i *skråskrift* i lenkede dokumenter er ennå ikke planlagt implementert i kommende versjon.
 
+## Hva er eFORSK
+eFORSK er en frittstående IKT løsning for elektronisk innsamling av data basert på skjema. eFORSK tilbyr selvbetjeningsløsning for oppsett av skjematyper og innsamling av data. Løsningen tilbyr tett integrasjon med Helse Midt-Norge sin ePROM-løsning og gjennom denne mulighet for skjemabasert sikker digital kommunikasjon med pasienter via HelseNorge.no, digipost/eboks og papirskjema i posten. 
+
 ## Terminologi og definisjoner
 
 Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes i programmeringskode.
