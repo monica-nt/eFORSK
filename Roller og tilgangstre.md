@@ -32,7 +32,7 @@ Dette er den øverste rollen i et register. Denne har full tilgang, og som enest
 * Skjematyper: lese, opprette, endre, slette
 * Forskningsobjekttyper: lese, opprette, endre
 * Egne skjema: lese, opprette, endre, slette, ferdigstille og returnere
-* Andres skjema: lese, opprette, endre, slette, ferdigstille og returnere
+* Andres skjema: lese, endre, slette, ferdigstille og returnere
 * Forskningsobjekter: lese identifisert, opprette, endre, sette samtykke
 * ePROM: bestille, lese bestillinger
 * Dokumenter: lese
@@ -42,7 +42,7 @@ Dette er den øverste rollen i et register. Denne har full tilgang, og som enest
 
 Denne rollen har full tilgang rundt datainnsamlingen/databehandlingen, men kan ikke administrere registeret (eksempelvis ikke lage eller endre skjematyper)
 * Egne skjema: lese, opprette, endre, slette, ferdigstille og returnere
-* Andres skjema: lese, opprette, endre, slette, ferdigstille og returnere
+* Andres skjema: lese, endre, slette, ferdigstille og returnere
 * Forskningsobjekter: lese identifisert, opprette, endre, sette samtykke
 * ePROM: bestille, lese bestillinger
 * Dokumenter: lese
