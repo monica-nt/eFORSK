@@ -13,6 +13,7 @@ Følgende scenarier skal skapes og testes i hver versjon som skal produksjonsset
 - Data i et register skal ikke være tilgjengelig i et annet register (datalekkasje)
 - En administrator skal kunne konfigurere at et register kun kan opprette skjema og bestille ePROM i testmodus (funksjonene låses i ikke-testmodus)
 - En administrator skal kunne konfigurere at et register ikke skal kunne bruke personregisteret. Har det på et tidspunkt vært i bruk og det finnes skjemaer koblet mot dette, skal utfylt skjemadata enda fungere.
+- En administrator skal kunne teste ePROM tilkoblingen til et register, og ved feil API nøkkel skal man få beskjed om nettopp dette
 
 ## Skjematyper
 
