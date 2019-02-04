@@ -35,7 +35,7 @@ Dette er den øverste rollen i et register. Denne har full tilgang, og som enest
 * Andres skjema: lese, endre, slette, ferdigstille og returnere
 * Forskningsobjekter: lese identifisert, opprette, endre, sette samtykke
 * ePROM: bestille, lese bestillinger
-* Dokumenter: lese
+* Dokumenter: opprette, lese
 * Rapporter: skjematype metadata, eksportere data
 
 **Dataansvarlig** (DataResponsible)
@@ -45,7 +45,7 @@ Denne rollen har full tilgang rundt datainnsamlingen/databehandlingen, men kan i
 * Andres skjema: lese, endre, slette, ferdigstille og returnere
 * Forskningsobjekter: lese identifisert, opprette, endre, sette samtykke
 * ePROM: bestille, lese bestillinger
-* Dokumenter: lese
+* Dokumenter: opprette, lese
 * Rapporter: skjematype metadata, eksportere data
 
 **Registrar** 
@@ -55,7 +55,7 @@ Dette er en begrenset datainnsamlingsrolle, som ikke kan se data på andres skje
 * Andres skjema: se eksistensen av skjema, ikke lese data
 * Forskningsobjekter: lese identifisert, opprette, endre, sette samtykke
 * ePROM: bestille, lese bestillinger
-* Dokumenter: lese
+* Dokumenter: opprette, lese
 * Rapporter: skjematype metadata, eksportere data
 
 **Leser** (Reader)
