@@ -40,7 +40,7 @@ Følgende scenarier skal skapes og testes i hver versjon som skal produksjonsset
 ## Skjemautfylling
 - Et synlig avkryssningsfelt som er avkrysset forventes å få verdi 1 ved dataeksport
 - Et synlig avkryssningsfelt som ikke er avkrysset forventes å få verdi 0 ved dataeksport
-- Et skjult avkryssningsfelt forventes å være blank ved dataeksport.
+- Et skjult avkryssningsfelt forventes å ikke få noen verdi (blank/tom) ved dataeksport.
     
 ## Forskningsobjekter
 - Registerets forskningsobjekter
