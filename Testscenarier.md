@@ -37,6 +37,11 @@ Følgende scenarier skal skapes og testes i hver versjon som skal produksjonsset
 ### ePROM aktivert skjema
 - Et ePROM aktivert skjema skal ikke kunne bestille utenfor testmodus før det er godkjent av en administrator
     
+## Skjemautfylling
+- Et synlig avkryssningsfelt som er avkrysset forventes å få verdi 1 ved dataeksport
+- Et synlig avkryssningsfelt som ikke er avkrysset forventes å få verdi 0 ved dataeksport
+- Et skjult avkryssningsfelt forventes å være blank ved dataeksport.
+    
 ## Forskningsobjekter
 - Registerets forskningsobjekter
 	- Et forskningsobjekt som har et skjema (uansett status) skal vises i lista over "registerets forskningsobjekter", sortert etter siste endringstidspunkt på skjemaet. Blir alle skjema slettet eller samtykkestatus ikke er "samtykket" skal ikke forskningsobjektet vises i lista.
