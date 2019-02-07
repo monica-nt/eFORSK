@@ -33,6 +33,7 @@ Følgende scenarier skal skapes og testes i hver versjon som skal produksjonsset
     - skal det kan kun være mulig å ha egne grupper på rot, ingen andre skjemaelementer
     - skal man kunne endre rekkefølgen på rot-elementer, men ikke flytte ned noen andre skjemaelementer enn grupper
 - Man skal ikke kunne redigere et felt eller en regel som er opprettet i en versjon som ikke er i kladd lenger (man skal kun kunne fjerne dem)
+- I forhåndsvisning skal man se hvilke verdier man får ut ved eksportering av data
     
 ### ePROM aktivert skjema
 - Et ePROM aktivert skjema skal ikke kunne bestille utenfor testmodus før det er godkjent av en administrator
