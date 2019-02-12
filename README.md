@@ -90,12 +90,17 @@ Kjekt å ha
 
 ## Fase 2 (forslag)
 
-- administrator skal kunne "stoppe" et register for endringer
-- mulig å låse en skjematype for nye skjema og endring av eksisterende data
-- komplett skjemalogg på forskningsobjektnivå (for å kunne oppdage slettede og gjenopprettede randomiseringsskjema)
-- flere valideringsregler (krever ePROM implementasjon)
-- mulighet for å få forhåndsvisning av ePROM digitalt og papirsrkjema (krever ePROM arbeid)
-- mulighet for registeransvarlig å sende ut et varsel for alle brukerene av registeret
+- Administrator skal kunne "stoppe" et register for endringer
+- Mulig å låse en skjematype for nye skjema og endring av eksisterende data
+- Komplett skjemalogg på forskningsobjektnivå (for å kunne oppdage slettede og gjenopprettede randomiseringsskjema)
+- Flere valideringsregler (krever ePROM implementasjon)
+- Mlighet for å få forhåndsvisning av ePROM digitalt og papirsrkjema (krever ePROM arbeid)
+- Mulighet for registeransvarlig å sende ut et varsel for alle brukerene av registeret
 - Skjemabygger
 	- Mulig å legge til standardskjema etter en skjematype er opprettet
 	- Listehåndtering innad i registeret (for gjenbruk av lister på tvers av felter og skjematyper)
+- Importer data
+	- Paging på importjobb liste
+	- Mulig å opprette skjematype fra importfil
+- Grensesnitt for å lese og søke i logg under administrasjon (for oversikt over all aktivitet)
+- Liste over brukere som har vært innlogget i et register (under administrasjon)
