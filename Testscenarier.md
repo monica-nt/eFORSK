@@ -34,6 +34,11 @@ Følgende scenarier skal skapes og testes i hver versjon som skal produksjonsset
     - skal man kunne endre rekkefølgen på rot-elementer, men ikke flytte ned noen andre skjemaelementer enn grupper
 - Man skal ikke kunne redigere et felt eller en regel som er opprettet i en versjon som ikke er i kladd lenger (man skal kun kunne fjerne dem)
 - I forhåndsvisning skal man se hvilke verdier man får ut ved eksportering av data
+- I ePROM forhåndsvisning skal man kunne se
+	- digitalt skjema
+	- digitalt skjema med samtykkeforespørsel (for registre som har samtykke aktivert)
+	- papirskjema (for skjematyper med ePROM papir aktivert)
+	- papirskjema med samtykkeforspørsel (for skjematyper med ePROM papir aktivert og for registre som har samtykke aktivert)
     
 ### ePROM aktivert skjema
 - Et ePROM aktivert skjema skal ikke kunne bestille utenfor testmodus før det er godkjent av en administrator
