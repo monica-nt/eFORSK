@@ -88,7 +88,7 @@ Kjekt å ha
 - Administrasjonsgrensesnitt: arkiver/slette register
 - Listehåndtering (gjenbruk og felles vedlikehold av lister innad et register, eks.: ja, nei, ukjent. samt standardiserte lister globalt tilgjengelig)
 
-## Fase 2 (forslag)
+## Backlog
 
 - Administrator skal kunne "stoppe" et register for endringer
 - Mulig å låse en skjematype for nye skjema og endring av eksisterende data
@@ -103,5 +103,5 @@ Kjekt å ha
 	- Paging på importjobb liste
 	- ~~Mulig å opprette skjematype fra importfil~~
 - Grensesnitt for å lese og søke i logg under administrasjon (for oversikt over all aktivitet)
-- Liste over brukere som har vært innlogget i et register (under administrasjon)
+- ~~Liste over brukere som har vært innlogget i et register (under administrasjon)~~
 - Legge brukermanual/Om eFORSK i et github repo - og automatisk hente inn dette i appen
