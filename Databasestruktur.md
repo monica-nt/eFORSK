@@ -1,4 +1,4 @@
-# Databasestruktur :floppy_disk:
+# Databasestruktur og registre
 
 Applikasjonen består av flere databaser. En felles database (**Common**) og en egen database tilegnet hver enkelt register i løsningen. En **databasetool** vil sørge for å opprette databasene som trenges. 
 
@@ -24,4 +24,8 @@ Løsningen må ha en beskyttet keys.xml fil med en pool av nøkler for krypterin
 </EncryptionKeys>
 ```
 
-Keysfila må alltid ha en oppføring for registryId = 1, da dette er standard testenhet for alle installasjoner.
+Keysfila må alltid ha en oppføring for registryId = 1 og 2, da dette er standard testenhet for alle installasjoner.
+
+## Avsluttning av register
+
+RegisterIden skal ikke gjenbrukes, og forblir "brukt" når et register legges ned/avsluttes/slettes. Dette fordi logginnslag er koblet mot denne registerIden.
