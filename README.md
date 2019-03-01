@@ -102,6 +102,9 @@ Kjekt å ha
 - Importer data
 	- Paging på importjobb liste
 	- ~~Mulig å opprette skjematype fra importfil~~
+- Skjema
+	- Mulighet for å konvertere et skjema til en annen versjon
+	- Mulighet for å hente ut en tekstlig versjon av spørsmål og svar (tenkt for journalnotat)
 - Grensesnitt for å lese og søke i logg under administrasjon (for oversikt over all aktivitet)
 - ~~Liste over brukere som har vært innlogget i et register (under administrasjon)~~
 - Legge brukermanual/Om eFORSK i et github repo - og automatisk hente inn dette i appen
