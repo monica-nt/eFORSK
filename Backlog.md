@@ -51,14 +51,14 @@ Bør gjøre
 - ~~Enkel bruksstatistikk~~
 - Standard for utvidelser per enkelt register (rapporter)
 - ~~Dokumenthåndtering (ePROM papir/signerte dokument)~~
-- ~~Administrasjonsgrensesnitt ~~
+- ~~Administrasjonsgrensesnitt~~
 	- ~~Opprette nye register~~
 	- ~~Status for registrene, debug info, statistikk~~
 
 Kjekt å ha
-- Notifikasjonssystem (delvis implementert)
+- Varslingssystem (delvis implementert)
 - ~~Async datadump/rapporter~~
-- Datadump spss format
+- Eksporter data: spss format
 - ~~Import~~ (fihr format?, xml, ~~csv~~, ~~excel~~)
 - ~~Massebestilling proms~~
 - Administrasjonsgrensesnitt: kopier register (import/eksport definisjoner)
