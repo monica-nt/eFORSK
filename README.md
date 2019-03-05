@@ -26,6 +26,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 
 ## Dokumenter:
 * [Overordnet arkitektur](Overordnet%20arkitektur)
+* [Backlog](Backlog)
 * [Databasestruktur](Databasestruktur)
 * [Roller, tilgangstre](Roller%20og%20tilgangstre)
 * [Forskningsobjekter, samtykkehåndtering](Forskningsobjekter)
