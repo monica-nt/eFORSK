@@ -3,12 +3,14 @@
 - Administrator skal kunne "stoppe" et register for endringer
 - Mulig å låse en skjematype for nye skjema og endring av eksisterende data (kan delvis løses i dag med avpublisering av versjoner)
 - Komplett skjemalogg på forskningsobjektnivå (for å kunne oppdage slettede og gjenopprettede randomiseringsskjema)
-- Flere valideringsregler (krever ePROM implementasjon)
 - ~~Mulighet for å få forhåndsvisning av ePROM digitalt og papirsrkjema (krever ePROM arbeid)~~
-- Mulighet for registeransvarlig å sende ut et varsel for alle brukerene av registeret
+- Varsler
+	- Mulighet for registeransvarlig å sende ut et varsel for alle brukerene av registeret
+	- Mulighet for administrator å sende ut et varsel for alle brukerene av eFORSK instansen (eks. varsel om oppgradering av server)
 - Skjemabygger
 	- Mulig å legge til standardskjema etter en skjematype er opprettet
 	- Listehåndtering innad i registeret (for gjenbruk av lister på tvers av felter og skjematyper)
+	- Flere valideringsregler (krever ePROM implementasjon)
 - Importer data
 	- Paging på importjobb liste
 	- ~~Mulig å opprette skjematype fra importfil~~
