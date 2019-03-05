@@ -1,7 +1,7 @@
 # Backlog
 
 - Administrator skal kunne "stoppe" et register for endringer
-- Mulig å låse en skjematype for nye skjema og endring av eksisterende data
+- Mulig å låse en skjematype for nye skjema og endring av eksisterende data (kan delvis løses i dag med avpublisering av versjoner)
 - Komplett skjemalogg på forskningsobjektnivå (for å kunne oppdage slettede og gjenopprettede randomiseringsskjema)
 - Flere valideringsregler (krever ePROM implementasjon)
 - ~~Mulighet for å få forhåndsvisning av ePROM digitalt og papirsrkjema (krever ePROM arbeid)~~
@@ -15,7 +15,7 @@
 - Skjema
 	- Mulighet for å konvertere et skjema til en annen versjon
 	- Mulighet for å hente ut en tekstlig versjon av spørsmål og svar (tenkt for journalnotat)
-- Grensesnitt for å lese og søke i logg under administrasjon (for oversikt over all aktivitet)
+- ~~Grensesnitt for å lese og søke i logg under administrasjon (for oversikt over all aktivitet)~~
 - ~~Liste over brukere som har vært innlogget i et register (under administrasjon)~~
 - Legge brukermanual/Om eFORSK i et github repo - og automatisk hente inn dette i appen
 - Teknologi
