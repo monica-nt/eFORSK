@@ -50,4 +50,4 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes 
 
 ## Prioriteringsliste utvikling
 
-[Backlog](Flyttet til "Backlog")
+[Backlog](Flyttet til Backlog)
