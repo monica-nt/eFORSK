@@ -8,7 +8,7 @@ Ved opprettelse av en skjematype låses dette til en spesifikk forskningsobjektt
 
 Under "Forskningsobjekter" kan man søke opp objekter det er registrert data på i registeret, se detaljer om disse og hvilke skjema som er registrert. 
 
-#### Samtykke
+## Samtykke
 Lovverk krever at personer i Personregisteret må samtykke i at data om de kan lagres i eFORSK. Samtykket vil tilhøre personen i registeret. Informasjonen ligger globalt og gjelder alle skjema registrert på personen uansett tilgangsenhet, og alle enheter kan oppdatere samtykket.
 
 Samtykkenivåer:
