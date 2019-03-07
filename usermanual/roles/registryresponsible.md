@@ -3,7 +3,7 @@
 Registeransvarlig har tilgang til alle funksjoner i eFORSK og er den
 eneste som kan endre registerinnstillinger og bygge skjematyper.
 
-#### Tilganger og rettigheter:
+## Tilganger og rettigheter:
 Administrasjon
 *	Endre registeroppsett
 *	Endre tilgangsenheter
