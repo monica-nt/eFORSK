@@ -19,7 +19,7 @@
 	- Mulighet for å hente ut en tekstlig versjon av spørsmål og svar (tenkt for journalnotat)
 - ~~Grensesnitt for å lese og søke i logg under administrasjon (for oversikt over all aktivitet)~~
 - ~~Liste over brukere som har vært innlogget i et register (under administrasjon)~~
-- Legge brukermanual/Om eFORSK i et github repo - og automatisk hente inn dette i appen
+- ~~Legge brukermanual/Om eFORSK i et github repo - og automatisk hente inn dette i appen~~
 - Teknologi
 	- Skifte ut Typewriter + js-api med Swaggergenerering
 	- Skifte ut polling fra clienten med SignalR
