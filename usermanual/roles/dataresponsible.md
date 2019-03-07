@@ -4,7 +4,7 @@ Dataansvarlig har tilgang til alle funksjoner som omhandler data-
 innsamling og -behandling, men har ikke rettigheter til å administrere
 registeret (for eksempel kan ikke opprette/endre skjematyper).
 
-#### Tilganger og rettigheter:
+## Tilganger og rettigheter:
 Skjema
 *	Lese egne skjema
 *	Behandle egne skjema (opprette, endre, slette, ferdigstille og returnere)
