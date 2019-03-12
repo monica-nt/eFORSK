@@ -55,15 +55,19 @@ Eksisterende bestillinger blir ikke berørt, videre gjentagende bestillinger vi 
 
 # Teknisk: kjøring av jobb
 
-Finn bestillinger som kan kjøres på gitt tidspunkt:
+Finn status for triggerskjema for tidspunkt **T**:
 - Hent eksisterende ordrer som stammer fra bestillingsjobben
-- Finn skjemaer av triggerskjematypen som oppfyller bestillingstidspunkt
-- I tilfelle ikke gjentagende bestillingsjobb, fjern triggerskjemaer som allerede er "brukt"
-- I tilfelle gjentagende bestillingsjobb med maks bestillinger satt, fjern triggerskjemaer som har passer maks
+- Hent liste av triggerskjemaer (alle uansett kriterier) - denne listen med status skal loggføres etter kjøring av jobb. Innhold i lista:
+  - Triggerskjema
+  - Om den skal føre til bestilling
+  - Årsak til at den eventuelt ikke skal føre til bestilling
 - For hvert triggerskjema:
-  - Fjern hvis forskningsobjektet har passert maks antall skjema (+ aktive bestillinger) av bestillingsskjematypen
-  - Fjern hvis forskningsobjektet er sortelistet i jobb
+  - Sjekk om hvis forskningsobjektet er sortelistet i jobb
+  - Sjekk om oppfyller regler for bestillingstidspunkt i forhold til tidspunkt **T**
+  - I tilfelle ikke gjentagende bestillingsjobb, sjekk triggerskjemaer om allerede er "brukt"
+  - I tilfelle gjentagende bestillingsjobb med maks bestillinger satt, sjekk om bestillinger har passert maks
+  - Sjekk om forskningsobjektet har passert maks antall skjema (+ aktive bestillinger) av bestillingsskjematypen
   
 Kjør Jobb:
-- Hvis aktuell skjemaversjon ikke er publisert lenger, sett jobbstatus til stoppet og avbryt kjøring
-- bestill..
+- Hvis bestillingsskjematypen ikke har noen publiserte versjoner lenger, sett jobbstatus til stoppet og avbryt kjøringen
+- Kjør bestilling basert på triggerskjemaene
