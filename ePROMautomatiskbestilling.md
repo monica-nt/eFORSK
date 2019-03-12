@@ -17,12 +17,13 @@ En jobb har en av følgende statuser:
 * Stoppet
 
 Hver jobb har følgende konfigurasjon:
-* Hvilken ePROM aktivert skjematype som skal bestilles automatisk
-* Hvilken skjematype skal trigge bestilling av ePROM, kalt "**triggerskjema**" (trenger ikke være foreldreskjematypen, hva som helst skal kunne trigge bestilling)
+* Hvilken ePROM aktivert skjematype (+ versjonnummer) som skal bestilles automatisk
+* Hvilken skjematype (uspesifisert versjonsnummer) skal trigge bestilling av ePROM, kalt "**triggerskjema**" (trenger ikke være foreldreskjematypen, hva som helst skal kunne trigge bestilling)
 * Bestillingstidspunkt
-  * X dager etter [opprettelse/første ferdigstillelse] av triggerskjema
-  * Periodisk (gjentas for hver X dager)
+  * X dager etter [opprettelse/første ferdigstillelse/siste endring] av triggerskjema
+  * Valg om bestillingen skal gjentas (gjentas da for hver X dager spesifisert i forrige punkt)
     * Spesifiser max antall gjentakelser
+    * Valg for å stoppe gjentakelse hvis det mangler svar på forrige bestilling
   
     
 
