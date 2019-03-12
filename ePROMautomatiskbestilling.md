@@ -8,7 +8,7 @@ Som registeransvarlig kan man i administrasjonen sette opp så mange automatiske
 
 En automatisk bestillingsjobb må alltid grunne ut i fra et eksisterende skjema (**triggerskjema**). Man kan for eksempel lage seg en registreringsskjematype for å inkludere forskningsobjekter i registeret, for videre å få trigget automatiske bestillinger.
 
-Automatiske bestillingsjobber kjøres en gang i timen (?).
+Automatiske bestillingsjobber kjøres en gang hver natt (?).
 
 # Jobb
 
@@ -17,18 +17,17 @@ En jobb har en av følgende statuser:
 * **Testkjører** - Jobb kjøres i testmodus
 * **Kjører** - jobb kjøres også i ikke-testmodus
 
-Konfigurasjon som ikke kan endres etter opprettelse:
-* Hvilken ePROM aktivert skjematype (+ versjonnummer) som skal bestilles automatisk, kalt **bestillingsskjematype**
-* Hvilken skjematype (uspesifisert versjonsnummer) skal trigge bestilling av ePROM, kalt "**triggerskjema**" (trenger ikke være foreldreskjematypen, hva som helst skal kunne trigge bestilling)
-
-Konfigurasjon som kan endres:
+Konfigurasjon:
+* **Triggerskjematype**: Hvilken skjematype (uansett versjonsnummer) skal trigge bestilling av ePROM (trenger ikke være foreldreskjematypen, hva som helst skal kunne trigge bestilling). Kan ikke endres etter opprettelse av jobb.
+* **Bestillingsskjematype**: Hvilken ePROM aktivert skjematype (+ versjonnummer) som skal bestilles automatisk. Bestiller høyeste publiserte versjonsnummer. Kan ikke endres etter opprettelse av jobb.
+  * Hvis bestillingsskjematype er en tilknyttet skjematype og triggerskjematypen ikke er foreldretypen til bestillingsskjematypen - må det opplyses om at foreldreskjema vil opprettes som kladd ved mottatt svar. 
 * Bestillingstidspunkt
   * **X** dager etter [opprettelse/første ferdigstillelse/siste endring] av triggerskjema
   * Valg om bestillingen skal gjentas (gjentas da for hver **X** dager spesifisert i forrige punkt. kan ikke spesifiseres hvis bestillingsskjematype og triggerskjemastype er den samme typen, da denne allerede blir gjentagende)
     * Spesifiser max antall gjentakelser (**Z**)
-    * Valg for å stoppe gjentakelse hvis det mangler svar på forrige bestilling
+    * Valg for å avvent gjentakelse hvis det mangler svar på forrige bestilling
 * Valg for å stoppe bestilling
-  * hvis forskningsobjektet allerede har **Y** antall skjemaer (eller aktive bestillinger) av samme skjematype (uavhengig av versjonsnummer) på forskningsobjektet. Y er default 1 for ikke gjentagende bestillinger, og default Z i tilfelle gjentagende bestillinger - men kan overstyres.
+  * hvis forskningsobjektet allerede har **Y** antall skjemaer (eller aktive bestillinger) av bestillingsskjematypen (uavhengig av versjonsnummer) på forskningsobjektet. Y er default 1 for ikke gjentagende bestillinger, og default Z i tilfelle gjentagende bestillinger - men kan overstyres.
   * Forskningsobjekt sorteliste
 * Antall utløpsdager
 * Antall dager før purring
@@ -36,8 +35,6 @@ Konfigurasjon som kan endres:
 Hver bestilling og hvert skjemasvar fra bestillingen vil merkes med den automatiske bestillingsjobbens ID for sporing.
 
 Mulighet for å se hvilke bestillinger som vil trigges det neste døgnet?
-
-Mulighet for å sorteliste forskningsobjekter fra en jobb? (i tilfelle manuell behandling/spesialtilfeller)
 
 Loggføre detaljer ved kjøring av jobb til db for sporing?
 
@@ -64,5 +61,9 @@ Finn bestillinger som kan kjøres på gitt tidspunkt:
 - I tilfelle ikke gjentagende bestillingsjobb, fjern triggerskjemaer som allerede er "brukt"
 - I tilfelle gjentagende bestillingsjobb med maks bestillinger satt, fjern triggerskjemaer som har passer maks
 - For hvert triggerskjema:
- - Fjern hvis forskningsobjektet har passert maks antall skjema (+ aktive bestillinger) av bestillingsskjematypen
- - Fjern hvis forskningsobjektet er sortelistet i jobb
+  - Fjern hvis forskningsobjektet har passert maks antall skjema (+ aktive bestillinger) av bestillingsskjematypen
+  - Fjern hvis forskningsobjektet er sortelistet i jobb
+  
+Kjør Jobb:
+- Hvis aktuell skjemaversjon ikke er publisert lenger, sett jobbstatus til stoppet og avbryt kjøring
+- bestill..
