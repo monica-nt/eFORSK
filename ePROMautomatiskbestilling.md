@@ -13,10 +13,9 @@ Automatiske bestillingsjobber kjøres en gang i timen (?).
 # Jobb
 
 En jobb har en av følgende statuser:
-* **Kladd**
-* **Testaktivert** - Jobb kjøres i testmodus
-* **Aktivert** - jobb kjøres også i ikke-testmodus
-* **Stoppet**  - kan settes som "aktiv" igjen
+* **Stoppet** 
+* **Testkjører** - Jobb kjøres i testmodus
+* **Kjører** - jobb kjøres også i ikke-testmodus
 
 Konfigurasjon som ikke kan endres etter opprettelse:
 * Hvilken ePROM aktivert skjematype (+ versjonnummer) som skal bestilles automatisk, kalt **bestillingsskjematype**
