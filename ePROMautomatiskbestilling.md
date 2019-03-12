@@ -22,7 +22,7 @@ Konfigurasjon:
 * **Bestillingsskjematype**: Hvilken ePROM aktivert skjematype (+ versjonnummer) som skal bestilles automatisk. Bestiller høyeste publiserte versjonsnummer. Kan ikke endres etter opprettelse av jobb.
   * Hvis bestillingsskjematype er en tilknyttet skjematype og triggerskjematypen ikke er foreldretypen til bestillingsskjematypen - må det opplyses om at foreldreskjema vil opprettes som kladd ved mottatt svar. 
 * Bestillingstidspunkt
-  * **X** dager etter [opprettelse/første ferdigstillelse/siste endring] av triggerskjema
+  * **X** dager etter opprettelse/første ferdigstillelse(default)/siste endring av triggerskjema
   * Valg om bestillingen skal gjentas (gjentas da for hver **X** dager spesifisert i forrige punkt. kan ikke spesifiseres hvis bestillingsskjematype og triggerskjemastype er den samme typen, da denne allerede blir gjentagende)
     * Spesifiser max antall gjentakelser (**Z**)
     * Valg for å avvent gjentakelse hvis det mangler svar på forrige bestilling
@@ -45,7 +45,7 @@ Loggføre detaljer ved kjøring av jobb til db for sporing?
 Har man ikke konfigurert "Valg for å stoppe bestilling hvis det allerede finnes Y antall skjemaer" vil ny bestilling kjøres, og man har da flere bestillinger på samme forskningsobjekt
 
 ### Jobben stoppes, for så å startes igjen lenge etterpå slik at flere gjentakende perioder har passert
-Vil kun føre til en stk ny bestilling per forskningsobjekt, ikke en stk per passerte periode. Går man utenfor X2 dager etter forrige bestilling stoppes jobben?
+Vil kun føre til en stk ny bestilling per forskningsobjekt, ikke en stk per passerte periode.
 
 ### En bestillingsjobb bestiller samme skjematype som er satt som triggerskjema
 Dette vil si gjentangende bestilling av samme skjematype (at svar på bestilling av skjematypen også vil trigge ny bestilling av samme skjematype). Denne vil foregå uendelig hvis man ikke har definert "Valg for å stoppe bestilling..". 
