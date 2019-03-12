@@ -35,6 +35,8 @@ Hver bestilling og hvert skjemasvar fra bestillingen vil merkes med den automati
 
 Mulighet for å se hvilke bestillinger som vil trigges det neste døgnet?
 
+Mulighet for å sorteliste forskningsobjekter fra en jobb? (i tilfelle manuell behandling/spesialtilfeller)
+
 Loggføre detaljer ved kjøring av jobb til db for sporing?
 
 # Scenarier
