@@ -24,10 +24,12 @@ Konfigurasjon som ikke kan endres etter opprettelse:
 Konfigurasjon som kan endres:
 * Bestillingstidspunkt
   * **X** dager etter [opprettelse/første ferdigstillelse/siste endring] av triggerskjema
-  * Valg om bestillingen skal gjentas (gjentas da for hver **X** dager spesifisert i forrige punkt. kan ikke spesifiseres hvis bestillingsskjametype og triggerskjemastype er den samme typen)
+  * Valg om bestillingen skal gjentas (gjentas da for hver **X** dager spesifisert i forrige punkt. kan ikke spesifiseres hvis bestillingsskjematype og triggerskjemastype er den samme typen, da denne allerede blir gjentagende)
     * Spesifiser max antall gjentakelser (**Z**)
     * Valg for å stoppe gjentakelse hvis det mangler svar på forrige bestilling
-* Valg for å stoppe bestilling hvis forskningsobjektet allerede har **Y** antall skjemaer (eller aktive bestillinger) av samme skjematype (uavhengig av versjonsnummer) på forskningsobjektet. Y er default 1 for ikke gjentagende bestillinger, og default Z i tilfelle gjentagende bestillinger - men kan overstyres.
+* Valg for å stoppe bestilling
+  * hvis forskningsobjektet allerede har **Y** antall skjemaer (eller aktive bestillinger) av samme skjematype (uavhengig av versjonsnummer) på forskningsobjektet. Y er default 1 for ikke gjentagende bestillinger, og default Z i tilfelle gjentagende bestillinger - men kan overstyres.
+  * Forskningsobjekt sorteliste
 * Antall utløpsdager
 * Antall dager før purring
   
@@ -54,5 +56,13 @@ Man får ikke mulighet til å sette "Valg om bestillingen skal gjentas" hvis bes
 ### Triggerskjema endres etter gjentagende bestilling er i gang
 Eksisterende bestillinger blir ikke berørt, videre gjentagende bestillinger vi forholde seg til oppdaterte verdier på triggerskjemaet
 
-### Bestillingsjobb endres etter at den har vært aktiv
-Endringer kan trigge veldig mange 
+# Teknisk: kjøring av jobb
+
+Finn bestillinger som kan kjøres på gitt tidspunkt:
+- Hent eksisterende ordrer som stammer fra bestillingsjobben
+- Finn skjemaer av triggerskjematypen som oppfyller bestillingstidspunkt
+- I tilfelle ikke gjentagende bestillingsjobb, fjern triggerskjemaer som allerede er "brukt"
+- I tilfelle gjentagende bestillingsjobb med maks bestillinger satt, fjern triggerskjemaer som har passer maks
+- For hvert triggerskjema:
+ - Fjern hvis forskningsobjektet har passert maks antall skjema (+ aktive bestillinger) av bestillingsskjematypen
+ - Fjern hvis forskningsobjektet er sortelistet i jobb
