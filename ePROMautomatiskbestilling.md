@@ -21,6 +21,7 @@ En jobb har en av følgende statuser:
 Konfigurasjon som ikke kan endres etter opprettelse:
 * Hvilken ePROM aktivert skjematype (+ versjonnummer) som skal bestilles automatisk, kalt **bestillingsskjematype**
 * Hvilken skjematype (uspesifisert versjonsnummer) skal trigge bestilling av ePROM, kalt "**triggerskjema**" (trenger ikke være foreldreskjematypen, hva som helst skal kunne trigge bestilling)
+
 Konfigurasjon som kan endres:
 * Bestillingstidspunkt
   * **X** dager etter [opprettelse/første ferdigstillelse/siste endring] av triggerskjema
