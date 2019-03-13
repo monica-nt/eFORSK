@@ -8,7 +8,7 @@ Som registeransvarlig kan man i administrasjonen sette opp så mange automatiske
 
 En automatisk bestillingsjobb må alltid grunne ut i fra et eksisterende skjema (**triggerskjema**). Man kan for eksempel lage seg en registreringsskjematype for å inkludere forskningsobjekter i registeret, for videre å få trigget automatiske bestillinger.
 
-Automatiske bestillingsjobber kjøres en gang hver natt (blir det for sjelden? ved feil, vil hvert døgn føre til 24 feilbestillinger frem til det oppdages).
+Automatiske bestillingsjobber kjøres en gang hver natt (blir det for sjelden? Hver time vil få ganske store konsekvenser raskt om noe er satt opp feil. Eks 24 bestillinger på et forskningsobjekt i døgnet, kontra 1).
 
 # Jobb
 
@@ -37,9 +37,16 @@ Konfigurasjon:
   
 Hver bestilling og hvert skjemasvar fra bestillingen vil merkes med den automatiske bestillingsjobbens ID for sporing.
 
+Knapp for å kjøre bestillingsjobb med en gang (i tilfeller man ikke vil vente til påfølgende natt).
+
 Mulighet for å se hvilke bestillinger som vil trigges det neste døgnet?
 
-Loggføre detaljer ved kjøring av jobb til db for sporing?
+Liste over kjøringer (testmodus spesifikk), der hver kjøring inneholder:
+- Tidspunkt for kjøring
+- Konfigurasjonen som var gjeldende for denne kjøringen
+- Listen over triggerskjemaer med status om den har ført til bestilling eller ikke (med årsak)
+- Antall bestillinger utført
+- Antall feil ved bestillingsforsøk
 
 # Scenarier
 
@@ -73,6 +80,7 @@ Finn status for triggerskjemaer for tidspunkt **T**:
   - Triggerskjemaet
   - Om den skal føre til bestilling
   - Årsak til at den eventuelt ikke skal føre til bestilling (enum for hver årsak over)
+  - ePROM ordreID når denne foreligger
   
 Kjør Jobb:
 - Hvis bestillingsskjematypen ikke har noen publiserte versjoner lenger, sett jobbstatus til stoppet og avbryt kjøringen
