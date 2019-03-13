@@ -8,27 +8,27 @@ Som registeransvarlig kan man i administrasjonen sette opp så mange automatiske
 
 En automatisk bestillingsjobb må alltid grunne ut i fra et eksisterende skjema (**triggerskjema**). Man kan for eksempel lage seg en registreringsskjematype for å inkludere forskningsobjekter i registeret, for videre å få trigget automatiske bestillinger.
 
-Automatiske bestillingsjobber kjøres en gang hver natt (?).
+Automatiske bestillingsjobber kjøres en gang hver natt (blir det for sjelden? ved feil, vil hvert døgn føre til 24 feilbestillinger frem til det oppdages).
 
 # Jobb
 
 En jobb har en av følgende statuser:
 * **Stoppet** 
-* **Testkjører** - Jobb kjøres i testmodus
-* **Kjører** - jobb kjøres også i ikke-testmodus
+* **Aktiv i testmodus** - Jobb kjøres i testmodus
+* **Aktiv** - jobb kjøres også i ikke-testmodus
 
 Konfigurasjon:
-* **Triggerskjematype**: Hvilken skjematype (uansett versjonsnummer) skal trigge bestilling av ePROM (trenger ikke være foreldreskjematypen, hva som helst skal kunne trigge bestilling). Kan ikke endres etter opprettelse av jobb. Regler for at triggerskjemaet fører til en bestilling:
+* **Triggerskjematype**: Hvilken skjematype (uansett versjonsnummer) skal trigge bestilling av ePROM (trenger ikke være foreldreskjematypen, hvilken som helst type skal kunne trigge bestilling av hvilken som helst type). Kan ikke endres etter opprettelse av jobb. Regler for at triggerskjemaet fører til en bestilling:
   * Skjemastatuser
   * **X** dager etter **A**=(opprettelse/første ferdigstillelse(default)/siste endring) av triggerskjema
   * Triggerskjema opprettet etter dato **D** (default dagens dato for å hindre at jobben fyrer mange bestillinger ved opprettelse)
   
 * **Bestillingsskjematype**: Hvilken ePROM aktivert skjematype (+ versjonnummer) som skal bestilles automatisk. Bestiller høyeste publiserte versjonsnummer. Kan ikke endres etter opprettelse av jobb.
-  * Hvis bestillingsskjematype er en tilknyttet skjematype og triggerskjematypen ikke er foreldretypen til bestillingsskjematypen - må det opplyses om at foreldreskjema vil opprettes som kladd ved mottatt svar. 
+  * Hvis bestillingsskjematype er en tilknyttet skjematype og triggerskjematypen ikke er foreldretypen til bestillingsskjematypen - må det opplyses om at foreldreskjema vil opprettes som kladd ved mottatt svar. (kan evt videreutvikles så den plasseres på sist opprettede foreldreskjema hvis det finnes)
 
- * Valg om bestillingen skal gjentas (gjentas da for hver **X** dager spesifisert i forrige punkt. kan ikke spesifiseres hvis bestillingsskjematype og triggerskjemastype er den samme typen, da denne allerede blir gjentagende)
+ * Valg om bestillingen skal gjentas (gjentas da for hver **X** dager spesifisert i forrige punkt. Kan ikke spesifiseres hvis bestillingsskjematype og triggerskjemastype er den samme typen, da denne allerede blir gjentagende)
    * Spesifiser max antall gjentakelser (**Z**)
-   * Valg for å avvent gjentakelse hvis det mangler svar på forrige bestilling
+   * Valg om gjentakelse krever svar på forrige bestilling i rekken
 * Antall utløpsdager
 * Antall dager før purring
 * Valg for å stoppe bestilling
@@ -44,7 +44,7 @@ Loggføre detaljer ved kjøring av jobb til db for sporing?
 # Scenarier
 
 ### Skjema bestilles manuelt før den automatiske jobben kjører
-Har man ikke konfigurert "Valg for å stoppe bestilling hvis det allerede finnes Y antall skjemaer" vil ny bestilling kjøres, og man har da flere bestillinger på samme forskningsobjekt
+Har man ikke konfigurert "Valg for å stoppe bestilling hvis det allerede finnes Y antall skjemaer" vil ny bestilling kjøres, og man har da flere bestillinger på samme forskningsobjekt. Man kan eventuelt sorteliste forskningsobjektet for jobben.
 
 ### Jobben stoppes, for så å startes igjen lenge etterpå slik at flere gjentakende perioder har passert
 Vil kun føre til en stk ny bestilling per forskningsobjekt, ikke en stk per passerte periode.
