@@ -18,20 +18,22 @@ En jobb har en av følgende statuser:
 * **Kjører** - jobb kjøres også i ikke-testmodus
 
 Konfigurasjon:
-* **Triggerskjematype**: Hvilken skjematype (uansett versjonsnummer) skal trigge bestilling av ePROM (trenger ikke være foreldreskjematypen, hva som helst skal kunne trigge bestilling). Kan ikke endres etter opprettelse av jobb.
+* **Triggerskjematype**: Hvilken skjematype (uansett versjonsnummer) skal trigge bestilling av ePROM (trenger ikke være foreldreskjematypen, hva som helst skal kunne trigge bestilling). Kan ikke endres etter opprettelse av jobb. Regler for at triggerskjemaet fører til en bestilling:
+  * Skjemastatuser
+  * **X** dager etter **A**=(opprettelse/første ferdigstillelse(default)/siste endring) av triggerskjema
+  * Triggerskjema opprettet etter dato **D** (default dagens dato for å hindre at jobben fyrer mange bestillinger ved opprettelse)
+  
 * **Bestillingsskjematype**: Hvilken ePROM aktivert skjematype (+ versjonnummer) som skal bestilles automatisk. Bestiller høyeste publiserte versjonsnummer. Kan ikke endres etter opprettelse av jobb.
   * Hvis bestillingsskjematype er en tilknyttet skjematype og triggerskjematypen ikke er foreldretypen til bestillingsskjematypen - må det opplyses om at foreldreskjema vil opprettes som kladd ved mottatt svar. 
-* Bestillingstidspunkt
-  * **X** dager etter opprettelse/første ferdigstillelse(default)/siste endring av triggerskjema
-  * Valg om bestillingen skal gjentas (gjentas da for hver **X** dager spesifisert i forrige punkt. kan ikke spesifiseres hvis bestillingsskjematype og triggerskjemastype er den samme typen, da denne allerede blir gjentagende)
-    * Spesifiser max antall gjentakelser (**Z**)
-    * Valg for å avvent gjentakelse hvis det mangler svar på forrige bestilling
-* Valg for å stoppe bestilling
-  * hvis forskningsobjektet allerede har **Y** antall skjemaer (eller aktive bestillinger) av bestillingsskjematypen (uavhengig av versjonsnummer) på forskningsobjektet. Y er default 1 for ikke gjentagende bestillinger, og default Z i tilfelle gjentagende bestillinger - men kan overstyres.
-  * Forskningsobjekt sorteliste
-  * Triggerskjema opprettet før dato **D** (default dagens dato for å hindre at jobben fyrer mange bestillinger ved opprettelse)
+
+ * Valg om bestillingen skal gjentas (gjentas da for hver **X** dager spesifisert i forrige punkt. kan ikke spesifiseres hvis bestillingsskjematype og triggerskjemastype er den samme typen, da denne allerede blir gjentagende)
+   * Spesifiser max antall gjentakelser (**Z**)
+   * Valg for å avvent gjentakelse hvis det mangler svar på forrige bestilling
 * Antall utløpsdager
 * Antall dager før purring
+* Valg for å stoppe bestilling
+  * Hvis forskningsobjektet allerede har **Y** antall skjemaer (eller aktive bestillinger) av bestillingsskjematypen (uavhengig av versjonsnummer) på forskningsobjektet. Y er default 1 for ikke gjentagende bestillinger, og default Z i tilfelle gjentagende bestillinger - men kan overstyres.
+  * Forskningsobjekt sorteliste
   
 Hver bestilling og hvert skjemasvar fra bestillingen vil merkes med den automatiske bestillingsjobbens ID for sporing.
 
@@ -56,20 +58,22 @@ Eksisterende bestillinger blir ikke berørt, videre gjentagende bestillinger vi 
 
 # Teknisk: kjøring av jobb
 
-Finn status for triggerskjema for tidspunkt **T**:
+Finn status for triggerskjemaer for tidspunkt **T**:
 - Hent eksisterende ordrer som stammer fra bestillingsjobben
-- Hent liste av triggerskjemaer (alle uansett kriterier) - denne listen med status skal loggføres etter kjøring av jobb. Innhold i lista:
-  - Triggerskjema
-  - Om den skal føre til bestilling
-  - Årsak til at den eventuelt ikke skal føre til bestilling
-- For hvert triggerskjema:
-  - Sjekk om triggerskjemaet er opprettet før dato **D**
-  - Sjekk om hvis forskningsobjektet er sortelistet i jobb
+- Hent liste av triggerskjemaer (i henhold til definerte regler).
+- Filtrer bort triggerskjemaer som har oppnådd sin maks antall ordrer (ikke gjentagende: 1, gjentagende: **Z**)
+- For hvert triggerskjema (resultat her for hvert triggerskjema skal loggføres etter kjøring av jobb):
   - Sjekk om oppfyller regler for bestillingstidspunkt i forhold til tidspunkt **T**
-  - I tilfelle ikke gjentagende bestillingsjobb, sjekk triggerskjemaer om allerede er "brukt"
-  - I tilfelle gjentagende bestillingsjobb med maks bestillinger satt, sjekk om bestillinger har passert maks
+    - Finn tidspunkt **A** eller forrige bestilling, sammenlignet med **X**
+  - Sjekk om forskningsobjektet har trukket samtykke
+  - Sjekk om forskningsobjektet er død
+  - Sjekk om forskningsobjektet er sortelistet i jobb
   - Sjekk om forskningsobjektet har passert maks antall skjema (+ aktive bestillinger) av bestillingsskjematypen
+- Resulterer i liste med
+  - Triggerskjemaet
+  - Om den skal føre til bestilling
+  - Årsak til at den eventuelt ikke skal føre til bestilling (enum for hver årsak over)
   
 Kjør Jobb:
 - Hvis bestillingsskjematypen ikke har noen publiserte versjoner lenger, sett jobbstatus til stoppet og avbryt kjøringen
-- Kjør bestilling basert på triggerskjemaene
+- Kjør bestilling for triggerskjemaene som skal føre til bestilling
