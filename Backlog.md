@@ -22,6 +22,8 @@
 - ~~Legge brukermanual/Om eFORSK i et github repo - og automatisk hente inn dette i appen~~
 - ePROM
 	- Støtte for å sette opp automatiske bestillingsjobber
+- Mentorrolle
+	- Skal kunne "godkjenne" skjema opp til ny skjemastatus, kun tilgjengelig for denne rollen
 - Teknologi
 	- Skifte ut Typewriter + js-api med Swaggergenerering
 	- Skifte ut polling fra clienten med SignalR
