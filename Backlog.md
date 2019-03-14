@@ -21,7 +21,7 @@
 - ~~Liste over brukere som har vært innlogget i et register (under administrasjon)~~
 - ~~Legge brukermanual/Om eFORSK i et github repo - og automatisk hente inn dette i appen~~
 - ePROM
-	- [ePROMautomatiskbestilling](Støtte for å sette opp automatiske bestillingsjobber)
+	- [Støtte for å sette opp automatiske bestillingsjobber](ePROMautomatiskbestilling)
 - Mentorrolle
 	- Skal kunne "godkjenne" skjema opp til ny skjemastatus, kun tilgjengelig for denne rollen
 - Teknologi
