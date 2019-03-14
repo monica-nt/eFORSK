@@ -27,7 +27,7 @@
 - Teknologi
 	- Skifte ut Typewriter + js-api med Swaggergenerering
 	- Skifte ut polling fra clienten med SignalR
-	- Skifte ut EF med DbUp
+	- Skifte ut EF med DbUp? Nei - DbUp mangler migrationsgenerering. Alternativer?
 
 # Backlog fra planlegging av prosjektet
 
