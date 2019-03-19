@@ -9,7 +9,8 @@
 	- Mulighet for administrator å sende ut et varsel for alle brukerene av eFORSK instansen (eks. varsel om oppgradering av server)
 - Skjemabygger
 	- Mulig å legge til standardskjema etter en skjematype er opprettet
-	- [Listehåndtering innad i registeret (for gjenbruk av lister på tvers av felter og skjematyper)](Listehåndtering)
+	- ~~[Listehåndtering innad i registeret (for gjenbruk av lister på tvers av felter og skjematyper)](Listehåndtering)~~
+		- Mulighet for å importere standardlister (volven?)
 	- Flere valideringsregler (krever ePROM implementasjon)
 - Importer data
 	- Paging på importjobb liste
@@ -67,4 +68,4 @@ Kjekt å ha
 - ~~Massebestilling proms~~
 - Administrasjonsgrensesnitt: kopier register (import/eksport definisjoner)
 - Administrasjonsgrensesnitt: arkiver/slette register
-- Listehåndtering (gjenbruk og felles vedlikehold av lister innad et register, eks.: ja, nei, ukjent. samt standardiserte lister globalt tilgjengelig)
+- ~~Listehåndtering (gjenbruk og felles vedlikehold av lister innad et register, eks.: ja, nei, ukjent.~~ samt standardiserte lister globalt tilgjengelig)
