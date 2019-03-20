@@ -22,6 +22,7 @@ Konfigurasjon:
   * Skjemastatuser
   * **X** dager etter **A**=(opprettelse/første ferdigstillelse(default)/siste endring) av triggerskjema
   * Triggerskjema opprettet etter dato **D** (default dagens dato for å hindre at jobben fyrer mange bestillinger ved opprettelse)
+  * Verdier på skjemaet?
   
 * **Bestillingsskjematype**: Hvilken ePROM aktivert skjematype (+ versjonnummer) som skal bestilles automatisk. Bestiller høyeste publiserte versjonsnummer. Kan ikke endres etter opprettelse av jobb.
   * Hvis bestillingsskjematype er en tilknyttet skjematype og triggerskjematypen ikke er foreldretypen til bestillingsskjematypen - må det opplyses om at foreldreskjema vil opprettes som kladd ved mottatt svar. (kan evt videreutvikles så den plasseres på sist opprettede foreldreskjema hvis det finnes)
@@ -65,23 +66,22 @@ Eksisterende bestillinger blir ikke berørt, videre gjentagende bestillinger vi 
 
 # Teknisk: kjøring av jobb
 
-Finn status for triggerskjemaer for tidspunkt **T**:
+Finn status for triggerskjemaer:
 - Hent eksisterende ordrer som stammer fra bestillingsjobben
 - Hent liste av triggerskjemaer (i henhold til definerte regler).
 - Filtrer bort triggerskjemaer som har oppnådd sin maks antall ordrer (ikke gjentagende: 1, gjentagende: **Z**)
 - For hvert triggerskjema (resultat her for hvert triggerskjema skal loggføres etter kjøring av jobb):
-  - Sjekk om oppfyller regler for bestillingstidspunkt i forhold til tidspunkt **T**
-    - Finn tidspunkt **A** eller forrige bestilling, sammenlignet med **X**
+  - Finn tidligste tidspunkt for neste bestilling
   - Sjekk om forskningsobjektet har trukket samtykke
   - Sjekk om forskningsobjektet er død
   - Sjekk om forskningsobjektet er sortelistet i jobb
   - Sjekk om forskningsobjektet har passert maks antall skjema (+ aktive bestillinger) av bestillingsskjematypen
 - Resulterer i liste med
   - Triggerskjemaet
-  - Om den skal føre til bestilling
+  - Tidligste tidspunkt for neste bestilling
   - Årsak til at den eventuelt ikke skal føre til bestilling (enum for hver årsak over)
   - ePROM ordreID når denne foreligger
   
 Kjør Jobb:
 - Hvis bestillingsskjematypen ikke har noen publiserte versjoner lenger, sett jobbstatus til stoppet og avbryt kjøringen
-- Kjør bestilling for triggerskjemaene som skal føre til bestilling
+- Kjør bestilling for triggerskjemaene som skal føre til bestilling for nåværende tidspunkt
