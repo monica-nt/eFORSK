@@ -11,9 +11,9 @@ eFORSK er en frittstående IKT løsning for elektronisk innsamling av data baser
 
 ## Terminologi og definisjoner
 
-Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk brukes i programmeringskode.
+Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk (i parantes) brukes i programmeringskode.
 
-* **Register** (Registry) - En egen database i løsningen, der et register eller forskningsprosjekt kan registrere sine data
+* **Database** (Registry) - En egen database i løsningen, der et register eller forskningsprosjekt kan registrere sine data
 * **Tilgangsenhet** (AccessUnit) - En egen tilgang innad et register. Tilgangsenhetene er definert i et tilgangstre, som bestemmer hvilke data som kan sees
 * **Skjematype** (FormType) - Definisjonen bak et skjema som kan fylles ut i et register. Skjematypene opprettes av registeransvarlige i hvert enkelt register.
 * **Skjemaversjon** (FormVersion) - En versjon av skjematypen
