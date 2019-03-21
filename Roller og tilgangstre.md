@@ -24,9 +24,9 @@ Dette er en administrativ rolle for å fasilitere registre i applikasjonen.
 * ePROM skjemaer: lese hvilke registre som har ePROM skjemaer som trenger gjennomgang (godkjennelse/avslag)
 * ePROM godkjennelse: godkjenne/avslå ePROM skjemaer (hvis innlogget på et register)
 
-**Registeransvarlig** (RegistryResponsible)
+**Ansvarlig** (RegistryResponsible)
 
-Dette er den øverste rollen i et register. Denne har full tilgang, og som eneste rolle kan den endre registerinnstillinger og bygge skjematyper.
+Dette er den øverste rollen i en database. Denne har full tilgang, og som eneste rolle kan den endre registerinnstillinger og bygge skjematyper.
 * Registeroppsett: endre
 * Tilgangsenheter: lese, opprette og endre
 * Skjematyper: lese, opprette, endre, slette
