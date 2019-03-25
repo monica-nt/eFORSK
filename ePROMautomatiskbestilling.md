@@ -99,3 +99,7 @@ For hvert triggerskjema:
   - automaticjobID
   - nullable 
 
+Jobb som kjører og bestiller planlagte bestillinger som har passert bestillingstidpunkt. Sjekker også om bestillingen er "gyldig" ennå;
+- Forskningsobjekt i live
+- Forskningsobjekt trukket samtykke
+- Skjemaversjon publisert ennå
