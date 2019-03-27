@@ -43,3 +43,12 @@ PM> Add-Migration navn-på-endringene -ConfigurationTypeName RegistryMigrationsC
 
 Bygg så løsningen på nytt med den nye migration. Kjør så databasetool med parameter: 
 -p=E:\VSTS\eFORSK\eFORSK.Service -u
+
+# Serveroppsett
+
+Sjekkliste:
+
+* Logg på eFORSK som administrator, alle integrasjoner under "administrasjon" skal være grønne
+* eFORSK logger ligger i splunk
+* eFORSK tilgangstre ligger i Falk
+
