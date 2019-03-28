@@ -1,4 +1,9 @@
-# Backlog
+# Kriterier for ny funksjonalitet
+
+- Funksjonen gir nytte for flere potensielle prosjekter/registre/brukere
+- Funksjonen tilfører ikke unødvendig kompleksistet til eFORSK
+
+# Backlog (foreløbig ikke avklart/prioritert)
 
 - Administrator skal kunne "stoppe" et register for endringer
 - Mulig å låse en skjematype for nye skjema og endring av eksisterende data (kan delvis løses i dag med avpublisering av versjoner)
