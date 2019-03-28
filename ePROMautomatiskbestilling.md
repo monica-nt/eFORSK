@@ -89,6 +89,8 @@ For hvert triggerskjema:
   - Oppdatert eksisterende hvis avvik
   - Opprett nye planlagte bestillinger hvis mangler
   
+OBS sett ownerUnitId på ordren til samme som triggerskjemaet
+  
 
 # Utvidelser
 
