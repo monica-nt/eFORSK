@@ -32,6 +32,7 @@ Konfigurasjon:
    * Valg om gjentakelse krever svar på forrige bestilling i rekken (default = ja)
 * Antall utløpsdager
 * Antall dager før purring
+* Distribusjonskanaler
 * Valg for å stoppe bestilling
   * Hvis forskningsobjektet allerede har **Y** antall skjemaer (eller aktive bestillinger) av bestillingsskjematypen (uavhengig av versjonsnummer) på forskningsobjektet. Y er default 1 for ikke gjentagende bestillinger, og default Z i tilfelle gjentagende bestillinger - men kan overstyres.
   * *Forskningsobjekt sorteliste* (utgår da man kan kansellere en planlagt bestilling?)
