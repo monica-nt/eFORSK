@@ -24,7 +24,7 @@ Konfigurasjon:
   * Triggerskjema opprettet etter dato **D** (default dagens dato for å hindre at jobben fyrer mange bestillinger ved opprettelse)
   * Verdier på skjemaet?
   
-* **Bestillingsskjematype**: Hvilken ePROM aktivert skjematype (+ versjonnummer) som skal bestilles automatisk. Bestiller default høyeste publiserte versjonsnummer. Kan ikke endres etter opprettelse av jobb.
+* **Bestillingsskjematype**: Hvilken ePROM aktivert skjematype + versjonnummer som skal bestilles automatisk. Kan ikke endres etter opprettelse av jobb.
   * Hvis bestillingsskjematype er en tilknyttet skjematype og triggerskjematypen ikke er foreldretypen til bestillingsskjematypen - må det opplyses om at foreldreskjema vil opprettes som kladd ved mottatt svar. (kan evt videreutvikles så den plasseres på sist opprettede foreldreskjema hvis det finnes)
 
  * **Bestillingsvalg**: Valg om bestillingen skal gjentas (gjentas da for hver **X** dager spesifisert i forrige punkt. Kan ikke spesifiseres hvis bestillingsskjematype og triggerskjemastype er den samme typen, da denne allerede blir gjentagende)
