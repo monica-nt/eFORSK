@@ -22,6 +22,9 @@ MRS sin sikkerhetsmodell beholdes, WS federation
 I hovedsak så dum som mulig, kopi av service lagets API.
 For hastighet finnes det hjelpemetoder som syr sammmen flere API kall mot service laget.
 
+**App**:
+Angular SPA som konsumerer APIet
+
 ## Servicelaget
 
 ### Teknologi
