@@ -6,31 +6,42 @@ Basert på MRS, tre lags applikasjon.
 
 MRS sin sikkerhetsmodell beholdes, WS federation
 
-## Klient-app
+## Klientlaget
 
-* Implementeres med .Net
-* Web Api
+### Teknologi
+
+* .Net Framework
+* Web Api 2
 * Angular
-  * Reactive forms
-  * Redux? https://redux.js.org/basics 
+  * bootstrap 4
   * ngBootstrap
+ 
+### Ansvarsområde
 
-## Service-app
+**API**:
+I hovedsak så dum som mulig, kopi av service lagets API.
+For hastighet finnes det hjelpemetder som syr sammmen flere API kall mot service laget.
 
-Implementeres med .Net, eksponerer WCF servicer
-Har kobling mot databasene
+## Servicelaget
 
-Ansvarsområder:
+### Teknologi
 
+* .Net Framework
+* WCF
+
+### Ansvarsområder:
 
 **Wcf Servicer**: 
 Forretningslogikk.
-Autorisasjon, Validering, Feilhåndtering?  
+Autorisasjon.
+Validering (skal kaste exception ved feil)
 
-
-**Db Managere**: 
+**DbManagers**: 
 Mest mulig dum.
 Databaseoperasjoner, mapping til og fra databaseentiteter, Caching, Logging
+
+**IntegrationManagers**:
+Kommuniserer med eksterne API
 
 ## Database
 
