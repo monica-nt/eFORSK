@@ -20,7 +20,7 @@ MRS sin sikkerhetsmodell beholdes, WS federation
 
 **API**:
 I hovedsak så dum som mulig, kopi av service lagets API.
-For hastighet finnes det hjelpemetder som syr sammmen flere API kall mot service laget.
+For hastighet finnes det hjelpemetoder som syr sammmen flere API kall mot service laget.
 
 ## Servicelaget
 
@@ -28,6 +28,7 @@ For hastighet finnes det hjelpemetder som syr sammmen flere API kall mot service
 
 * .Net Framework
 * WCF
+* ORM: Dapper for spørringer, EF for migrations
 
 ### Ansvarsområder:
 
@@ -43,8 +44,10 @@ Databaseoperasjoner, mapping til og fra databaseentiteter, Caching, Logging
 **IntegrationManagers**:
 Kommuniserer med eksterne API
 
-## Database
+## Databaselaget
 
-Separate databaser per register
-MsSql som database
-ORM: Dapper for spørringer, EF for migrations
+### Teknologi
+* MsSQL
+
+### Ansvarsområder:
+Database
