@@ -1,16 +1,15 @@
 # Roller, tilgangstre
 
-## Tilgangstre
+## Tilgangsenheter
+Tilgangsenhetene er en hierarkisk liste over enheter man kan logges inn på i databasen. En tilgangsenhet har tilgang til data registrert på seg selv, på barn, og videre arvinger nedover i hierarkiet. En tilgangsenhet kan ikke se data registrert på sin foreldre (og forfedre) oppover i hiearkiet. Tilgang høyere opp i tilgangstreet vil si tilgang til å mer data, tilgang laverene ned vil begrense tilgangen til data.
 
-Tilgangstreet  består av en hierarkisk liste over tilgangsenheter som kan logges inn på i registeret. En tilgangsenhet i tilgangstreet har tilgang til data registrert på seg selv, på barn, og videre arvinger nedover i hierarkiet. En tilgangsenhet kan ikke se data registrert på sin foreldre/forfedre oppover i hiearkiet. Høyere opp i tilgangstreet vil si tilgang til å se mer data, laverene ned vil begrense tilgangen til data.
+En tilgangsenhet har ikke tilgang til å se data i kladd tilgangsenheter nedover i hiearkiet. Data må ferdigstilles eller være til kontroll for at dem skal være synlig på andre enn tilgangsenheten dem er opprettet på.
 
-En tilgangsenhet har ikke tilgang til å se data i kladd eller uten samtykke på tilgangsenheter nedover i hiearkiet.
-
-Et register av enkleste form vil kun ha en tilgangsenhet å registrere data på, slik at registeret ikke trenger å ha noen kunskap om tilganger og hierarki.
+En database av enkleste form vil kun ha en stykk tilgangsenhet, man trenger da ikke å ha noen kunnskap om tilganger og hierarki.
 
 ## Roller
 
-Ved innlogging må brukeren komme inn i registeret med en rolle. Her beskrives rollene og hvilke operasjoner disse har tilgang til.
+Ved innlogging må brukeren komme inn i databasen med en rolle. Her beskrives rollene og hvilke operasjoner disse har tilgang til.
 
 **Administrator**
 
