@@ -40,6 +40,7 @@ Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk (i para
 * [Randomisering](Randomisering)
 * [Testscenarier](Testscenarier) - for testing av applikasjonen
 * [Kodemiljø](Kodemiljø) - prosjektoppsett for utviklere 
+* [Driftsmiljø](Driftsmiljo) - driftsoppsett
 
 ## Milepæler
 
