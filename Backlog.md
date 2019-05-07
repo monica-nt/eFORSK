@@ -33,6 +33,7 @@
 	- [Støtte for å sette opp automatiske bestillingsjobber](ePROMautomatiskbestilling) (in progress)
 	- Mulighet for å eksportere skjemabestillinger/ordrer til excel
 	- person initialiserte skjema (in progress)
+	- variabler/metadata i informasjon til pasienten
 - Mentorrolle
 	- Skal kunne "godkjenne" skjema opp til ny skjemastatus "Godkjent", kun tilgjengelig for denne rollen
 - Teknologi
