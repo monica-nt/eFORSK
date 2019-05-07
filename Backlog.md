@@ -17,24 +17,30 @@
 	- ~~[Listehåndtering innad i registeret (for gjenbruk av lister på tvers av felter og skjematyper)](Listehåndtering)~~
 		- Mulighet for å importere standardlister (volven?)
 	- Flere valideringsregler (krever ePROM implementasjon)
+	- mulighet for å skjule hjelpetekst for ePROM papirformat
 - Importer data
 	- Paging på importjobb liste
 	- ~~Mulig å opprette skjematype fra importfil~~
 - Skjema
 	- Mulighet for å konvertere et skjema til en annen versjon
 	- Mulighet for å hente ut en tekstlig versjon av spørsmål og svar (tenkt for journalnotat)
+	- Ny skjemastatus: Godkjent. Bruker med rolle "Mentor" kan sette ferdigstilte skjema til denne statusen. Mentor kan også returnere et skjema til kontroll.
+- Skjemaimport
 - ~~Grensesnitt for å lese og søke i logg under administrasjon (for oversikt over all aktivitet)~~
 - ~~Liste over brukere som har vært innlogget i et register (under administrasjon)~~
 - ~~Legge brukermanual/Om eFORSK i et github repo - og automatisk hente inn dette i appen~~
 - ePROM
-	- [Støtte for å sette opp automatiske bestillingsjobber](ePROMautomatiskbestilling)
+	- [Støtte for å sette opp automatiske bestillingsjobber](ePROMautomatiskbestilling) (in progress)
 	- Mulighet for å eksportere skjemabestillinger/ordrer til excel
+	- person initialiserte skjema (in progress)
 - Mentorrolle
-	- Skal kunne "godkjenne" skjema opp til ny skjemastatus, kun tilgjengelig for denne rollen
+	- Skal kunne "godkjenne" skjema opp til ny skjemastatus "Godkjent", kun tilgjengelig for denne rollen
 - Teknologi
-	- Skifte ut Typewriter + js-api med Swaggergenerering
-	- Skifte ut polling fra clienten med SignalR
-	- Skifte ut EF med DbUp? Nei - DbUp mangler migrationsgenerering. Alternativer?
+	- Skifte ut Typewriter + js-api med Swaggergenerering? Nye modeller vil si mye arbeid, derfor blir denne vanskelig og lite sansynlig gjennomførbar
+	- Skifte ut polling fra clienten med SignalR?
+	- Fjern WCF
+	- .NET Core
+	
 
 # Backlog fra planlegging av prosjektet
 
