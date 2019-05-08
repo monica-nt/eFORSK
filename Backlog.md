@@ -1,3 +1,6 @@
+Er nå vedlikeholdt her:
+https://prosjektweb.helse-midt.no/1351/Leveranser/Forms/AllItems.aspx?RootFolder=%2F1351%2FLeveranser%2FTjeneste%2FEndrings%C3%B8nsker&FolderCTID=0x010100293FDE3FCADA480B9A77BBDAD7DFA28C010A008CC73114D82C1D4A97646AD09D4F7A06&View=%7BEC0ACE74-ECBF-4951-9DB7-A547031ABE63%7D
+
 # Kriterier for ny funksjonalitet
 
 - Funksjonen gir nytte for flere potensielle prosjekter/registre/brukere
