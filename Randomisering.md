@@ -20,7 +20,7 @@ I tilfelle et randomiseringsfelt er lagt til en ePROM skjematype, vil dette felt
 
 ### Enkel randomisering
 
-Kun enkel randomisering (myntkast) støttes i dagens versjon, det vil si tilfeldig valg av randomiseringsgruppe.
+Kun enkel randomisering (myntkast) støttes i dagens versjon, det vil si tilfeldig valg av gruppe.
 
 ### Blokkrandomisering
 
