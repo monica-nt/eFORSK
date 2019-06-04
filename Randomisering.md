@@ -51,6 +51,7 @@ Lagring av blokker;
 ```
 [
 	{
+		id: 1,
 		stratification: [
 			{ Variable = "Kjoenn", Value = "1" }
 		]
@@ -61,6 +62,7 @@ Lagring av blokker;
 		]
 	},	
 	{
+		id: 2,
 		stratification: [
 			{ Variable = "Kjoenn", Value = "0" }
 		]
