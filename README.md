@@ -10,21 +10,7 @@ Her følger dokumentasjon for utvikling av verktøyet. Brukes som kravspesifikas
 eFORSK er en frittstående IKT løsning for elektronisk innsamling av data basert på skjema. eFORSK tilbyr selvbetjeningsløsning for oppsett av skjematyper og innsamling av data. Løsningen tilbyr tett integrasjon med Helse Midt-Norge sin ePROM-løsning og gjennom denne mulighet for skjemabasert sikker digital kommunikasjon med pasienter via HelseNorge.no, digipost/eboks og papirskjema i posten. 
 
 ## Terminologi og definisjoner
-
-Skal brukes for konsistens i dokumentasjon, kode og grensesnitt. Engelsk (i parantes) brukes i programmeringskode.
-
-* **Database** (Registry) - En egen database i løsningen, der et register eller forskningsprosjekt kan registrere sine data
-* **Tilgangsenhet** (AccessUnit) - En egen tilgang innad et register. Tilgangsenhetene er definert i et tilgangstre, som bestemmer hvilke data som kan sees
-* **Skjematype** (FormType) - Definisjonen bak et skjema som kan fylles ut i et register. Skjematypene opprettes av registeransvarlige i hvert enkelt register.
-* **Skjemaversjon** (FormVersion) - En versjon av skjematypen
-* **Felt** (Field) - En felt som kan besvares i et skjema
-	* **Variabelnavn** (CodeName) - Et felts navn ved datauttrekk (datadump o.l.)
-	* **Visningstekst** (DisplayName) - Spørsmålet ved feltet ved utfyllelse i grensesnitt (brukervennlig forklaring av feltet)
-* **Forskningsobjekt** (ResearchObject) - data/skjemaer legges på et forskningsobjekt (i et vanlig registers tilfelle: pasient) i registeret. det er valgt å kalle dette forskningsobjekt da det nødvendigvis ikke trenger å være en pasient eller person, men f.eks. legemiddel.
-* **Mine skjema, egne skjema, andres skjema** - brukeren som oppretter et skjema (eller har bestilt det utfylt via ePROM) er den som eier skjemaet
-* **Skjema i arbeid** - et skjema som ikke har status "ferdigstilt"
-* **Hovedskjematype** - en skjematype som kan registreres uten at det plasseres på en annen skjematype
-* **Underskjematype** - en skjematype som må registreres på en allerede eksisterende foreldreskjematype
+Flyttet til brukermanual
 
 ## Dokumenter:
 * [Overordnet arkitektur](Overordnet%20arkitektur)
