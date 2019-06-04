@@ -37,7 +37,8 @@ Sletting av skjema, frigjør plassen fra blokk?
 
 Lagring av blokker;
 
-`[
+```
+[
 	{
 		stratification: [
 			{ Variable = "Kjoenn", Value = "1" }
@@ -61,4 +62,5 @@ Lagring av blokker;
 			{ Group: C, FormDataId = null }
 		]
 	}
-]`
+]
+```
