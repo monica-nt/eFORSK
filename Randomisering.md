@@ -52,6 +52,7 @@ Lagring av blokker;
 [
 	{
 		id: 1,
+		testmode: false,
 		stratification: [
 			{ Variable = "Kjoenn", Value = "1" }
 		]
@@ -63,6 +64,7 @@ Lagring av blokker;
 	},	
 	{
 		id: 2,
+		testmode: false,
 		stratification: [
 			{ Variable = "Kjoenn", Value = "0" }
 		]
