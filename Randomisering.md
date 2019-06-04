@@ -1,17 +1,28 @@
 # Randomisering
 
-Kun enkel randomisering støttes, det vil si tilfeldig valg av randomiseringsgruppe.
+Randomisering kan legges inn som en egen felttype ved bygging av skjematype. Felttypen fungerer på samme måte som et valgfelt, der man kan opprette alternativer. Forskjellen ligger i grensesnittet ved utfylling av skjema, der man får en knapp for å kjøre randomisering. Ved trykk på knappen blir randomisert alternativ valgt, handlingen kan ikke angres.
 
-Randomisering kan legges inn som en egen felttype ved bygging av skjematype. Felttypen fungerer på samme måte som et valgfelt, der man kan opprette alternativer. Forskjellen ligger i grensesnittet ved utfylling av skjema, der man får en knapp for å kjøre randomisering. Ved trykk på knappen blir tilfeldig alternativ valgt, handlingen kan ikke angres. 
+Om man forsøker å slette et skjema som har en utført randomisering vil man få advarsel at handlingen blir logget for å forhindre forskningsjuks.
 
 Algoritme som ligger til grunn for randomsering: Fisher-Yates (aka Knuth) Shuffle.
 Første element velges etter at algoritmen er kjørt.
+
+Forslag til utvidelse: man kan konfigurere når randomiseringen utføres:
+* Ved skjemaopprettelse (ferdig randomisert når man kommer inn i skjema)
+* Ved ferdigstillelse
+* Manuelt (man får knapp som må trykkes på)
 
 ## ePROM
 
 I tilfelle et randomiseringsfelt er lagt til en ePROM skjematype, vil dette feltet ikke være synlig ved utfyllelse i ePROM. Feltet vil bli randomisert ved bestillelse. I tilfelle papirbesvarelse, vil feltet bli randomisert ved leveranse tilbake til registeret.
 
-## Blokkrandomisering
+## Typer randomisering
+
+### Enkel randomisering
+
+Kun enkel randomisering (myntkast) støttes i dagens versjon, det vil si tilfeldig valg av randomiseringsgruppe.
+
+### Blokkrandomisering
 
 Løsningsforslag ved eventuell utvidelse til å støtte stratifisert blokkrandomisering:
 
