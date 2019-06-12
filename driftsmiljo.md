@@ -22,8 +22,8 @@
 ### Demo
 
 * Autentisering: Gammel STS
-* ePROM testmodus: ePROM DEV
-* ePROM prodmodus: ePROM DEV
+* ePROM testmodus: ePROM DEV (skal kobles mot DEMO)
+* ePROM prodmodus: ePROM DEV (skal kobles mot DEMO)
 * P-reg testmodus: p-reg test
 * P-reg prodmodus: p-reg test
 * Octopus: Hemit
