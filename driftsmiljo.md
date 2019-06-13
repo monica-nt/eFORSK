@@ -4,7 +4,7 @@
 
 ### Lokal pc
 
-* Autentisering: Falk DEMO
+* Autentisering: Falk Demo
 * ePROM testmodus: ePROM lokal
 * ePROM prodmodus: ePROM DEV
 * P-reg testmodus: p-reg test
@@ -12,18 +12,18 @@
 
 ### Dev
 
-* Autentisering: Falk DEMO
-* ePROM testmodus: ePROM DEV
-* ePROM prodmodus: ePROM DEV
+* Autentisering: Falk Demo
+* ePROM testmodus: ePROM Dev
+* ePROM prodmodus: ePROM Dev
 * P-reg testmodus: p-reg test
 * P-reg prodmodus: p-reg test
 * Octopus: Hemit
 
 ### Demo
 
-* Autentisering: Gammel STS
-* ePROM testmodus: ePROM DEV (skal kobles mot DEMO)
-* ePROM prodmodus: ePROM DEV (skal kobles mot DEMO)
+* Autentisering: Gammel STS (skal kobles mot Falk Demo)
+* ePROM testmodus: ePROM Demo
+* ePROM prodmodus: ePROM Demo
 * P-reg testmodus: p-reg test
 * P-reg prodmodus: p-reg test
 * Octopus: Hemit
