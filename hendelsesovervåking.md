@@ -35,11 +35,25 @@ Varsel gis hvis en bestilling av gitt konfigurasjon når denne ordrestatusen.
 
 *Eksempel 2: overvåke når en bestilling har utløpt*
 
-## Varsel
+## Konfigurasjon
+
+I tillegg til konfigurasjon spesifisert per type varsel, kan også følgende spesifiseres:
+
+Navn (brukes ved varsling)
+
+Aktiv i testmodus
+Aktiv
+
+Hvem skal varsles: Man kan velge blant dem som har logget seg på databasen. Hver enkelt kan supplementeres med e-post og telefonnummer for å få varsel til de kanalene. Hver bruker vil få sitt eget varsel. Selv om den ene har sjekket ut varselet, vil det ennå være aktivt for den andre.
+
+## Varsling om hendelse
 
 Det varsles i eFORSKs interne varslingssystem. 
-På sikt kan man i tillegg velge epost og SMS varsling i tillegg, der man kan gi en liste over adresser/numre.
+På sikt kan man i tillegg velge epost og SMS varsling i tillegg, der man kan gi en liste over adresser/numre som skal motta varsel. Separat liste for testmodus og ikke testmodus.
+
 
 ## Overvåking
 
-Nattlig jobb?
+Lytter på oppdatering av skjema og oppdatering av eprom bestillinger. 
+Oppretter et hendelsesvarsel. Hver oppsatte bruker får da sin egen varsling som lenker til hendelsesvarselet.
+Køes.
