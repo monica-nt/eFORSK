@@ -33,7 +33,7 @@ Varsel gis hvis en bestilling av gitt konfigurasjon når denne ordrestatusen.
 
 *Eksempel 1: overvåke når det kommer et personinitisert svar*
 
-*Eksempel 2: overvåke når det en bestilling har utløpt*
+*Eksempel 2: overvåke når en bestilling har utløpt*
 
 ## Varsel
 
