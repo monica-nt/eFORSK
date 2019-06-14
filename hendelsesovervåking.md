@@ -4,7 +4,7 @@ Databaseansvarlig kan i administrasjon opprette hendelsesovervåkinger. Hendelse
 
 ## Typer overvåking
 
-### Skjema
+#### Skjemasvar
 
 En skjematype velges.
 
@@ -13,7 +13,7 @@ Overvåker ferdigstilte skjemaer av typen.
 Kan sette opp OG + ELLER regler for hvilke verdier som skal trigge varsler.
 (samme OG ELLER system som for automatiske ePROM bestillinger, videreutvikle og standardiser)
 
-### ePROM
+#### ePROM ikke besvart
 
 En ePROM aktivert skjematype velges.
 Varsel gis hvis en bestilling på denne skjematypen løper ut på dato.
