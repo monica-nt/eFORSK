@@ -4,7 +4,7 @@ Randomisering kan legges inn som en egen felttype ved bygging av skjematype. Fel
 
 Om man forsøker å slette et skjema som har en utført randomisering vil man få advarsel at handlingen blir logget for å forhindre forskningsjuks.
 
-Algoritme som ligger til grunn for randomsering: Fisher-Yates (aka Knuth) Shuffle.
+Algoritme som ligger til grunn for randomsering: RNGCryptoServiceProvider https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.rngcryptoserviceprovider?view=netframework-4.8
 Første element velges etter at algoritmen er kjørt.
 
 Forslag til utvidelse: man kan konfigurere når randomiseringen utføres:
