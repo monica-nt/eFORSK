@@ -57,9 +57,9 @@ Lagring av blokker;
 			{ Variable = "Kjoenn", Value = "1" }
 		]
 		groups: [
-			{ Group: A, FormDataId = null },
-			{ Group: B, FormDataId = null },
-			{ Group: C, FormDataId = null }
+			{ Group: A, FormDataId = null, ResearchObjectGuid = null, EPromOrderId = null },
+			{ Group: B, FormDataId = null, ResearchObjectGuid = null, EPromOrderId = null },
+			{ Group: C, FormDataId = null, ResearchObjectGuid = null, EPromOrderId = null }
 		]
 	},	
 	{
@@ -69,12 +69,12 @@ Lagring av blokker;
 			{ Variable = "Kjoenn", Value = "0" }
 		]
 		groups: [
-			{ Group: A, FormDataId = null },
-			{ Group: B, FormDataId = null },
-			{ Group: C, FormDataId = null },
-			{ Group: A, FormDataId = null },
-			{ Group: B, FormDataId = null },
-			{ Group: C, FormDataId = null }
+			{ Group: A, FormDataId = null, ResearchObjectGuid = null, EPromOrderId = null },
+			{ Group: B, FormDataId = null, ResearchObjectGuid = null, EPromOrderId = null },
+			{ Group: C, FormDataId = null, ResearchObjectGuid = null, EPromOrderId = null },
+			{ Group: A, FormDataId = null, ResearchObjectGuid = null, EPromOrderId = null },
+			{ Group: B, FormDataId = null, ResearchObjectGuid = null, EPromOrderId = null },
+			{ Group: C, FormDataId = null, ResearchObjectGuid = null, EPromOrderId = null }
 		]
 	}
 ]
