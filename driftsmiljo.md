@@ -56,5 +56,5 @@ Splunk søk (etter feilmeldinger): index=efo_prod Type=Error host="ptrd-efo-app0
 
 ## Produksjonsetting
 
-Ved deploy av ny versjon til prod skal det ett døgn i forveien opprettes varsel fra administrasjon i registeret som sier når ny versjon skal deployes.
-Varselet skal vises frem til 10 minutter før deploy. Det opprettes et varsel som ikke kan lukkes fra 10 minutter før deploy til 10(?) minutter etter deploy som sier at applikasjonen nå oppdateres.
+Ved deploy av ny versjon til prod skal det ett døgn i forveien opprettes varsel fra administrasjonen i eFORSK som sier når ny versjon skal deployes.
+Varselet skal vises frem til 10 minutter før deploy. Det opprettes et varsel som ikke kan lukkes fra 10 minutter før deploy som sier at applikasjonen nå oppdateres. Dette varselet fjernes så når ny versjon er verifisert OK.
