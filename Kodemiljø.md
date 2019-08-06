@@ -44,6 +44,9 @@ PM> Add-Migration navn-på-endringene -ConfigurationTypeName RegistryMigrationsC
 Bygg så løsningen på nytt med den nye migration. Kjør så databasetool med parameter: 
 -p=E:\VSTS\eFORSK\eFORSK.Service -u
 
+## Versjonsnummer
+Settes under eFORSK\eFORSK.ClientApi\config.json
+
 # Serveroppsett
 
 Sjekkliste:
