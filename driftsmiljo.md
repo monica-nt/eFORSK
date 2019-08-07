@@ -21,7 +21,7 @@
 
 ### Demo
 
-* Autentisering: Gammel STS (skal kobles mot Falk Demo)
+* Autentisering: Falk Demo
 * ePROM testmodus: ePROM Demo
 * ePROM prodmodus: ePROM Demo
 * P-reg testmodus: p-reg test
