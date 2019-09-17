@@ -29,16 +29,6 @@ Flyttet til brukermanual
 * [Driftsmiljø](Driftsmiljo) - driftsoppsett
 * [eFORSK API](eforsk-api) 
 
-## Milepæler
-
-1. 15.09.2018: Mulighet for å opprette en skjematype med skjemabyggeren
-2. 15.10.2018: Pasienthåndtering på plass, med mulighet for å fylle ut skjema i eFORSK
-3. 06.11.2018: Integrasjon med ePROM på plass med mulighet for å bestille skjema
-4. 30.11.2018: Rapporter på plass: Eksport av data (datadump) og kodebok
-5. 21.12.2018: Samtykkehåndtering
-6. 06.01.2019: Randomisering
-7. 20.02.2019: v1.0 Ferdig utviklet
-
 ## Prioriteringsliste utvikling
 
 [Flyttet til "Backlog"](Backlog)
