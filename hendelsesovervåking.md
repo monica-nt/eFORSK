@@ -4,22 +4,14 @@ Databaseansvarlig kan i administrasjon opprette hendelsesovervåkinger. Hendelse
 
 ## Typer overvåking
 
-#### Skjemaverdier
+#### Skjema
 
 En skjematype velges.
 
-Overvåker ferdigstilte skjemaer av typen.
+Skjemadatastatuser velges (ferdigstilt, til kontroll, monitorert).
 
 Kan sette opp OG + ELLER regler for hvilke verdier som skal trigge varsler.
 (samme OG ELLER system som for automatiske ePROM bestillinger, videreutvikle og standardiser)
-
-#### Skjemastatus
-
-En skjematype velges.
-
-En skjemadatastatus velges (ferdigstilt, til kontroll, monitorert).
-
-Varsel gis når det kommer en nytt skjema med denne statusen.
 
 #### ePROM bestilling statusendring
 
