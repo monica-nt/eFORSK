@@ -4,7 +4,7 @@ Databaseansvarlig kan i administrasjon opprette hendelsesovervåkinger. Hendelse
 
 ## Typer overvåking
 
-#### Skjema
+#### Skjema oppdatering
 
 En skjematype velges.
 
@@ -19,7 +19,7 @@ En ePROM aktivert skjematype velges.
 
 Eventuelt konfigurasjon av hvilke notifikasjonskanaler som overvåkes.
 
-Ordrestatus velges.
+Eventuelt konfigurasjon av hvilke ordrestatuser som overvåkes.
 
 Varsel gis hvis en bestilling av gitt konfigurasjon når denne ordrestatusen.
 
@@ -38,7 +38,13 @@ Aktiv
 
 Hvem skal varsles: Man kan velge blant dem som har logget seg på databasen. Hver enkelt kan supplementeres med e-post og telefonnummer for å få varsel til de kanalene. Hver bruker vil få sitt eget varsel. Selv om den ene har sjekket ut varselet, vil det ennå være aktivt for den andre.
 
-## Varsling om hendelse
+## Hendelsesrapport
+
+Hver oppdatering av skjema og ePROM bestilling (heretter kalt objektet) overvåkes med en forsinkelse på 5 minutter.
+Skulle objektet matche oppsatte regler, vil det opprettes en hendelsesrapport.
+Ett objekt får totalt kun en hendelsesrapport per hendelsesovervåking.
+
+#### Varsling
 
 Det varsles i eFORSKs interne varslingssystem. 
 På sikt kan man i tillegg velge epost og SMS varsling i tillegg, der man kan gi en liste over adresser/numre som skal motta varsel. Separat liste for testmodus og ikke testmodus.
