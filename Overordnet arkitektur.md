@@ -47,7 +47,8 @@ Validering (skal kaste exception ved feil)
 * EF for migrations
 
 ### Ansvarsområder:
-Database
+Database.
+Kryptering.
 
 ### DbManagers
 Alle klasser med kommunikasjon med database postfixes med \*DbManager.cs. Disse klassene skal være så dumme som mulig. Skal ta seg av mapping melling databaseentiteter til modeller. Tar seg av caching og logging
@@ -55,7 +56,7 @@ Alle klasser med kommunikasjon med database postfixes med \*DbManager.cs. Disse 
 ## eFORSK.Service.Integration
 
 ### Ansvarsområder:
-Integrasjoner (mot eksterne systemer).
+Integrasjoner inn og ut
 
 ### IntegrationManagers
 Alle klasser med kommunikasjon med integrasjoner postfixes med \*IntegrationManager.cs
