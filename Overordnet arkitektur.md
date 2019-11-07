@@ -34,10 +34,10 @@ Angular SPA som konsumerer APIet
 
 ### Ansvarsområder:
 
-**Wcf Servicer**: 
-Forretningslogikk.
-Autorisasjon.
-Validering (skal kaste exception ved feil)
+* Eksponere API
+* Forretningslogikk.
+* Autorisasjon
+* Validering (skal kaste exception ved feil)
 
 ## eFORSK.Service.Data
 
@@ -47,8 +47,8 @@ Validering (skal kaste exception ved feil)
 * EF for migrations
 
 ### Ansvarsområder:
-Database.
-Kryptering.
+* Database
+* Kryptering
 
 ### DbManagers
 Alle klasser med kommunikasjon med database postfixes med \*DbManager.cs. Disse klassene skal være så dumme som mulig. Skal ta seg av mapping melling databaseentiteter til modeller. Tar seg av caching og logging
@@ -56,7 +56,7 @@ Alle klasser med kommunikasjon med database postfixes med \*DbManager.cs. Disse 
 ## eFORSK.Service.Integration
 
 ### Ansvarsområder:
-Integrasjoner inn og ut
+* Integrasjoner inn og ut
 
 ### IntegrationManagers
 Alle klasser med kommunikasjon med integrasjoner postfixes med \*IntegrationManager.cs
