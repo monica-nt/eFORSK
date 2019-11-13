@@ -54,5 +54,5 @@ Sjekkliste:
 * Logg på eFORSK som administrator, alle integrasjoner under "administrasjon" skal være grønne
 * eFORSK logger ligger i splunk
 * eFORSK tilgangstre ligger i Falk
-* ePROM får snakket med eFORSK (bestill fra testmodus og ikke-testmodus)
+* ePROM får snakket med eFORSK (bestill fra testmodus og ikke-testmodus), evt logg på ePROM administrasjon og ping bestillersystem
 
