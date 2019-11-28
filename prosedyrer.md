@@ -7,7 +7,7 @@
 * Hvis ePROM
   * Opprett bestillersystem for testmodus på http://pasientrapportering.qa.nhn.no/   og hent inn API nøkkel til eFORSK
   * Opprett bestillersystem for ikke-testmodus på http://pasientrapportering.nhn.no/  og hent inn API nøkkel til eFORSK
-* Gi tilgang til brukere i FALK. Superbruker bør få tilgangstildererollen for databasen.
+* Gi tilgang til brukere i FALK. Superbruker bør få tilgangstildererollen for databasen. https://falk.eforsk.nhn.no/u/a/orders/4
 * Hvis gjenstående ledige databaser har nådd 3 eller mindre, bestill opp flere fra NHN
 
 ## Produksjonssetting av ny versjon
