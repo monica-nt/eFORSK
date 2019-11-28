@@ -18,3 +18,4 @@
 * (Send ut e-post til alle aktive brukere siste måned med varsler om ny versjon?)
 * Etter produksjonssetting, sjekk status på integrasjoner i eFORSK administrasjon
 * Følg opp feil og advarsler i splunk
+* Oppdater brukermanual
