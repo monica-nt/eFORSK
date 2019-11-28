@@ -13,4 +13,8 @@
 
 ## Produksjonssetting av ny versjon
 
-todo
+* Hold endringslogg i brukermanual oppdatert på endringer og datoer fortløpende
+* Logg på eFORSK prod i administrasjon og opprett nye varsler for ny versjon (se tidligere varsler for eksempel her)
+* (Send ut e-post til alle aktive brukere siste måned med varsler om ny versjon?)
+* Etter produksjonssetting, sjekk status på integrasjoner i eFORSK administrasjon
+* Følg opp feil og advarsler i splunk
