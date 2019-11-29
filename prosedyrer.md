@@ -1,5 +1,14 @@
 # Prosedyrer
 
+Roller omtalt her:
+
+* Produkteier
+* Fagansvarlig
+* Utviklingsteam
+* NHN kundesenter
+* Superbruker
+* Brukere
+
 ## Ny database i eFORSK (prod)
 
 Utføres av fagansvarlige.
@@ -42,4 +51,4 @@ Hvis fagansvarlig ikke kan hjelpe eller har svar, tar fagansvarlig videre kontak
 
 Brukere tar kontakt med NHN kundeservice som anvist i footer på eFORSK.
 
-NHN kundeservice tar i tur kontakt med utviklingsteam hvis dem ikke kan hjelpe.
+NHN kundesenter tar i tur kontakt med utviklingsteam hvis dem ikke kan hjelpe.
