@@ -41,7 +41,7 @@ Utføres av utviklingsteam (?)
 
 Skjer i følgende rekkefølge:
 
-Brukere (og potensielle brukere) av eFORSK skal via sin forskningsavdeling få en superbruker som dem henvender seg til. Brukere har ikke direkte kontakt med andre i normale tilfeller. https://www.helseforskningsportalen.no/ se kontaktinformasjon.
+Brukere (og potensielle brukere) av eFORSK skal via sin forskningsavdeling få en superbruker som dem henvender seg til. Brukere har ikke direkte kontakt med andre i normale tilfeller. https://www.helseforskningsportalen.no/ se kontaktinformasjon. Brukere og superbrukere støtter seg først og fremst på brukermanualen.
 
 Hvis superbruker ikke kan hjelpe eller har svar, tar superbruker videre kontakt med fagansvarlig.
 
