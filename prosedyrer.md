@@ -6,8 +6,7 @@
 * Brukere som skal ha tilgang må søke her: https://falk.eforsk.nhn.no/u/apply?app=eFORSK
 * Aktiver database på https://eforsk.nhn.no/ 
 * Hvis ePROM
-  * Opprett bestillersystem for testmodus på http://pasientrapportering.qa.nhn.no/   og hent inn API nøkkel til eFORSK
-  * Opprett bestillersystem for ikke-testmodus på http://pasientrapportering.nhn.no/  og hent inn API nøkkel til eFORSK
+  * Bestill bestillersystem i ePROM til systemutvikling@hemit.no: "Bestiller bestillersystem i QA (for testmodus) og PROD (for ikke-testmodus) med navn [sett inn prosjektnavnet], send API-nøkler i retur". Benytt API-nøkkel for QA til testmodus, og API-nøkkel for PROD til ikke-testmodus. Etter API-nøkler er lagt inn i eFORSK, klikk "Test ePROM tilkobling" knappen.
 * Gi tilgang til brukere i FALK. Superbruker bør få tilgangstildererollen for databasen. https://falk.eforsk.nhn.no/u/a/orders/4
 * Hvis gjenstående ledige databaser har nådd 3 eller mindre, bestill opp flere fra NHN
 
