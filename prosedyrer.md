@@ -37,3 +37,9 @@ Brukere (og potensielle brukere) av eFORSK skal via sin forskningsavdeling få e
 Hvis superbruker ikke kan hjelpe eller har svar, tar superbruker videre kontakt med fagansvarlig.
 
 Hvis fagansvarlig ikke kan hjelpe eller har svar, tar fagansvarlig videre kontakt med utviklingsteam (evt enda et ledd med produkteier?).
+
+## Feil i løsningen
+
+Brukere tar kontakt med NHN kundeservice som anvist i footer på eFORSK.
+
+NHN kundeservice tar i tur kontakt med utviklingsteam hvis dem ikke kan hjelpe.
