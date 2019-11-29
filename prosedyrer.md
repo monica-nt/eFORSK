@@ -27,3 +27,13 @@ Utføres av utviklingsteam (?)
 * Etter produksjonssetting, sjekk status på integrasjoner i eFORSK administrasjon
 * Følg opp feil og advarsler i splunk
 * Oppdater brukermanual
+
+## Henvendelser fra brukere
+
+Skjer i følgende rekkefølge:
+
+Brukere (og potensielle brukere) av eFORSK skal via sin forskningsavdeling få en superbruker som dem henvender seg til. Brukere har ikke direkte kontakt med andre i normale tilfeller. https://www.helseforskningsportalen.no/ se kontaktinformasjon.
+
+Hvis superbruker ikke kan hjelpe eller har svar, tar superbruker videre kontakt med fagansvarlig.
+
+Hvis fagansvarlig ikke kan hjelpe eller har svar, tar fagansvarlig videre kontakt med utviklingsteam (evt enda et ledd med produkteier?).
