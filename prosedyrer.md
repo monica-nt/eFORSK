@@ -47,6 +47,8 @@ Hvis superbruker ikke kan hjelpe eller har svar, tar superbruker videre kontakt 
 
 Hvis fagansvarlig ikke kan hjelpe eller har svar, tar fagansvarlig videre kontakt med utviklingsteam (evt enda et ledd med produkteier?).
 
+Utviklingsteam oppdaterer brukermanual der det er hensiktsmessig.
+
 ## Feil i løsningen
 
 Brukere tar kontakt med NHN kundeservice som anvist i footer på eFORSK.
