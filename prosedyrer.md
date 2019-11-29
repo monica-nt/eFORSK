@@ -10,7 +10,7 @@ Utføres av fagansvarlige.
 * Hvis ePROM
   * Bestill bestillersystem i ePROM til systemutvikling@hemit.no: "Bestiller bestillersystem i QA og PROD med navn [sett inn prosjektnavnet], send API-nøkler i retur". Benytt API-nøkkel for QA til testmodus, og API-nøkkel for PROD til ikke-testmodus. Etter API-nøkler er lagt inn i eFORSK, klikk "Test ePROM tilkobling" knappen.
 * Gi tilgang til brukere i FALK. Superbruker bør få tilgangstildererollen for databasen. https://falk.eforsk.nhn.no/u/a/orders/4
-* Hvis gjenstående ledige databaser har nådd 3 eller mindre, bestill opp flere fra NHN
+* Hvis gjenstående ledige databaser har nådd 3 eller mindre, bestill opp flere fra NHN kundesenter@nhn.no: "Bestiller herved opp 10 nye databaser for eFORSK PROD med tilhørende oppslag i keys-fila."
 
 ## Produksjonssetting av ny versjon
 
