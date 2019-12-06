@@ -18,6 +18,8 @@ Hvis VS klager på for gammel node versjon: https://stackoverflow.com/questions/
 Typewriter: https://marketplace.visualstudio.com/items?itemName=frhagn.Typewriter  (lager TS modeller av C# models)  
 Laget mal basert på denne: http://continuousdeveloper.com/2017/10/16/keeping-your-c-and-typescript-models-in-sync/
 
+Sørg for å ha NET Framework v4.8  sdk installert
+
 ## Prosjektoppsett
 
 todo!
