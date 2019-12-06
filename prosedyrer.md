@@ -26,6 +26,21 @@ Utføres av fagansvarlige.
 * Gi tilgang til brukere i FALK. Superbruker bør få tilgangstildererollen for databasen. https://falk.eforsk.nhn.no/u/a/orders/4 **Vær nøye på å gi riktige tilganger**
 * Hvis gjenstående ledige databaser har nådd 3 eller mindre, bestill opp flere fra NHN kundesenter@nhn.no: "Bestiller herved opp 10 nye databaser for eFORSK PROD med tilhørende oppslag i keys-fila."
 
+## Ny demodatabase i eFORSK (mrsweb)
+
+Når en person vil ha demodatabase;
+
+* Finn ledig statisk fødselsnummer i test p-reg
+* Logg på administrasjonen som administrator på https://mrsweb.hemit.org/eFORSK/
+* Finn ledig database. 
+  * Legg personens navn i databasenavnet.
+  * Legg inn personens navn i "Navn på databaseansvarlig ".
+  * Legg til fødselsnummer i fakturafeltet slik at vi har det lagret
+  * Aktiver ePROM, gjenbruk API nøkler fra andre databaser
+  * Aktiver alle funksjoner til utprøving
+* Logg på falk med fødselsnummeret og søk tilgang til databasen
+* Logg på falk som eFORSK administrator og finn søknaden, gi databaseansvarlig rollen til databasen, og tilgangstildeler rollen til databasen.
+
 ## Planlegging av ny versjon
 
 Utføres av utviklingsteam, fagansvarlige og produkteier
