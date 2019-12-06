@@ -28,6 +28,8 @@ Utføres av fagansvarlige.
 
 ## Ny demodatabase i eFORSK (mrsweb)
 
+Utføres av fagansvarlig? Evt utviklingsteam..
+
 Når en person vil ha demodatabase;
 
 * Finn ledig statisk fødselsnummer i test p-reg
