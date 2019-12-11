@@ -60,6 +60,10 @@ Utføres av utviklingsteam (?)
 * Følg opp feil og advarsler i splunk
 * Oppdater brukermanual
 
+## Nytt ePROM skjema
+
+todo
+
 ## Henvendelser fra brukere
 
 Skjer i følgende rekkefølge:
