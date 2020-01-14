@@ -25,6 +25,7 @@ Utføres av fagansvarlige.
 * Aktiver database på https://eforsk.nhn.no/ administrasjon
 * Gi tilgang til brukere i FALK. Superbruker bør få tilgangstildererollen for databasen. https://falk.eforsk.nhn.no/u/a/orders/4 **Vær nøye på å gi riktige tilganger**
 * Hvis gjenstående ledige databaser har nådd 3 eller mindre, bestill opp flere fra NHN kundesenter@nhn.no: "Bestiller herved opp 10 nye databaser for eFORSK PROD med tilhørende oppslag i keys-fila."
+* Informer brukere om at databasen er klar
 
 ## Ny demodatabase i eFORSK (mrsweb)
 
