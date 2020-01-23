@@ -36,12 +36,12 @@ todo!
 Husk å bygg løsningen først slik at alle endringer er kompilert.
 
 For å oppdatere Common database:  
-PM> Update-Database -ConfigurationTypeName CommonMigrationsConfiguration  
-PM> Add-Migration navn-på-endringene -ConfigurationTypeName CommonMigrationsConfiguration
+PM> EntityFramework6\Update-Database -ConfigurationTypeName CommonMigrationsConfiguration  
+PM> EntityFramework6\Add-Migration navn-på-endringene -ConfigurationTypeName CommonMigrationsConfiguration
 
 For å oppdatere Registry database:  
-PM> Update-Database -ConfigurationTypeName RegistryMigrationsConfiguration  
-PM> Add-Migration navn-på-endringene -ConfigurationTypeName RegistryMigrationsConfiguration
+PM> EntityFramework6\Update-Database -ConfigurationTypeName RegistryMigrationsConfiguration  
+PM> EntityFramework6\Add-Migration navn-på-endringene -ConfigurationTypeName RegistryMigrationsConfiguration
 
 Bygg så løsningen på nytt med den nye migration. Kjør så databasetool med parameter: 
 -p=E:\VSTS\eFORSK\eFORSK.Service -u
