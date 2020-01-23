@@ -31,7 +31,7 @@ todo!
   
 ## Databaseendringer
 
-Åpne packe manager console, og velg 'Default project' eFORSK.Service.Data.
+Åpne packe manager console, og velg 'Default project' eFORSK.Service.Data. Sett eFORSK.Tools.DatabaseTool som startup project.
 
 Husk å bygg løsningen først slik at alle endringer er kompilert.
 
