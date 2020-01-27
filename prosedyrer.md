@@ -63,7 +63,8 @@ Utføres av utviklingsteam (?)
 
 ## Nytt ePROM skjema
 
-todo
+* Digitalt skjema: superbruker melder fra til fagansvarlig når dem ønsker et digitalt skjema godkjent
+* Papirskjema: en prosjektleder i Hemit systemutvikling må involveres med testere før papirskjema kan bestilles, dette er en prosess som tar uker - så det lønner seg å komme i gang tidlig.
 
 ## Henvendelser fra brukere
 
