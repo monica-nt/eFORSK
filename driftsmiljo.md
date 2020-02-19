@@ -17,7 +17,7 @@
 * ePROM prodmodus: ePROM Dev
 * P-reg testmodus: p-reg test
 * P-reg prodmodus: p-reg test
-* Octopus: Hemit
+* Octopus: NHN
 
 ### Demo
 
@@ -26,7 +26,7 @@
 * ePROM prodmodus: ePROM Demo
 * P-reg testmodus: p-reg test
 * P-reg prodmodus: p-reg test
-* Octopus: Hemit
+* Octopus: NHN
 
 ### QA 
 
