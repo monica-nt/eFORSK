@@ -58,18 +58,5 @@ Følgende scenarier skal skapes og testes i hver versjon som skal produksjonsset
 - Sist brukte forskningsobjekter
 	- Et forskningsobjekt som har et skjema (uansett status) skal vises i lista over "sist brukte forskningsobjekter", sortert etter siste endringstidspunkt på skjemaet. Blir alle skjema slettet eller samtykkestatus ikke er "samtykket" skal ikke forskningsobjektet vises i lista.
 	
-## Samtykke
-- Samtykke skal kun være i forbindelse med forskningsobjekter av typen "personer fra folkeregisteret"
-- En database med samtykkekonfigurasjon A..
-	- skal etterspørre samtykke ved opprettelse av skjema for et forskningsobjekt som ikke har samtykket
-	- skal vise hvilke forskningsobjekter  som mangler samtykke ved bestilling av ePROM og som vil bli forespurt dette
-	- skal ved ePROM bestilling med forskningsobjekter som mangler samtykke ikke kunne velge utsendelsesvalg: "Sendes ikke, mottaker må varsles manuelt"
-- En database med samtykkekonfigurasjon B..
-	- skal vise informasjon om samtykke, men skal settes automatisk til samtykket ved skjemaopprettelse eller ePROM svar. 
-	- skal kunne endres manuelt på forskningsobjektet
-	- skal ikke kunne bestilles via ePROM.
-- En database med samtykkekonfigurasjon C..
-	- skal ikke vise noe informasjon om samtykke for brukeren, man skal kunne registrere uten spørsmål om dette.
-
 ## Testmodus
 - Et skjema eller en skjemabestilling opprettet utenfor testmodus skal ikke være tilgjengelig i testmodus, og omvendt.
