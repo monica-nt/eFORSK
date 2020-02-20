@@ -1,5 +1,3 @@
-[![Build Status](https://hemit.visualstudio.com/eFORSK/_apis/build/status/eFORSK-CI%20Pack%20Publish?branchName=master)](https://hemit.visualstudio.com/eFORSK/_build/latest?definitionId=28?branchName=master)
-
 # eFORSK dokumentasjon
 
 [Brukermanual ligger her](https://github.com/HemitSystemutvikling/eFORSK-brukermanual)
