@@ -2,7 +2,6 @@
 
 # eFORSK dokumentasjon
 
-Her følger dokumentasjon for utvikling av verktøyet.
 [Brukermanual ligger her](https://github.com/HemitSystemutvikling/eFORSK-brukermanual)
 
 ## Hva er eFORSK
